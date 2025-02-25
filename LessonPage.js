@@ -4,7 +4,7 @@ import "./LessonPage.css";
 
 const lessonsData = {
   Spanish: {
-    Basics: [
+    Basics: [ 
       { title: "Hola y Adiós", content: "Learn how to say 'Hello' and 'Goodbye' in Spanish." },
       { title: "Números", content: "Learn how to count from 1 to 10 in Spanish." },
     ],
