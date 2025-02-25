@@ -10,7 +10,7 @@ function LoginPage() {
 
   useEffect(() => {
     // Get previously selected language from localStorage, if any
-    const savedLanguage = localStorage.getItem("selectedLanguage");
+    const savedLanguage = localStorage.getItem("selectedLanguage"); 
     if (savedLanguage) {
       setSelectedLanguage(savedLanguage);
     }
