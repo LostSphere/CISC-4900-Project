@@ -7,7 +7,7 @@ function SignupPage() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    password: "",
+    password: "", 
   });
 
   const handleChange = (e) => {
