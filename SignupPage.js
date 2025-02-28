@@ -29,11 +29,15 @@ function SignupPage() {
     }
 
     // Save new user
-    users.push({ name, email, password });
+    const newUser = { name, email, password };
+    users.push(newUser);
     localStorage.setItem("users", JSON.stringify(users));
 
-    alert("Account created successfully! Redirecting to login...");
-    navigate("/");
+    // Also store the new user as the logged-in user immediately
+    localStorage.setItem("loggedInUser", JSON.stringify(newUser));
+
+    alert("Account created successfully! Redirecting to home...");
+    navigate("/home"); // Redirect directly to home page
   };
 
   return (
