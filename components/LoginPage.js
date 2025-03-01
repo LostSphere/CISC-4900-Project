@@ -5,50 +5,99 @@ import "./LoginPage.css";
 function LoginPage() {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({ email: "", password: "" });
-  const [selectedLanguage, setSelectedLanguage] = useState("en"); // Default to English
-  const [errorMessage, setErrorMessage] = useState(""); 
+  const [selectedLanguage, setSelectedLanguage] = useState("en");
+  const [errorMessage, setErrorMessage] = useState("");
 
+  // Translation object stored inside JavaScript
+  const translations = {
+    en: {
+      login: "Login",
+      chooseLanguage: "Choose your language:",
+      emailPlaceholder: "Email",
+      passwordPlaceholder: "Password",
+      wrongCredentials: "Wrong email or password. Please try again.",
+      noAccount: "Don't have an account?",
+      signup: "Sign Up",
+      welcome: "Welcome back",
+    },
+    es: {
+      login: "Iniciar sesión",
+      chooseLanguage: "Elige tu idioma:",
+      emailPlaceholder: "Correo electrónico",
+      passwordPlaceholder: "Contraseña",
+      wrongCredentials: "Correo o contraseña incorrectos. Inténtalo de nuevo.",
+      noAccount: "¿No tienes una cuenta?",
+      signup: "Regístrate",
+      welcome: "Bienvenido de nuevo",
+    },
+    fr: {
+      login: "Connexion",
+      chooseLanguage: "Choisissez votre langue :",
+      emailPlaceholder: "Email",
+      passwordPlaceholder: "Mot de passe",
+      wrongCredentials: "Email ou mot de passe incorrect. Veuillez réessayer.",
+      noAccount: "Vous n'avez pas de compte?",
+      signup: "S'inscrire",
+      welcome: "Bon retour",
+    },
+    zh: {
+      login: "登录",
+      chooseLanguage: "选择您的语言",
+      emailPlaceholder: "电子邮件",
+      passwordPlaceholder: "密码",
+      wrongCredentials: "电子邮件或密码无效。",
+      noAccount: "没有账户？",
+      signup: "注册",
+      welcome: "欢迎",
+    },
+    ja: {
+      login: "ログイン",
+      chooseLanguage: "言語を選択してください",
+      emailPlaceholder: "メール",
+      passwordPlaceholder: "パスワード",
+      wrongCredentials: "メールまたはパスワードが無効です。",
+      noAccount: "アカウントをお持ちでないですか？",
+      signup: "サインアップ",
+      welcome: "いらっしゃいませ",
+    },
+  };
+
+  // Load selected language from localStorage
   useEffect(() => {
-    // Get previously selected language from localStorage, if any
-    const savedLanguage = localStorage.getItem("selectedLanguage"); 
+    const savedLanguage = localStorage.getItem("selectedLanguage");
     if (savedLanguage) {
       setSelectedLanguage(savedLanguage);
     }
   }, []);
 
+  // Handle form input changes
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  // Handle language selection
   const handleLanguageChange = (e) => {
     const language = e.target.value;
     setSelectedLanguage(language);
-    localStorage.setItem("selectedLanguage", language); // Save the selected language in localStorage
+    localStorage.setItem("selectedLanguage", language);
   };
 
+  // Handle login logic
   const handleLogin = (e) => {
     e.preventDefault();
     const { email, password } = formData;
-
-    // Get users from local storage
     const users = JSON.parse(localStorage.getItem("users")) || [];
 
-    console.log("Users from localStorage:", users); // Debugging output
-
-    // Find user by email and password
     const user = users.find((user) => user.email === email && user.password === password);
 
     if (user) {
-      // Save the logged-in user info
       localStorage.setItem("loggedInUser", JSON.stringify(user));
-
-      console.log("Login successful. Redirecting to HomePage..."); // Debugging output
-
-      alert(`Welcome back, ${user.name}!`);
-      navigate("/home"); // Redirect to HomePage
+      alert(`${translations[selectedLanguage]?.welcome || "Welcome back"}, ${user.name}!`);
+      navigate("/home");
     } else {
-      console.log("Login failed. Incorrect email or password."); // Debugging output
-      setErrorMessage("Wrong email or password. Please try again."); // Set error message
+      setErrorMessage(
+        translations[selectedLanguage]?.wrongCredentials || "Wrong email or password. Please try again."
+      );
     }
   };
 
@@ -58,17 +107,17 @@ function LoginPage() {
 
   return (
     <div className="login-container">
-      <h2>Login</h2>
-      
-      {/* Language Dropdown */}
+      <h2>{translations[selectedLanguage]?.login || "Login"}</h2>
+
+      {/* Language Selection Dropdown */}
       <div>
-        <label htmlFor="language">Choose your language: </label>
+        <label htmlFor="language">{translations[selectedLanguage]?.chooseLanguage || "Choose your language:"}</label>
         <select id="language" value={selectedLanguage} onChange={handleLanguageChange}>
           <option value="en">English</option>
-          <option value="es">Spanish</option>
-          <option value="fr">French</option>
-          <option value="de">German</option>
-          <option value="it">Italian</option>
+          <option value="es">Español</option>
+          <option value="fr">Français</option>
+          <option value="zh">中文</option>
+          <option value="ja">日本語</option>
         </select>
       </div>
 
@@ -76,28 +125,29 @@ function LoginPage() {
       {errorMessage && <p className="error-message">{errorMessage}</p>}
 
       <form onSubmit={handleLogin}>
-        <input 
-          type="email" 
-          name="email" 
-          placeholder="Email" 
-          required 
-          value={formData.email} 
-          onChange={handleChange} 
+        <input
+          type="email"
+          name="email"
+          placeholder={translations[selectedLanguage]?.emailPlaceholder || "Email"}
+          required
+          value={formData.email}
+          onChange={handleChange}
         />
-        <input 
-          type="password" 
-          name="password" 
-          placeholder="Password" 
-          required 
-          value={formData.password} 
-          onChange={handleChange} 
+        <input
+          type="password"
+          name="password"
+          placeholder={translations[selectedLanguage]?.passwordPlaceholder || "Password"}
+          required
+          value={formData.password}
+          onChange={handleChange}
         />
-        <button type="submit">Login</button>
+        <button type="submit">{translations[selectedLanguage]?.login || "Login"}</button>
       </form>
+
       <p>
-        Don't have an account?{" "}
+        {translations[selectedLanguage]?.noAccount || "Don't have an account?"}{" "}
         <button onClick={handleSignup} className="signup-btn">
-          Sign Up
+          {translations[selectedLanguage]?.signup || "Sign Up"}
         </button>
       </p>
     </div>
