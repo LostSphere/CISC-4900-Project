@@ -8,7 +8,6 @@ function LoginPage() {
   const [selectedLanguage, setSelectedLanguage] = useState("en");
   const [errorMessage, setErrorMessage] = useState("");
 
-  // Translation object stored inside JavaScript
   const translations = {
     en: {
       login: "Login",
@@ -62,7 +61,6 @@ function LoginPage() {
     },
   };
 
-  // Load selected language from localStorage
   useEffect(() => {
     const savedLanguage = localStorage.getItem("selectedLanguage");
     if (savedLanguage) {
@@ -70,19 +68,16 @@ function LoginPage() {
     }
   }, []);
 
-  // Handle form input changes
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // Handle language selection
   const handleLanguageChange = (e) => {
     const language = e.target.value;
     setSelectedLanguage(language);
     localStorage.setItem("selectedLanguage", language);
   };
 
-  // Handle login logic
   const handleLogin = (e) => {
     e.preventDefault();
     const { email, password } = formData;
@@ -93,7 +88,7 @@ function LoginPage() {
     if (user) {
       localStorage.setItem("loggedInUser", JSON.stringify(user));
       alert(`${translations[selectedLanguage]?.welcome || "Welcome back"}, ${user.name}!`);
-      navigate("/home");
+      navigate("/survey"); // Redirect to the survey page
     } else {
       setErrorMessage(
         translations[selectedLanguage]?.wrongCredentials || "Wrong email or password. Please try again."
@@ -109,7 +104,6 @@ function LoginPage() {
     <div className="login-container">
       <h2>{translations[selectedLanguage]?.login || "Login"}</h2>
 
-      {/* Language Selection Dropdown */}
       <div>
         <label htmlFor="language">{translations[selectedLanguage]?.chooseLanguage || "Choose your language:"}</label>
         <select id="language" value={selectedLanguage} onChange={handleLanguageChange}>
@@ -121,7 +115,6 @@ function LoginPage() {
         </select>
       </div>
 
-      {/* Error message */}
       {errorMessage && <p className="error-message">{errorMessage}</p>}
 
       <form onSubmit={handleLogin}>
@@ -145,7 +138,7 @@ function LoginPage() {
       </form>
 
       <p>
-        {translations[selectedLanguage]?.noAccount || "Don't have an account?"}{" "}
+        {translations[selectedLanguage]?.noAccount || "Don't have an account?"} {" "}
         <button onClick={handleSignup} className="signup-btn">
           {translations[selectedLanguage]?.signup || "Sign Up"}
         </button>
