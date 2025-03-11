@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import "./HomePage.css"; 
 
 function HomePage() {
@@ -16,6 +16,7 @@ function HomePage() {
       startLesson: "Start Lesson",
       takeQuiz: "Take Quiz",
       viewProgress: "View Progress",
+      settings: "Settings",
       logout: "Logout",
     },
     es: {
@@ -25,15 +26,17 @@ function HomePage() {
       startLesson: "Comenzar lección",
       takeQuiz: "Hacer prueba",
       viewProgress: "Ver progreso",
+      settings: "Configuraciones",
       logout: "Cerrar sesión",
     },
     fr: {
       hello: "Bonjour",
       welcome: "Bienvenue sur l'application d'apprentissage des langues !",
-      startLearning: "Commencez à apprendre une nouvelle langue aujourd'hui.",
+      startLearning: "Commencez à apprendre un nouveau langage aujourd'hui.",
       startLesson: "Commencer la leçon",
       takeQuiz: "Faire un quiz",
       viewProgress: "Voir les progrès",
+      settings: "Paramètres",
       logout: "Se déconnecter",
     },
     zh: {
@@ -43,6 +46,7 @@ function HomePage() {
       startLesson: "开始课程",
       takeQuiz: "参加测验",
       viewProgress: "查看进度",
+      settings: "设置",
       logout: "登出",
     },
     ja: {
@@ -52,6 +56,7 @@ function HomePage() {
       startLesson: "レッスンを始める",
       takeQuiz: "クイズを受ける",
       viewProgress: "進捗を見る",
+      settings: "設定",
       logout: "ログアウト",
     }
   };
@@ -84,9 +89,10 @@ function HomePage() {
 
       <nav>
         <ul>
-          <li><a href="/lesson">{translations[selectedLanguage]?.startLesson || "Start Lesson"}</a></li>
+          <li><Link to="/lesson">{translations[selectedLanguage]?.startLesson || "Start Lesson"}</Link></li>
           <li><a href="/quiz">{translations[selectedLanguage]?.takeQuiz || "Take Quiz"}</a></li>
           <li><a href="/progress">{translations[selectedLanguage]?.viewProgress || "View Progress"}</a></li>
+          <li><Link to="/settings">{translations[selectedLanguage]?.settings || "Settings"}</Link></li>
         </ul>
       </nav>
 
