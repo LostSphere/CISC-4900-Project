@@ -11,11 +11,11 @@ function SignupPage() {
     password: "",
   });
 
-  // Load selected language from localStorage
   useEffect(() => {
     const savedLanguage = localStorage.getItem("selectedLanguage") || "en";
     setSelectedLanguage(savedLanguage);
   }, []);
+  
 
   const translations = {
     en: {
@@ -75,6 +75,8 @@ function SignupPage() {
     },
   };
 
+  const translation = translations[selectedLanguage] || translations["en"];
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -84,9 +86,8 @@ function SignupPage() {
     const { name, email, password } = formData;
 
     const users = JSON.parse(localStorage.getItem("users")) || [];
-    const userExists = users.find((user) => user.email === email);
-    if (userExists) {
-      alert(translations[selectedLanguage].emailInUse);
+    if (users.some((user) => user.email === email)) {
+      alert(translation.emailInUse);
       return;
     }
 
@@ -95,41 +96,41 @@ function SignupPage() {
     localStorage.setItem("users", JSON.stringify(users));
     localStorage.setItem("loggedInUser", JSON.stringify(newUser));
 
-    alert(translations[selectedLanguage].success);
+    alert(translation.success);
     navigate("/home");
   };
 
   return (
     <div className="signup-container">
-      <h2>{translations[selectedLanguage].title}</h2>
+      <h2>{translation.title}</h2>
       <form onSubmit={handleSignup}>
         <input
           type="text"
           name="name"
-          placeholder={translations[selectedLanguage].fullName}
+          placeholder={translation.fullName}
           required
           onChange={handleChange}
         />
         <input
           type="email"
           name="email"
-          placeholder={translations[selectedLanguage].email}
+          placeholder={translation.email}
           required
           onChange={handleChange}
         />
         <input
           type="password"
           name="password"
-          placeholder={translations[selectedLanguage].password}
+          placeholder={translation.password}
           required
           onChange={handleChange}
         />
-        <button type="submit">{translations[selectedLanguage].signUp}</button>
+        <button type="submit">{translation.signUp}</button>
       </form>
       <p>
-        {translations[selectedLanguage].alreadyHaveAccount}{" "}
+        {translation.alreadyHaveAccount}{" "}
         <button onClick={() => navigate("/")} className="login-btn">
-          {translations[selectedLanguage].login}
+          {translation.login}
         </button>
       </p>
     </div>
