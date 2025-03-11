@@ -67,10 +67,4 @@ button:hover {
   background-color: #45a049;
 }
 
-button[type="button"] {
-  background-color: #008CBA; /* Different color for signup button */
-}
 
-button[type="button"]:hover {
-  background-color: #007B9A;
-}
