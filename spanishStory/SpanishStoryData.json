@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "text": "Bienvenido a la aventura en español.",
+      "choices": [
+        { "text": "Explorar la ciudad", "nextId": 2 },
+        { "text": "Hablar con un local", "nextId": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Decides explorar la ciudad y descubres un mercado vibrante.",
+      "choices": [
+        { "text": "Comprar comida", "nextId": 4 },
+        { "text": "Seguir explorando", "nextId": 5 }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Hablas con un local y aprendes sobre la historia de la ciudad.",
+      "choices": [
+        { "text": "Preguntar sobre comida", "nextId": 4 },
+        { "text": "Preguntar sobre eventos", "nextId": 6 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Te recomiendan probar unas deliciosas tapas en un restaurante cercano.",
+      "choices": [
+        { "text": "Ir al restaurante", "nextId": 7 },
+        { "text": "Seguir explorando", "nextId": 5 }
+      ]
+    }
+  ]
+  
