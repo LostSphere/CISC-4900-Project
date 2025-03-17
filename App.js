@@ -6,6 +6,8 @@ import SignupPage from "./components/SignupPage";
 import LessonPage from "./components/LessonPage"; // Import Lesson Page
 import SurveyPage from "./components/SurveyPage";
 import SettingsPage from "./components/SettingsPage"; 
+import SpanishStory from "./spanishStory/SpanishStory";
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
       <Route path="/lesson" element={<LessonPage />} />
       <Route path="/survey" element={<SurveyPage />} />
       <Route path="/settings" element={<SettingsPage />} />
+      <Route path="/spanish-story" element={<SpanishStory />} />
     </Routes>
   );
 }
