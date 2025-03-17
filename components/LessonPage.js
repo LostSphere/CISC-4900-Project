@@ -1,46 +1,54 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./LessonPage.css";
 
-const lessonsData = {
-  beginner: ["Lesson 1", "Lesson 2", "Lesson 3"],
-  intermediate: ["Lesson 4", "Lesson 5", "Lesson 6"],
-  advanced: ["Lesson 7", "Lesson 8", "Lesson 9"],
-};
+const adventureLevels = [
+  { name: "Lost in Tokyo (Japanese)", flag: "🇯🇵" },
+  { name: "Parisian Café (French)", flag: "🇫🇷" },
+  { name: "Spanish Fiesta", flag: "🇪🇸" },
+  { name: "Mystery in Beijing (Mandarin)", flag: "🇨🇳" },
+  { name: "Exploring Rome (Italian)", flag: "🇮🇹" },
+  { name: "German Road Trip", flag: "🇩🇪" },
+  { name: "Business in Shanghai", flag: "🇨🇳" },
+  { name: "French Literature", flag: "🇫🇷" },
+  { name: "Debating in Madrid", flag: "🇪🇸" },
+];
 
 function LessonPage() {
   const navigate = useNavigate();
-  const [selectedLevel, setSelectedLevel] = useState("beginner");
-  const [unlockedLessons, setUnlockedLessons] = useState(1);
 
-  useEffect(() => {
-    const savedLevel = localStorage.getItem("userLevel") || "beginner";
-    const savedProgress = parseInt(localStorage.getItem("unlockedLessons"), 10) || 1;
-    setSelectedLevel(savedLevel);
-    setUnlockedLessons(savedProgress);
-  }, []);
-
-  const handleLessonClick = (lessonIndex) => {
-    if (lessonIndex < unlockedLessons) {
-      navigate(`/lesson/${lessonIndex + 1}`);
+  const handleLessonClick = (lesson) => {
+    if (lesson.name === "Spanish Fiesta") {
+      navigate("/spanish-story"); 
+    } else {
+      navigate(`/lesson/${lesson.name.replace(/\s+/g, "-").toLowerCase()}`);
     }
   };
 
   return (
     <div className="lesson-page-container">
-      <h2>Choose a Lesson</h2>
-      <div className="lesson-buttons">
-        {lessonsData[selectedLevel].map((lesson, index) => (
+      <h2>Choose an Adventure</h2>
+      <div className="lesson-grid" style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "20px", justifyContent: "center" }}>
+        {adventureLevels.map((lesson, index) => (
           <button
             key={index}
-            className={index < unlockedLessons ? "unlocked" : "locked"}
-            onClick={() => handleLessonClick(index)}
-            disabled={index >= unlockedLessons}
+            className="lesson-button"
+            style={{
+              padding: "20px",
+              fontSize: "20px",
+              width: "250px",
+              height: "80px",
+              margin: "10px auto",
+            }}
+            onClick={() => handleLessonClick(lesson)}
           >
-            {lesson} {index < unlockedLessons ? "✅" : "🔒"}
+            {lesson.flag} {lesson.name}
           </button>
         ))}
       </div>
+      <button className="home-button" onClick={() => navigate("/home")}>
+        Back to Home
+      </button>
     </div>
   );
 }
