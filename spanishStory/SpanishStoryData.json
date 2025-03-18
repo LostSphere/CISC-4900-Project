@@ -1,35 +1,92 @@
 [
-    {
-      "id": 1,
-      "text": "Bienvenido a la aventura en español.",
-      "choices": [
-        { "text": "Explorar la ciudad", "nextId": 2 },
-        { "text": "Hablar con un local", "nextId": 3 }
-      ]
-    },
-    {
-      "id": 2,
-      "text": "Decides explorar la ciudad y descubres un mercado vibrante.",
-      "choices": [
-        { "text": "Comprar comida", "nextId": 4 },
-        { "text": "Seguir explorando", "nextId": 5 }
-      ]
-    },
-    {
-      "id": 3,
-      "text": "Hablas con un local y aprendes sobre la historia de la ciudad.",
-      "choices": [
-        { "text": "Preguntar sobre comida", "nextId": 4 },
-        { "text": "Preguntar sobre eventos", "nextId": 6 }
-      ]
-    },
-    {
-      "id": 4,
-      "text": "Te recomiendan probar unas deliciosas tapas en un restaurante cercano.",
-      "choices": [
-        { "text": "Ir al restaurante", "nextId": 7 },
-        { "text": "Seguir explorando", "nextId": 5 }
-      ]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "text": "Baile",
+    "translation": "Dance",
+    "partOfSpeech": "Noun",
+    "example": "Yo practico baile.",
+    "exampleTranslation": "I practice dance.",
+    "image": "/images/dance.jpg"
+  },
+  {
+    "id": 2,
+    "text": "Celebración",
+    "translation": "Celebration",
+    "partOfSpeech": "Noun",
+    "example": "La celebración comienza",
+    "exampleTranslation": "The celebration begins",
+    "image": "/images/celebration.jpg"
+  },
+  {
+    "id": 3,
+    "text": "Alegría",
+    "translation": "Joy",
+    "partOfSpeech": "Noun",
+    "example": "Siento mucha alegría.",
+    "exampleTranslation": "I feel much joy.",
+    "image": "/images/joy.jpeg"
+  },
+  {
+    "id": 4,
+    "text": "Música",
+    "translation": "Music",
+    "partOfSpeech": "Noun",
+    "example": "Escucho la música.",
+    "exampleTranslation": "I listen to music.",
+    "image": "/images/music.jpeg"
+  },
+  {
+    "id": 5,
+    "text": "Divertido",
+    "translation": "Fun",
+    "partOfSpeech": "Adjective",
+    "example": "La fiesta es divertida.",
+    "exampleTranslation": "The party is fun.",
+    "image": "/images/fun.png"
+  },
+  {
+    "id": 6,
+    "text": "Bailar",
+    "translation": "To dance",
+    "partOfSpeech": "Verb",
+    "example": "Nos gusta bailar.",
+    "exampleTranslation": "We like to dance.",
+    "image": "/images/dancing.png"
+  },
+  {
+    "id": 7,
+    "text": "Cantar",
+    "translation": "To Sing",
+    "partOfSpeech": "Verb",
+    "example": "Ellos cantan en la fiesta.",
+    "exampleTranslation": "They sing at the party",
+    "image": "/images/sing.png"
+  },
+  {
+    "id": 8,
+    "text": "Felizmente",
+    "translation": "Happily",
+    "partOfSpeech": "Adverb",
+    "example": "Ellos celebran felizmente.",
+    "exampleTranslation": "They celebrate happily.",
+    "image": "/images/happily.png"
+  },
+  {
+    "id": 9,
+    "text": "Nosotros",
+    "translation": "We",
+    "partOfSpeech": "Pronoun",
+    "example": "Nosotros celebramos juntos.",
+    "exampleTranslation": "We celebrate together.",
+    "image": "/images/We.png"
+  },
+  {
+    "id": 10,
+    "text": "Ruidoso/a",
+    "translation": "Loud",
+    "partOfSpeech": "Adjective",
+    "example": "La celebración es ruidosa.",
+    "exampleTranslation": "The celebration is loud.",
+    "image": "/images/loud.jpg"
+  }
+]
