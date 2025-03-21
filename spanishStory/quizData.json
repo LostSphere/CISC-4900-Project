@@ -12,7 +12,7 @@
     {
       "question": "Siento mucha _____.",
       "answer": "Alegría",
-      "options": ["Divertido", "Música", "Ruidoso/a", "Alegría"]
+      "options": ["Divertido", "Música", "Ruidoso", "Alegría"]
     },
     {
       "question": "Escucho la _____.",
@@ -37,7 +37,7 @@
     {
       "question": "Ellos celebran _____.",
       "answer": "Felizmente",
-      "options": ["Baile", "Felizmente", "Ruidoso/a", "Divertido"]
+      "options": ["Baile", "Felizmente", "Ruidoso", "Divertido"]
     },
     {
       "question": "Nosotros _____ juntos.",
