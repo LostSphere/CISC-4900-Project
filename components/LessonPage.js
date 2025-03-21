@@ -3,15 +3,15 @@ import { useNavigate } from "react-router-dom";
 import "./LessonPage.css";
 
 const adventureLevels = [
-  { name: "Lost in Tokyo (Japanese)", flag: "🇯🇵" },
-  { name: "Parisian Café (French)", flag: "🇫🇷" },
-  { name: "Spanish Fiesta", flag: "🇪🇸" },
-  { name: "Mystery in Beijing (Mandarin)", flag: "🇨🇳" },
-  { name: "Exploring Rome (Italian)", flag: "🇮🇹" },
-  { name: "German Road Trip", flag: "🇩🇪" },
-  { name: "Business in Shanghai", flag: "🇨🇳" },
-  { name: "French Literature", flag: "🇫🇷" },
-  { name: "Debating in Madrid", flag: "🇪🇸" },
+  { name: "Lost in Tokyo", language: "Japanese", image: "/images/tokyo.jpg" },
+  { name: "Parisian Café", language: "French", image: "/images/paris.jpg" },
+  { name: "Spanish Fiesta", language: "Spanish", image: "/images/spanish.jpg" },
+  { name: "Mystery in Beijing", language: "Mandarin", image: "/images/beijing.jpg" },
+  { name: "Exploring Rome", language: "Italian", image: "/images/rome.jpg" },
+  { name: "German Road Trip", language: "German", image: "/images/germany.jpg" },
+  { name: "Business in Shanghai", language: "Mandarin", image: "/images/shanghai.jpg" },
+  { name: "French Literature", language: "French", image: "/images/french-lit.jpg" },
+  { name: "Debating in Madrid", language: "Spanish", image: "/images/madrid.jpg" },
 ];
 
 function LessonPage() {
@@ -19,7 +19,7 @@ function LessonPage() {
 
   const handleLessonClick = (lesson) => {
     if (lesson.name === "Spanish Fiesta") {
-      navigate("/spanish-story"); 
+      navigate("/spanish-story");
     } else {
       navigate(`/lesson/${lesson.name.replace(/\s+/g, "-").toLowerCase()}`);
     }
@@ -27,23 +27,18 @@ function LessonPage() {
 
   return (
     <div className="lesson-page-container">
-      <h2>Choose an Adventure</h2>
-      <div className="lesson-grid" style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "20px", justifyContent: "center" }}>
+      <h2>Choose a Lesson</h2>
+      <div className="lesson-scroll-container">
         {adventureLevels.map((lesson, index) => (
-          <button
-            key={index}
-            className="lesson-button"
-            style={{
-              padding: "20px",
-              fontSize: "20px",
-              width: "250px",
-              height: "80px",
-              margin: "10px auto",
-            }}
+          <div 
+            key={index} 
+            className="lesson-card" 
             onClick={() => handleLessonClick(lesson)}
           >
-            {lesson.flag} {lesson.name}
-          </button>
+            <img src={lesson.image} alt={lesson.name} className="lesson-image" />
+            <p className="lesson-name">{lesson.name}</p>
+            <p className="lesson-language">{lesson.language}</p> {/* Language Text */}
+          </div>
         ))}
       </div>
       <button className="home-button" onClick={() => navigate("/home")}>
