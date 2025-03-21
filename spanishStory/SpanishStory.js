@@ -1,12 +1,17 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import storyData from "./SpanishStoryData.json";
+import quizData from "./quizData.json";
 import "./SpanishStory.css";
 
 function SpanishStory() {
   const navigate = useNavigate();
   const [currentScene, setCurrentScene] = useState(storyData[0]);
   const [history, setHistory] = useState([]);
+  const [isQuizActive, setIsQuizActive] = useState(false);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [quizCompleted, setQuizCompleted] = useState(false);
+  const [score, setScore] = useState(0);
 
   const handleNext = () => {
     const currentIndex = storyData.findIndex(scene => scene.id === currentScene.id);
@@ -14,6 +19,8 @@ function SpanishStory() {
       const nextScene = storyData[currentIndex + 1];
       setHistory([...history, currentScene]);
       setCurrentScene(nextScene);
+    } else {
+      setIsQuizActive(true); 
     }
   };
 
@@ -29,48 +36,79 @@ function SpanishStory() {
   const handleTextToSpeech = (text) => {
     if ('speechSynthesis' in window) {
       const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = 'es-ES'; // Spanish voice
+      utterance.lang = 'es-ES';
       speechSynthesis.speak(utterance);
     }
   };
 
-  const progress = (storyData.findIndex(scene => scene.id === currentScene.id) + 1) / storyData.length * 100;
+  const handleQuizAnswer = (selectedOption) => {
+    if (selectedOption === quizData[currentQuestionIndex].answer) {
+      setScore(score + 1);
+    }
+    
+    if (currentQuestionIndex < quizData.length - 1) {
+      setCurrentQuestionIndex(currentQuestionIndex + 1);
+    } else {
+      setQuizCompleted(true);
+
+      const completionSound = new Audio("/sounds/quiz_complete.mp3");
+      completionSound.play();
+
+      setTimeout(() => navigate("/lesson"), 5000); 
+    }
+  };
+
+  if (quizCompleted) {
+    return (
+      <div className="spanish-story-container">
+        <h2>Quiz Completed!</h2>
+        <p>Your Score: {score} / {quizData.length}</p>
+        <p>Great job! Redirecting to the lesson page...</p>
+      </div>
+    );
+  }
+
+  if (isQuizActive) {
+    return (
+      <div className="spanish-story-container">
+        <div className="progress-bar-container" style={{ marginBottom: "20px" }}>
+          <div style={{ width: `${((currentQuestionIndex + 1) / quizData.length) * 100}%`, height: "10px", background: "#007bff", borderRadius: "10px", transition: "width 0.3s ease-in-out" }}></div>
+        </div>
+        <div>
+          <p className="story-text">{quizData[currentQuestionIndex].question}</p>
+          <div className="quiz-options" style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+            {quizData[currentQuestionIndex].options.map((option, index) => (
+              <button key={index} className="story-button" onClick={() => handleQuizAnswer(option)}>
+                {option}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="spanish-story-container">
-      <div className="progress-bar-container" style={{ width: "100%", background: "#e0e0e0", borderRadius: "10px", marginBottom: "10px" }}>
-        <div style={{ width: `${progress}%`, height: "10px", background: "#007bff", borderRadius: "10px", transition: "width 0.3s ease-in-out" }}></div>
+      <div className="progress-bar-container" style={{ marginBottom: "20px" }}>
+        <div style={{ width: `${((storyData.findIndex(scene => scene.id === currentScene.id) + 1) / storyData.length) * 100}%`, height: "10px", background: "#007bff", borderRadius: "10px", transition: "width 0.3s ease-in-out" }}></div>
       </div>
       <div>
         <img src={currentScene.image} alt="Scene" className="story-image" />
-        <p 
-          className="story-text" 
-          onClick={() => handleTextToSpeech(currentScene.text)} 
-          style={{ cursor: "pointer" }}
-        >
+        <p className="story-text" onClick={() => handleTextToSpeech(currentScene.text)} style={{ cursor: "pointer" }}>
           {currentScene.text} ({currentScene.partOfSpeech}) 🔊
         </p>
         <p className="story-translation">{currentScene.translation}</p>
-        <p 
-          className="story-example" 
-          onClick={() => handleTextToSpeech(currentScene.example)} 
-          style={{ cursor: "pointer" }}
-        >
+        <p className="story-example" onClick={() => handleTextToSpeech(currentScene.example)} style={{ cursor: "pointer" }}>
           <strong>Example:</strong> <em>{currentScene.example} 🔊</em>
         </p>
         <p className="story-example-translation">{currentScene.exampleTranslation}</p>
         <div className="button-container" style={{ display: "flex", justifyContent: "center", gap: "20px" }}>
-          <button className="story-button" onClick={handleNext}>
-            Next ➡️
-          </button>
+          <button className="story-button" onClick={handleNext}>Next ➡️</button>
           {history.length > 0 && (
-            <button className="story-button" onClick={handleGoBack}>
-              ⬅️ Go Back
-            </button>
+            <button className="story-button" onClick={handleGoBack}>⬅️ Go Back</button>
           )}
-          <button className="story-button" onClick={() => navigate(-1)}>
-            Exit Story
-          </button>
+          <button className="story-button" onClick={() => navigate(-1)}>Exit Lesson</button>
         </div>
       </div>
     </div>
