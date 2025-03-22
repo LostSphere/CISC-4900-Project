@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import translations from "../assets/translations.json"; 
 import "./LoginPage.css";
 
 function LoginPage() {
@@ -7,59 +8,6 @@ function LoginPage() {
   const [formData, setFormData] = useState({ email: "", password: "" });
   const [selectedLanguage, setSelectedLanguage] = useState("en");
   const [errorMessage, setErrorMessage] = useState("");
-
-  const translations = {
-    en: {
-      login: "Login",
-      chooseLanguage: "Choose your language:",
-      emailPlaceholder: "Email",
-      passwordPlaceholder: "Password",
-      wrongCredentials: "Wrong email or password. Please try again.",
-      noAccount: "Don't have an account?",
-      signup: "Sign Up",
-      welcome: "Welcome back",
-    },
-    es: {
-      login: "Iniciar sesión",
-      chooseLanguage: "Elige tu idioma:",
-      emailPlaceholder: "Correo electrónico",
-      passwordPlaceholder: "Contraseña",
-      wrongCredentials: "Correo o contraseña incorrectos. Inténtalo de nuevo.",
-      noAccount: "¿No tienes una cuenta?",
-      signup: "Regístrate",
-      welcome: "Bienvenido de nuevo",
-    },
-    fr: {
-      login: "Connexion",
-      chooseLanguage: "Choisissez votre langue :",
-      emailPlaceholder: "Email",
-      passwordPlaceholder: "Mot de passe",
-      wrongCredentials: "Email ou mot de passe incorrect. Veuillez réessayer.",
-      noAccount: "Vous n'avez pas de compte?",
-      signup: "S'inscrire",
-      welcome: "Bon retour",
-    },
-    zh: {
-      login: "登录",
-      chooseLanguage: "选择您的语言",
-      emailPlaceholder: "电子邮件",
-      passwordPlaceholder: "密码",
-      wrongCredentials: "电子邮件或密码无效。",
-      noAccount: "没有账户？",
-      signup: "注册",
-      welcome: "欢迎",
-    },
-    ja: {
-      login: "ログイン",
-      chooseLanguage: "言語を選択してください",
-      emailPlaceholder: "メール",
-      passwordPlaceholder: "パスワード",
-      wrongCredentials: "メールまたはパスワードが無効です。",
-      noAccount: "アカウントをお持ちでないですか？",
-      signup: "サインアップ",
-      welcome: "いらっしゃいませ",
-    },
-  };
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem("selectedLanguage");
@@ -88,11 +36,9 @@ function LoginPage() {
     if (user) {
       localStorage.setItem("loggedInUser", JSON.stringify(user));
       alert(`${translations[selectedLanguage]?.welcome || "Welcome back"}, ${user.name}!`);
-      navigate("/survey"); // Redirect to the survey page
+      navigate("/survey");
     } else {
-      setErrorMessage(
-        translations[selectedLanguage]?.wrongCredentials || "Wrong email or password. Please try again."
-      );
+      setErrorMessage(translations[selectedLanguage]?.wrongCredentials || "Wrong email or password. Please try again.");
     }
   };
 
@@ -105,7 +51,7 @@ function LoginPage() {
       <h2>{translations[selectedLanguage]?.login || "Login"}</h2>
 
       <div>
-        <label htmlFor="language">{translations[selectedLanguage]?.chooseLanguage || "Choose your language:"}</label>
+        <label htmlFor="language">{translations[selectedLanguage]?.chooseLanguage || "Choose your prefer language:"}</label>
         <select id="language" value={selectedLanguage} onChange={handleLanguageChange}>
           <option value="en">English</option>
           <option value="es">Español</option>
@@ -138,7 +84,7 @@ function LoginPage() {
       </form>
 
       <p>
-        {translations[selectedLanguage]?.noAccount || "Don't have an account?"} {" "}
+        {translations[selectedLanguage]?.noAccount || "Don't have an account?"}{" "}
         <button onClick={handleSignup} className="signup-btn">
           {translations[selectedLanguage]?.signup || "Sign Up"}
         </button>
