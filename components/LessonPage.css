@@ -1,4 +1,4 @@
-.lesson-page-container {
+.lesson-page-container { 
   width: 100%;
   padding: 20px;
   text-align: center;
@@ -8,13 +8,17 @@
 .lesson-scroll-container {
   display: flex;
   overflow-x: auto;
+  overflow-y: hidden; 
   gap: 30px;
   padding: 10px;
-  scrollbar-width: thick;
-  scrollbar-color: #007bff #f8f9fa;
+  scrollbar-width: thin; 
+  scrollbar-color: #007bff #f8f9fa; 
+  max-width: 100%;
+  white-space: nowrap; 
 }
 
 .lesson-card {
+  flex: 0 0 auto; 
   min-width: 250px;
   max-width: 250px;
   background: white;
@@ -64,3 +68,12 @@
 .home-button:hover {
   background: #0056b3;
 }
+
+.introduction-name {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px; 
+}
+
