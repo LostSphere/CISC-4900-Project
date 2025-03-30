@@ -1,12 +1,10 @@
-/* src/components/SignupPage.css */
-
 .signup-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh; /* Full viewport height */
-  background-color: #f4f4f4; /* Optional background color */
+  min-height: 100vh; 
+  background-color: #f4f4f4; 
   margin: 0;
 }
 
@@ -61,15 +59,14 @@ button:hover {
 }
 
 button[type="button"] {
-  background-color: #008CBA; /* Different color for signup button */
+  background-color: #008CBA; 
 }
 
 button[type="button"]:hover {
   background-color: #007B9A;
 }
 
-/* Optional focus state for input fields */
 input:focus {
-  border-color: #4CAF50; /* Highlighted border color when input is focused */
+  border-color: #4CAF50; 
   outline: none;
 }
