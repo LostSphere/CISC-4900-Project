@@ -19,7 +19,17 @@
     "off": "Off",
     "on": "On",
     "selectLanguage": "Select Language",
-    "backToHome": "Back to Home"
+    "backToHome": "Back to Home",
+    "showPassword": "Show",
+    "hidePassword": "Hide",
+    "emailInUse": "This email is already in use.",
+    "success": "Signup successful!",
+    "fullName": "Full Name",
+    "password": "Password",
+    "alreadyHaveAccount": "Already have an account?",
+    "chooseLesson": "Choose a Lesson",
+    "introductionLessons": "Introduction Lessons",
+    "adventureLessons": "Adventure Lessons"
   },
   "es": {
     "hello": "Hola",
@@ -41,7 +51,17 @@
     "off": "Apagado",
     "on": "Encendido",
     "selectLanguage": "Seleccionar idioma",
-    "backToHome": "Volver a Inicio"
+    "backToHome": "Volver a Inicio",
+    "showPassword": "Mostrar",
+    "hidePassword": "Ocultar",
+    "emailInUse": "Este correo ya está en uso.",
+    "success": "¡Registro exitoso!",
+    "fullName": "Nombre completo",
+    "password": "Contraseña",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "chooseLesson": "Elige una lección",
+    "introductionLessons": "Lecciones de introducción",
+    "adventureLessons": "Lecciones de aventura"
   },
   "fr": {
     "hello": "Bonjour",
@@ -63,7 +83,17 @@
     "off": "Désactivé",
     "on": "Activé",
     "selectLanguage": "Choisir la langue",
-    "backToHome": "Retour à l'accueil"
+    "backToHome": "Retour à l'accueil",
+    "showPassword": "Montrer",
+    "hidePassword": "Cacher",
+    "emailInUse": "Cet email est déjà utilisé.",
+    "success": "Inscription réussie!",
+    "fullName": "Nom complet",
+    "password": "Mot de passe",
+    "alreadyHaveAccount": "Vous avez déjà un compte?",
+    "chooseLesson": "Choisissez une leçon",
+    "introductionLessons": "Leçons d'introduction",
+    "adventureLessons": "Leçons d'aventure"
   },
   "zh": {
     "hello": "你好",
@@ -85,7 +115,17 @@
     "off": "关闭",
     "on": "开启",
     "selectLanguage": "选择语言",
-    "backToHome": "返回首页"
+    "backToHome": "返回首页",
+    "showPassword": "显示",
+    "hidePassword": "隐藏",
+    "emailInUse": "该电子邮件已被使用。",
+    "success": "注册成功！",
+    "fullName": "全名",
+    "password": "密码",
+    "alreadyHaveAccount": "已经有账户？",
+    "chooseLesson": "选择一门课程",
+    "introductionLessons": "介绍课程",
+    "adventureLessons": "冒险课程"
   },
   "ja": {
     "hello": "こんにちは",
@@ -107,6 +147,16 @@
     "off": "オフ",
     "on": "オン",
     "selectLanguage": "言語を選択",
-    "backToHome": "ホームに戻る"
+    "backToHome": "ホームに戻る",
+    "showPassword": "表示",
+    "hidePassword": "非表示",
+    "emailInUse": "このメールアドレスは既に使用されています。",
+    "success": "サインアップに成功しました！",
+    "fullName": "氏名",
+    "password": "パスワード",
+    "alreadyHaveAccount": "すでにアカウントをお持ちですか？",
+    "chooseLesson": "レッスンを選択",
+    "introductionLessons": "紹介レッスン",
+    "adventureLessons": "冒険レッスン"
   }
 }
