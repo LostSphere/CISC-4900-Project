@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import translations from "../assets/translations.json";
 import "./LessonPage.css";
 
 const Introduction = [
@@ -23,8 +24,10 @@ const adventureLevels = [
   { name: "Debating in Madrid", language: "Spanish", image: "/images/AdventureLevel/debating_Madrid.webp" },
 ];
 
-function LessonPage() {
+function LessonPage({ language = "en" }) { 
   const navigate = useNavigate();
+  
+  const currentTranslations = translations[language] || translations['en']; 
 
   const handleLessonClick = (lesson) => {
     if (lesson.name === "Spanish Fiesta") {
@@ -36,24 +39,23 @@ function LessonPage() {
 
   return (
     <div className="lesson-page-container">
-      <h1>Choose a Lesson</h1>
+      <h1>{currentTranslations.chooseLesson}</h1>
 
-      <h3>Introduction Lessons</h3>
+      <h3>{currentTranslations.introductionLessons}</h3>
       <div className="lesson-scroll-container">
         {Introduction.map((lesson, index) => (
-    <div
-      key={index}
-      className="lesson-card"
-      onClick={() => handleLessonClick(lesson)}
-    >
-      <img src={lesson.image} alt={lesson.name} className="lesson-image" />
-      <p className="lesson-name introduction-name">{lesson.name}</p> {/* New Class */}
-    </div>
-  ))}
-</div>
+          <div
+            key={index}
+            className="lesson-card"
+            onClick={() => handleLessonClick(lesson)}
+          >
+            <img src={lesson.image} alt={lesson.name} className="lesson-image" />
+            <p className="lesson-name introduction-name">{lesson.name}</p>
+          </div>
+        ))}
+      </div>
 
-
-      <h3>Adventure Lessons</h3>
+      <h3>{currentTranslations.adventureLessons}</h3>
       <div className="lesson-scroll-container">
         {adventureLevels.map((lesson, index) => (
           <div
@@ -69,7 +71,7 @@ function LessonPage() {
       </div>
 
       <button className="home-button" onClick={() => navigate("/home")}>
-        Back to Home
+        {currentTranslations.backToHome}
       </button>
     </div>
   );
