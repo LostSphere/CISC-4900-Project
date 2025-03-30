@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import translations from "../assets/translations.json"; 
+import translations from "../assets/translations.json";
 import "./LoginPage.css";
 
 function LoginPage() {
@@ -8,6 +8,7 @@ function LoginPage() {
   const [formData, setFormData] = useState({ email: "", password: "" });
   const [selectedLanguage, setSelectedLanguage] = useState("en");
   const [errorMessage, setErrorMessage] = useState("");
+  const [showPassword, setShowPassword] = useState(false); 
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem("selectedLanguage");
@@ -36,7 +37,7 @@ function LoginPage() {
     if (user) {
       localStorage.setItem("loggedInUser", JSON.stringify(user));
       alert(`${translations[selectedLanguage]?.welcome || "Welcome back"}, ${user.name}!`);
-      navigate("/survey");
+      navigate("/home"); 
     } else {
       setErrorMessage(translations[selectedLanguage]?.wrongCredentials || "Wrong email or password. Please try again.");
     }
@@ -46,12 +47,16 @@ function LoginPage() {
     navigate("/signup");
   };
 
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
+
   return (
     <div className="login-container">
       <h2>{translations[selectedLanguage]?.login || "Login"}</h2>
 
       <div>
-        <label htmlFor="language">{translations[selectedLanguage]?.chooseLanguage || "Choose your prefer language:"}</label>
+        <label htmlFor="language">{translations[selectedLanguage]?.chooseLanguage || "Choose your preferred language:"}</label>
         <select id="language" value={selectedLanguage} onChange={handleLanguageChange}>
           <option value="en">English</option>
           <option value="es">Español</option>
@@ -72,14 +77,25 @@ function LoginPage() {
           value={formData.email}
           onChange={handleChange}
         />
-        <input
-          type="password"
-          name="password"
-          placeholder={translations[selectedLanguage]?.passwordPlaceholder || "Password"}
-          required
-          value={formData.password}
-          onChange={handleChange}
-        />
+
+        <div className="password-container">
+          <input
+            type={showPassword ? "text" : "password"} 
+            name="password"
+            placeholder={translations[selectedLanguage]?.passwordPlaceholder || "Password"}
+            required
+            value={formData.password}
+            onChange={handleChange}
+          />
+          <button
+            type="button"
+            onClick={togglePasswordVisibility} 
+            className="show-password-btn"
+          >
+            {showPassword ? translations[selectedLanguage]?.hidePassword : translations[selectedLanguage]?.showPassword}
+          </button>
+        </div>
+
         <button type="submit">{translations[selectedLanguage]?.login || "Login"}</button>
       </form>
 
