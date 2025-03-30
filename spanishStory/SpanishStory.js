@@ -53,8 +53,6 @@ function SpanishStory() {
 
       const completionSound = new Audio("/sounds/quiz_complete.mp3");
       completionSound.play();
-
-      setTimeout(() => navigate("/lesson"), 5000); 
     }
   };
 
@@ -63,7 +61,10 @@ function SpanishStory() {
       <div className="spanish-story-container">
         <h2>Quiz Completed!</h2>
         <p>Your Score: {score} / {quizData.length}</p>
-        <p>Great job! Redirecting to the lesson page...</p>
+        <p>Great job!</p>
+        <button className="story-button" onClick={() => navigate("/lesson")}>
+          Return to Lesson Page
+        </button>
       </div>
     );
   }
