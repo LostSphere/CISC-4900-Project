@@ -35,6 +35,7 @@ function LessonPage({ language = "en" }) {
       "Spanish Fiesta": "/spanish-story",
       "Intro to French": "/intro-to-french",
       "Intro to Spanish": "/intro-to-spanish",
+      "Intro to Japanese": "/intro-to-japanese",
     };
     navigate(routeMap[lesson.name] || `/lesson/${lesson.name.replace(/\s+/g, "-").toLowerCase()}`);
   };
