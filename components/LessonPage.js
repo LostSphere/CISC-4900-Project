@@ -1,15 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import translations from "../assets/translations.json";
 import "./LessonPage.css";
 
 const Introduction = [
-  { name: "Intro to French", image: "/images/IntroLevel/France.jpg" },
-  { name: "Intro to Spanish", image: "/images/IntroLevel/Spain.jpg" },
-  { name: "Intro to Japanese", image: "/images/IntroLevel/Japan.jpg" },
-  { name: "Intro to Mandarin", image: "/images/IntroLevel/China.jpg" },
-  { name: "Intro to Italian", image: "/images/IntroLevel/Italy.jpg" },
-  { name: "Intro to German", image: "/images/IntroLevel/Germany.jpg" }
+  { name: "Intro to French", image: "/images/IntroLevel/France.jpg", language: "French" },
+  { name: "Intro to Spanish", image: "/images/IntroLevel/Spain.jpg", language: "Spanish" },
+  { name: "Intro to Japanese", image: "/images/IntroLevel/Japan.jpg", language: "Japanese" },
+  { name: "Intro to Mandarin", image: "/images/IntroLevel/China.jpg", language: "Mandarin" },
+  { name: "Intro to Italian", image: "/images/IntroLevel/Italy.jpg", language: "Italian" },
+  { name: "Intro to German", image: "/images/IntroLevel/Germany.jpg", language: "German" }
 ];
 
 const adventureLevels = [
@@ -26,38 +26,60 @@ const adventureLevels = [
 
 function LessonPage({ language = "en" }) { 
   const navigate = useNavigate();
-  
+  const [searchQuery, setSearchQuery] = useState("");
+
   const currentTranslations = translations[language] || translations['en']; 
 
   const handleLessonClick = (lesson) => {
-    if (lesson.name === "Spanish Fiesta") {
-      navigate("/spanish-story");
-    } else {
-      navigate(`/lesson/${lesson.name.replace(/\s+/g, "-").toLowerCase()}`);
-    }
+    const routeMap = {
+      "Spanish Fiesta": "/spanish-story",
+      "Intro to French": "/intro-to-french",
+    };
+    navigate(routeMap[lesson.name] || `/lesson/${lesson.name.replace(/\s+/g, "-").toLowerCase()}`);
   };
+
+  const filteredIntroduction = Introduction.filter(
+    (lesson) =>
+      lesson.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      lesson.language.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const filteredAdventure = adventureLevels.filter(
+    (lesson) =>
+      lesson.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      lesson.language.toLowerCase().includes(searchQuery.toLowerCase())
+  );
 
   return (
     <div className="lesson-page-container">
-      <h1>{currentTranslations.chooseLesson}</h1>
+      <div className="lesson-header">
+        <h1>{currentTranslations.chooseLesson}</h1>
+        <input
+          type="text"
+          placeholder="Search lessons..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          className="lesson-search-bar"
+        />
+      </div>
 
       <h3>{currentTranslations.introductionLessons}</h3>
       <div className="lesson-scroll-container">
-        {Introduction.map((lesson, index) => (
+        {filteredIntroduction.map((lesson, index) => (
           <div
             key={index}
             className="lesson-card"
             onClick={() => handleLessonClick(lesson)}
           >
             <img src={lesson.image} alt={lesson.name} className="lesson-image" />
-            <p className="lesson-name introduction-name">{lesson.name}</p>
+            <p className="lesson-name">{lesson.name}</p>
           </div>
         ))}
       </div>
 
       <h3>{currentTranslations.adventureLessons}</h3>
       <div className="lesson-scroll-container">
-        {adventureLevels.map((lesson, index) => (
+        {filteredAdventure.map((lesson, index) => (
           <div
             key={index}
             className="lesson-card"
