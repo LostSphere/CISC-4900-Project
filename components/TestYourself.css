@@ -1,0 +1,42 @@
+.test-yourself-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.language-selection {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.language-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.language-card:hover {
+  transform: scale(1.05);
+}
+
+.language-image {
+  width: 120px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.quiz-question, .quiz-completed {
+  margin-top: 20px;
+}
+
+.quiz-question input {
+  margin: 10px;
+  padding: 5px;
+}
