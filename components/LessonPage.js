@@ -4,24 +4,24 @@ import translations from "../assets/translations.json";
 import "./LessonPage.css";
 
 const Introduction = [
-  { name: "Intro to French", image: "/images/IntroLevel/France.jpg", language: "French" },
-  { name: "Intro to Spanish", image: "/images/IntroLevel/Spain.jpg", language: "Spanish" },
-  { name: "Intro to Japanese", image: "/images/IntroLevel/Japan.jpg", language: "Japanese" },
-  { name: "Intro to Mandarin", image: "/images/IntroLevel/China.jpg", language: "Mandarin" },
-  { name: "Intro to Italian", image: "/images/IntroLevel/Italy.jpg", language: "Italian" },
-  { name: "Intro to German", image: "/images/IntroLevel/Germany.jpg", language: "German" }
+  { name: "Intro to French", image: "/images/IntroLevel/IntroductionLessons/France.jpg", language: "French" },
+  { name: "Intro to Spanish", image: "/images/IntroLevel/IntroductionLessons/Spain.jpg", language: "Spanish" },
+  { name: "Intro to Japanese", image: "/images/IntroLevel/IntroductionLessons/Japan.jpg", language: "Japanese" },
+  { name: "Intro to Mandarin", image: "/images/IntroLevel/IntroductionLessons/China.jpg", language: "Mandarin" },
+  { name: "Intro to Italian", image: "/images/IntroLevel/IntroductionLessons/Italy.jpg", language: "Italian" },
+  { name: "Intro to German", image: "/images/IntroLevel/IntroductionLessons/Germany.jpg", language: "German" }
 ];
 
 const adventureLevels = [
-  { name: "Lost in Tokyo", language: "Japanese", image: "/images/AdventureLevel/lost_in_Tokyo.jpg" },
-  { name: "Parisian Café", language: "French", image: "/images/AdventureLevel/parisian_cafe.jpg" },
-  { name: "Spanish Fiesta", language: "Spanish", image: "/images/AdventureLevel/spanish_fiesta.jpg" },
-  { name: "Mystery in Beijing", language: "Mandarin", image: "/images/AdventureLevel/mystery_in_beijing.jpg" },
-  { name: "Exploring Rome", language: "Italian", image: "/images/AdventureLevel/exploring_Rome.jpg" },
-  { name: "German Road Trip", language: "German", image: "/images/AdventureLevel/road_trip.jpg" },
-  { name: "Business in Shanghai", language: "Mandarin", image: "/images/AdventureLevel/business_in_shanghai.jpg" },
-  { name: "French Literature", language: "French", image: "/images/AdventureLevel/french_literature.jpg" },
-  { name: "Debating in Madrid", language: "Spanish", image: "/images/AdventureLevel/debating_Madrid.webp" },
+  { name: "Lost in Tokyo", language: "Japanese", image: "/images/AdventureLevel/AdventureLessons/lost_in_Tokyo.jpg" },
+  { name: "Parisian Café", language: "French", image: "/images/AdventureLevel/AdventureLessons/parisian_cafe.jpg" },
+  { name: "Spanish Fiesta", language: "Spanish", image: "/images/AdventureLevel/AdventureLessons/spanish_fiesta.jpg" },
+  { name: "Mystery in Beijing", language: "Mandarin", image: "/images/AdventureLevel/AdventureLessons/mystery_in_beijing.jpg" },
+  { name: "Exploring Rome", language: "Italian", image: "/images/AdventureLevel/AdventureLessons/exploring_Rome.jpg" },
+  { name: "German Road Trip", language: "German", image: "/images/AdventureLevel/AdventureLessons/road_trip.jpg" },
+  { name: "Business in Shanghai", language: "Mandarin", image: "/images/AdventureLevel/AdventureLessons/business_in_shanghai.jpg" },
+  { name: "French Literature", language: "French", image: "/images/AdventureLevel/AdventureLessons/french_literature.jpg" },
+  { name: "Debating in Madrid", language: "Spanish", image: "/images/AdventureLevel/AdventureLessons/debating_Madrid.webp" },
 ];
 
 function LessonPage({ language = "en" }) { 
@@ -34,6 +34,7 @@ function LessonPage({ language = "en" }) {
     const routeMap = {
       "Spanish Fiesta": "/spanish-story",
       "Intro to French": "/intro-to-french",
+      "Intro to Spanish": "/intro-to-spanish",
     };
     navigate(routeMap[lesson.name] || `/lesson/${lesson.name.replace(/\s+/g, "-").toLowerCase()}`);
   };
