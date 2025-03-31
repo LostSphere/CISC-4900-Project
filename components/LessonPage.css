@@ -44,15 +44,15 @@
 }
 
 .lesson-name {
-  font-size: 1rem;
+  font-size: 150%;
   font-weight: bold;
   color: #333;
   margin-top: 8px;
 }
 
 .lesson-language {
-  font-size: 0.875rem;
-  color: #666;
+  font-size: 120%;
+  color: #333;
 }
 
 .home-button {
