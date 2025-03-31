@@ -100,7 +100,7 @@ function IntroToSpanish() {
         </p>
         <p className="story-translation">{currentScene.translation}</p>
         <p className="story-example" onClick={() => handleTextToSpeech(currentScene.example)} style={{ cursor: "pointer" }}>
-          <strong>Ejemplo:</strong> <em>{currentScene.example} 🔊</em>
+          <strong>Example:</strong> <em>{currentScene.example} 🔊</em>
         </p>
         <p className="story-example-translation">{currentScene.exampleTranslation}</p>
         <div className="button-container" style={{ display: "flex", justifyContent: "center", gap: "20px" }}>
