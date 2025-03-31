@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "text": "Baile",
+    "translation": "Dance",
+    "partOfSpeech": "Noun",
+    "example": "Yo practico baile.",
+    "exampleTranslation": "I practice dance.",
+    "image": "/images/SpanishFiesta/dance.jpg"
+  },
+  {
+    "id": 2,
+    "text": "Celebración",
+    "translation": "Celebration",
+    "partOfSpeech": "Noun",
+    "example": "La celebración comienza",
+    "exampleTranslation": "The celebration begins",
+    "image": "/images/SpanishFiesta/celebration.jpg"
+  },
+  {
+    "id": 3,
+    "text": "Alegría",
+    "translation": "Joy",
+    "partOfSpeech": "Noun",
+    "example": "Siento mucha alegría.",
+    "exampleTranslation": "I feel much joy.",
+    "image": "/images/SpanishFiesta/joy.jpeg"
+  },
+  {
+    "id": 4,
+    "text": "Música",
+    "translation": "Music",
+    "partOfSpeech": "Noun",
+    "example": "Escucho la música.",
+    "exampleTranslation": "I listen to music.",
+    "image": "/images/SpanishFiesta/music.jpeg"
+  },
+  {
+    "id": 5,
+    "text": "Divertido",
+    "translation": "Fun",
+    "partOfSpeech": "Adjective",
+    "example": "La fiesta es divertida.",
+    "exampleTranslation": "The party is fun.",
+    "image": "/images/SpanishFiesta/fun.png"
+  },
+  {
+    "id": 6,
+    "text": "Bailar",
+    "translation": "To dance",
+    "partOfSpeech": "Verb",
+    "example": "Nos gusta bailar.",
+    "exampleTranslation": "We like to dance.",
+    "image": "/images/SpanishFiesta/dancing.png"
+  },
+  {
+    "id": 7,
+    "text": "Cantar",
+    "translation": "To Sing",
+    "partOfSpeech": "Verb",
+    "example": "Ellos cantan en la fiesta.",
+    "exampleTranslation": "They sing at the party",
+    "image": "/images/SpanishFiesta/sing.png"
+  },
+  {
+    "id": 8,
+    "text": "Felizmente",
+    "translation": "Happily",
+    "partOfSpeech": "Adverb",
+    "example": "Ellos celebran felizmente.",
+    "exampleTranslation": "They celebrate happily.",
+    "image": "/images/SpanishFiesta/happily.png"
+  },
+  {
+    "id": 9,
+    "text": "Confeti",
+    "translation": "Confetti",
+    "partOfSpeech": "Noun",
+    "example": "¡Lanza confeti ahora! .",
+    "exampleTranslation": "Throw confetti now!🎉",
+    "image": "/images/SpanishFiesta/confetti.webp"
+  },
+  {
+    "id": 10,
+    "text": "Ruidoso",
+    "translation": "Loud",
+    "partOfSpeech": "Adjective",
+    "example": "La celebración es ruidosa.",
+    "exampleTranslation": "The celebration is loud.",
+    "image": "/images/SpanishFiesta/loud.jpg"
+  }
+]
+  
