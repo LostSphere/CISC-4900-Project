@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "text": "你好",
+      "translation": "Hello",
+      "example": "你好，我叫李华。",
+      "exampleTranslation": "Hello, my name is Li Hua.",
+      "partOfSpeech": "Interjection",
+      "image": "/images/IntroLevel/Mandarin/NiHao.jpg"
+    },
+    {
+      "id": 2,
+      "text": "谢谢",
+      "translation": "Thank you",
+      "example": "谢谢你的帮助。",
+      "exampleTranslation": "Thank you for your help.",
+      "partOfSpeech": "Interjection",
+      "image": "/images/IntroLevel/Mandarin/XieXie.jpg"
+    },
+    {
+      "id": 3,
+      "text": "再见",
+      "translation": "Goodbye",
+      "example": "再见，我们明天见。",
+      "exampleTranslation": "Goodbye, see you tomorrow.",
+      "partOfSpeech": "Interjection",
+      "image": "/images/IntroLevel/Mandarin/ZaiJian.jpg"
+    },
+    {
+      "id": 4,
+      "text": "对不起",
+      "translation": "Sorry",
+      "example": "对不起，我迟到了。",
+      "exampleTranslation": "Sorry, I am late.",
+      "partOfSpeech": "Phrase",
+      "image": "/images/IntroLevel/Mandarin/DuiBuQi.png"
+    },
+    {
+      "id": 5,
+      "text": "请",
+      "translation": "Please",
+      "example": "请给我一杯水。",
+      "exampleTranslation": "Please give me a glass of water.",
+      "partOfSpeech": "Phrase",
+      "image": "/images/IntroLevel/Mandarin/Qing.jpeg"
+    },
+    {
+      "id": 6,
+      "text": "是",
+      "translation": "Yes / To be",
+      "example": "他是我的朋友。",
+      "exampleTranslation": "He is my friend.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntroLevel/Mandarin/Shi.jpg"
+    },
+    {
+      "id": 7,
+      "text": "不",
+      "translation": "No / Not",
+      "example": "我不喜欢咖啡。",
+      "exampleTranslation": "I don’t like coffee.",
+      "partOfSpeech": "Adverb",
+      "image": "/images/IntroLevel/Mandarin/Bu.jpg"
+    },
+    {
+      "id": 8,
+      "text": "好",
+      "translation": "Good",
+      "example": "这个苹果很好吃。",
+      "exampleTranslation": "This apple is very delicious.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/IntroLevel/Mandarin/Hao.jpg"
+    },
+    {
+      "id": 9,
+      "text": "我",
+      "translation": "I / Me",
+      "example": "我是学生。",
+      "exampleTranslation": "I am a student.",
+      "partOfSpeech": "Pronoun",
+      "image": "/images/IntroLevel/Mandarin/Wo.jpg"
+    },
+    {
+      "id": 10,
+      "text": "你",
+      "translation": "You",
+      "example": "你叫什么名字？",
+      "exampleTranslation": "What is your name?",
+      "partOfSpeech": "Pronoun",
+      "image": "/images/IntroLevel/Mandarin/Ni.jpg"
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+      "question": "_____, come stai?",
+      "answer": "Ciao",
+      "options": ["Ciao", "Grazie", "No", "Sì"]
+    },
+    {
+      "question": "_____, per il tuo aiuto.",
+      "answer": "Grazie",
+      "options": ["No", "Grazie", "Per favore", "Mi dispiace"]
+    },
+    {
+      "question": "Un caffè, _____.",
+      "answer": "Per favore",
+      "options": ["Per favore", "Sì", "No", "Grazie"]
+    },
+    {
+      "question": "_____, è stato un errore.",
+      "answer": "Mi dispiace",
+      "options": ["Mi dispiace", "No", "Per favore", "Grazie"]
+    },
+    {
+      "question": "_____, voglio un gelato.",
+      "answer": "Sì",
+      "options": ["Bene", "No", "Sì", "Male"]
+    },
+    {
+      "question": "_____, non voglio andare.",
+      "answer": "No",
+      "options": ["No", "Bene", "Per favore", "Grazie"]
+    },
+    {
+      "question": "Ciao, _____ oggi?",
+      "answer": "Come stai?",
+      "options": ["Grande", "Bello", "Come stai?", "Male"]
+    },
+    {
+      "question": "La mia _____ è molto grande.",
+      "answer": "Famiglia",
+      "options": ["Famiglia", "Bene", "Male", "No"]
+    },
+    {
+      "question": "Il mio migliore _____ si chiama Marco.",
+      "answer": "Amico",
+      "options": ["Amico", "Ciao", "Sì", "No"]
+    },
+    {
+      "question": "_____, ci vediamo domani.",
+      "answer": "Arrivederci",
+      "options": ["No", "Arrivederci", "Bene", "Grazie"]
+    }
+  ]
+  
