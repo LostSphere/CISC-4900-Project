@@ -10,6 +10,9 @@ import SpanishStory from "./AdventureLessons/spanishStory/SpanishStory";
 import IntroToFrench from "./IntroLessons/IntroFrench/IntroToFrench";
 import IntroToSpanish from "./IntroLessons/IntroSpanish/IntroToSpanish";
 import IntroToJapanese from "./IntroLessons/IntroJapanese/IntroToJapanese";
+import IntroToMandarin from "./IntroLessons/IntroMandarin/IntroToMandarin";
+import IntroToItalian from "./IntroLessons/IntroItalian/IntroToItalian";
+import IntroToGerman from "./IntroLessons/IntroGerman/IntroToGerman";
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
       <Route path="/intro-to-french" element={<IntroToFrench />} />
       <Route path="/intro-to-spanish" element={<IntroToSpanish />} />
       <Route path="/intro-to-japanese" element={<IntroToJapanese />} />
+      <Route path="/intro-to-mandarin" element={<IntroToMandarin />} />
+      <Route path="/intro-to-italian" element={<IntroToItalian />} />
+      <Route path="/intro-to-german" element={<IntroToGerman />} />
     </Routes>
   );
 }
