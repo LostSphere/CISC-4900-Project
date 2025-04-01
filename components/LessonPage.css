@@ -1,6 +1,6 @@
 .lesson-page-container { 
   width: 100%;
-  padding: 15px; 
+  padding: 10px; 
   text-align: center;
   background-color: #f8f9fa;
   box-sizing: border-box;
@@ -10,8 +10,8 @@
   display: flex;
   overflow-x: auto; 
   overflow-y: hidden; 
-  gap: 30px;
-  padding: 10px;
+  gap: 20px;
+  padding: 8px;
   max-width: 100%;
   white-space: nowrap;
   scrollbar-width: thin;
@@ -19,16 +19,16 @@
 }
 
 .lesson-card {
-  flex: 0 0 250px;
+  flex: 0 0 220px;
   background: white;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.2s ease-in-out;
-  min-width: 250px;
-  max-width: 250px;
-  height: 280px; 
+  min-width: 220px;
+  max-width: 220px;
+  height: 260px; 
 }
 
 .lesson-card:hover {
@@ -38,27 +38,27 @@
 
 .lesson-image {
   width: 100%;
-  height: 180px;
+  height: 160px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
 .lesson-name {
   font-size: 150%;
   font-weight: bold;
   color: #333;
-  margin-top: 8px;
+  margin-top: 20px;
 }
 
 .lesson-language {
-  font-size: 120%;
+  font-size: 110%;
   color: #333;
 }
 
 .home-button {
-  margin-top: 20px;
-  padding: 12px 20px;
-  font-size: 16px;
+  margin-top: 15px;
+  padding: 10px 18px;
+  font-size: 14px;
   font-weight: bold;
   color: white;
   background: #007bff;
@@ -76,7 +76,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  height: 45px;
 }
 
 /* Mobile Styles */
@@ -88,25 +88,25 @@
   }
 
   .lesson-image {
-    height: 200px;
+    height: 180px;
   }
 
   .home-button {
     width: 100%;
-    padding: 15px;
+    padding: 12px;
   }
 }
 
 /* Tablet Styles */
 @media (min-width: 601px) and (max-width: 1024px) {
   .lesson-card {
-    flex: 0 0 45%;
-    max-width: 45%;
-    height: 300px;
+    flex: 0 0 42%;
+    max-width: 42%;
+    height: 280px;
   }
 
   .lesson-image {
-    height: 180px;
+    height: 160px;
   }
 
   .home-button {
@@ -117,12 +117,12 @@
 /* Desktop Styles */
 @media (min-width: 1025px) {
   .lesson-card {
-    flex: 0 0 250px;
-    max-width: 250px;
-    height: 280px;
+    flex: 0 0 220px;
+    max-width: 220px;
+    height: 260px;
   }
 
   .lesson-image {
-    height: 180px;
+    height: 160px;
   }
 }
