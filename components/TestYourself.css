@@ -1,14 +1,25 @@
 .test-yourself-container {
   text-align: center;
-  padding: 20px;
+  padding: 25px;
 }
 
 .language-selection {
   display: flex;
   overflow-x: auto;
-  gap: 15px;
+  gap: 20px;
   justify-content: center;
-  padding: 10px;
+  padding: 15px;
+}
+
+.language-card-container {
+  background-color: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 160px;
 }
 
 .language-card {
@@ -19,24 +30,105 @@
   padding: 10px;
   border-radius: 8px;
   transition: transform 0.2s;
+  font-size: 1.1rem;
 }
 
 .language-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.07);
 }
 
 .language-image {
-  width: 120px;
-  height: 80px;
-  border-radius: 8px;
+  width: 140px;
+  height: 100px;
+  border-radius: 10px;
   object-fit: cover;
 }
 
 .quiz-question, .quiz-completed {
-  margin-top: 20px;
+  margin-top: 25px;
+  font-size: 1.2rem;
 }
 
 .quiz-question input {
-  margin: 10px;
-  padding: 5px;
+  margin: 12px;
+  padding: 8px;
+  font-size: 1rem;
+  width: 80%;
+  max-width: 320px;
+  border-radius: 5px;
 }
+
+.quiz-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.progress-bar-container {
+  margin-bottom: 20px;
+  height: 10px;
+  background: #e0e0e0;
+  border-radius: 10px;
+}
+
+.repeat-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.scrambled-words-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.scrambled-word {
+  background-color: white;
+  border: 2px solid #007bff;
+  color: #007bff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.selected-words-container {
+  margin-top: 20px;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.selected-word {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.submit-button, .go-back-button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #f8f9fa;
+  color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover, .go-back-button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
