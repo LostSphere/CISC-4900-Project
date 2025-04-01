@@ -36,6 +36,9 @@ function LessonPage({ language = "en" }) {
       "Intro to French": "/intro-to-french",
       "Intro to Spanish": "/intro-to-spanish",
       "Intro to Japanese": "/intro-to-japanese",
+      "Intro to Mandarin": "/intro-to-mandarin",
+      "Intro to Italian": "/intro-to-italian",
+      "Intro to German": "/intro-to-german",
     };
     navigate(routeMap[lesson.name] || `/lesson/${lesson.name.replace(/\s+/g, "-").toLowerCase()}`);
   };
