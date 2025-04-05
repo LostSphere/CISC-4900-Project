@@ -1,0 +1,43 @@
+[
+    { 
+      "sentence": "Bonjour, comment allez-vous?", 
+      "translation": "Hello, how are you?" 
+    },
+    { 
+      "sentence": "Merci pour votre aide", 
+      "translation": "Thank you for your help."
+    },
+    {
+      "sentence": "Oui, j'aimerais un café",
+      "translation": "Yes, I would like a coffee."
+    },
+    {
+      "sentence": "Non, je ne peux pas venir",
+      "translation": "No, I can't come."
+    },
+    {
+      "sentence": "Un verre d'eau, s'il vous plaît",
+      "translation": "A glass of water, please."
+    },
+    {
+      "sentence": "Excusez-moi, où sont les toilettes?",
+      "translation": "Excuse me, where is the restroom?"
+    },
+    {
+      "sentence": "Je vais bien, merci",
+      "translation": "I'm doing well, thank you."
+    },
+    {
+      "sentence": "Je me sens mal aujourd'hui",
+      "translation": "I feel bad today."
+    },
+    {
+      "sentence": "Ce paysage est très beau",
+      "translation": "This landscape is very beautiful."
+    },
+    {
+      "sentence": "Cette maison est très grande",
+      "translation": "This house is very big."
+    }
+  ]
+  
