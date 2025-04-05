@@ -1,4 +1,4 @@
-.home-container {
+.homepage-container {
   width: 100%;
   max-width: 400px;
   margin: 50px auto;
@@ -9,28 +9,28 @@
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-  font-size: 24px;
+.homepage-header {
+  font-size: 35px;
   color: #333;
   margin-bottom: 10px;
 }
 
-p {
+.homepage-paragraph  {
   font-size: 16px;
   color: #666;
   margin-bottom: 20px;
 }
 
-nav ul {
+.homepage-nav ul {
   list-style: none;
   padding: 0;
 }
 
-nav li {
+.homepage-nav li {
   margin: 10px 0;
 }
 
-nav a {
+.homepage-nav a {
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
@@ -42,8 +42,23 @@ nav a {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-nav a:hover {
+.homepage-nav a:hover {
   background-color: #007bff;
   color: white;
 }
 
+.home-logout-button {
+  padding: 10px 20px;
+  background-color: #4CAF50; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.home-logout-button:hover {
+  background-color: #45a049; 
+  opacity: 0.8;
+}
