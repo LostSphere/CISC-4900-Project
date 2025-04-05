@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import translations from "../assets/translations.json"; 
-import "./HomePage.css"; 
+import translations from "../assets/translations.json";
+import "./HomePage.css";
 
 function HomePage() {
   const navigate = useNavigate();
@@ -10,7 +10,7 @@ function HomePage() {
 
   useEffect(() => {
     const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
-    
+
     if (loggedInUser && loggedInUser.name) {
       setUserName(loggedInUser.name);
     } else {
@@ -27,12 +27,18 @@ function HomePage() {
   };
 
   return (
-    <div className="home-container">
-      <h1>{translations[selectedLanguage]?.hello || "Hello"} {userName}!</h1>
-      <p>{translations[selectedLanguage]?.welcome || "Welcome to the Language Learning App!"}</p>
-      <p>{translations[selectedLanguage]?.startLearning || "Start learning a new language today."}</p>
+    <div className="homepage-container">
+      <h1 className="homepage-header">
+        {translations[selectedLanguage]?.hello || "Hello"} {userName}!
+      </h1>
+      <p className="homepage-paragraph">
+        {translations[selectedLanguage]?.welcome || "Welcome to the Language Learning App!"}
+      </p>
+      <p className="homepage-paragraph">
+        {translations[selectedLanguage]?.startLearning || "Start learning a new language today."}
+      </p>
 
-      <nav>
+      <nav className="homepage-nav">
         <ul>
           <li><Link to="/lesson">{translations[selectedLanguage]?.startLesson || "Start Lesson"}</Link></li>
           <li><Link to="/test-yourself">{translations[selectedLanguage]?.testYourself || "Test Yourself"}</Link></li>
@@ -41,9 +47,10 @@ function HomePage() {
         </ul>
       </nav>
 
-      <button onClick={handleLogout}>
-        {translations[selectedLanguage]?.logout || "Logout"}
-      </button>
+      <button className="home-logout-button" onClick={handleLogout}>
+          {translations[selectedLanguage]?.logout || "Logout"}
+        </button>
+
     </div>
   );
 }
