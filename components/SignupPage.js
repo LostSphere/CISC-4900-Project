@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import translations from "../assets/translations.json"; 
+import translations from "../assets/translations.json";
 import "./SignupPage.css";
 
 function SignupPage() {
@@ -45,7 +45,7 @@ function SignupPage() {
   return (
     <div className="signup-container">
       <h2>{translation.signup || "Sign Up"}</h2>
-      <form onSubmit={handleSignup}>
+      <form onSubmit={handleSignup} className="signup-form">
         <input
           type="text"
           name="name"
@@ -67,11 +67,13 @@ function SignupPage() {
           required
           onChange={handleChange}
         />
-        <button type="submit">{translation.signup || "Sign Up"}</button>
+        <button type="submit" className="signup-button">
+          {translation.signup || "Sign Up"}
+        </button>
       </form>
       <p>
         {translation.alreadyHaveAccount || "Already have an account?"}{" "}
-        <button onClick={() => navigate("/")} className="login-btn">
+        <button onClick={() => navigate("/")} className="login-button">
           {translation.login || "Login"}
         </button>
       </p>
