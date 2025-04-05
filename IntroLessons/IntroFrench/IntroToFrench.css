@@ -4,7 +4,7 @@
     margin: 50px auto;
     padding: 20px;
     text-align: center;
-    background: linear-gradient(135deg, #f8f9fa, #e6e6ff); /* Light gradient with a hint of French blue */
+    background: linear-gradient(135deg, #f8f9fa, #e6e6ff); 
     border-radius: 15px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
     animation: fadeIn 1s ease-in-out;
@@ -51,7 +51,7 @@
     font-size: 18px;
     font-weight: bold;
     color: white;
-    background: linear-gradient(90deg, #4a90e2, #0056b3); /* French blue */
+    background: linear-gradient(90deg, #4a90e2, #0056b3); 
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -69,26 +69,18 @@
     background: #002855;
   }
   
-  @media (max-width: 480px) {
-    .french-story-container {
-      width: 90%;
-      padding: 15px;
-    }
-  
-    .story-text {
-      font-size: 18px;
-    }
-  
-    .story-button {
-      font-size: 16px;
-      padding: 10px;
-    }
+  .quiz-options {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    align-items: center; 
   }
   
-  .story-image {
-    width: 300px;
-    height: 300px;
-    object-fit: cover; 
-    border-radius: 15px; 
+  .quiz-options .story-button {
+    font-size: 18px; 
+    padding: 15px; 
+    width: 80%; 
   }
   
+ 
+
