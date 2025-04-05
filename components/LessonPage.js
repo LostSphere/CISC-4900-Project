@@ -24,11 +24,11 @@ const adventureLevels = [
   { name: "Debating in Madrid", language: "Spanish", image: "/images/AdventureLevel/AdventureLessons/debating_Madrid.webp" },
 ];
 
-function LessonPage({ language = "en" }) { 
+function LessonPage({ language = "en" }) {
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState("");
 
-  const currentTranslations = translations[language] || translations['en']; 
+  const currentTranslations = translations[language] || translations['en'];
 
   const handleLessonClick = (lesson) => {
     const routeMap = {
@@ -61,7 +61,7 @@ function LessonPage({ language = "en" }) {
         <h1>{currentTranslations.chooseLesson}</h1>
         <input
           type="text"
-          placeholder="Search lessons..."
+          placeholder={currentTranslations.searchLessons || "Search lessons..."}
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           className="lesson-search-bar"
@@ -70,31 +70,39 @@ function LessonPage({ language = "en" }) {
 
       <h3>{currentTranslations.introductionLessons}</h3>
       <div className="lesson-scroll-container">
-        {filteredIntroduction.map((lesson, index) => (
-          <div
-            key={index}
-            className="lesson-card"
-            onClick={() => handleLessonClick(lesson)}
-          >
-            <img src={lesson.image} alt={lesson.name} className="lesson-image" />
-            <p className="lesson-name">{lesson.name}</p>
-          </div>
-        ))}
+        {filteredIntroduction.length > 0 ? (
+          filteredIntroduction.map((lesson, index) => (
+            <div
+              key={index}
+              className="lesson-card"
+              onClick={() => handleLessonClick(lesson)}
+            >
+              <img src={lesson.image} alt={lesson.name} className="lesson-image" />
+              <p className="lesson-name">{lesson.name}</p>
+            </div>
+          ))
+        ) : (
+          <p>{currentTranslations.noLessonsFound}</p>
+        )}
       </div>
 
       <h3>{currentTranslations.adventureLessons}</h3>
       <div className="lesson-scroll-container">
-        {filteredAdventure.map((lesson, index) => (
-          <div
-            key={index}
-            className="lesson-card"
-            onClick={() => handleLessonClick(lesson)}
-          >
-            <img src={lesson.image} alt={lesson.name} className="lesson-image" />
-            <p className="lesson-name">{lesson.name}</p>
-            <p className="lesson-language">{lesson.language}</p>
-          </div>
-        ))}
+        {filteredAdventure.length > 0 ? (
+          filteredAdventure.map((lesson, index) => (
+            <div
+              key={index}
+              className="lesson-card"
+              onClick={() => handleLessonClick(lesson)}
+            >
+              <img src={lesson.image} alt={lesson.name} className="lesson-image" />
+              <p className="lesson-name">{lesson.name}</p>
+              <p className="lesson-language">{lesson.language}</p>
+            </div>
+          ))
+        ) : (
+          <p>{currentTranslations.noLessonsFound}</p>
+        )}
       </div>
 
       <button className="home-button" onClick={() => navigate("/home")}>
