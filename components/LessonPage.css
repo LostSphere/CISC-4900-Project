@@ -1,15 +1,34 @@
-.lesson-page-container { 
+.lesson-page-container {
   width: 100%;
-  padding: 10px; 
+  padding: 10px;
   text-align: center;
   background-color: #f8f9fa;
   box-sizing: border-box;
 }
 
+.lesson-header {
+  margin-bottom: 20px;
+}
+
+.lesson-search-bar {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.lesson-search-bar:focus {
+  border-color: #007bff;
+}
+
 .lesson-scroll-container {
   display: flex;
-  overflow-x: auto; 
-  overflow-y: hidden; 
+  overflow-x: auto;
   gap: 20px;
   padding: 8px;
   max-width: 100%;
@@ -28,7 +47,7 @@
   transition: transform 0.2s ease-in-out;
   min-width: 220px;
   max-width: 220px;
-  height: 260px; 
+  height: 260px;
 }
 
 .lesson-card:hover {
@@ -71,58 +90,4 @@
   background: #0056b3;
 }
 
-.introduction-name {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 45px;
-}
 
-/* Mobile Styles */
-@media (max-width: 600px) {
-  .lesson-card {
-    flex: 0 0 100%;
-    max-width: 100%;
-    height: auto;
-  }
-
-  .lesson-image {
-    height: 180px;
-  }
-
-  .home-button {
-    width: 100%;
-    padding: 12px;
-  }
-}
-
-/* Tablet Styles */
-@media (min-width: 601px) and (max-width: 1024px) {
-  .lesson-card {
-    flex: 0 0 42%;
-    max-width: 42%;
-    height: 280px;
-  }
-
-  .lesson-image {
-    height: 160px;
-  }
-
-  .home-button {
-    width: auto;
-  }
-}
-
-/* Desktop Styles */
-@media (min-width: 1025px) {
-  .lesson-card {
-    flex: 0 0 220px;
-    max-width: 220px;
-    height: 260px;
-  }
-
-  .lesson-image {
-    height: 160px;
-  }
-}
