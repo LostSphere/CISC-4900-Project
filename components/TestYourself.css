@@ -96,13 +96,6 @@
   border-color: #31708f;
 }
 
-.button-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  margin: 20px 0 40px;
-}
-
 .progress-bar-container {
   width: 100%;
   height: 10px;
@@ -119,11 +112,10 @@
 }
 
 button,
-.repeat-button,
 .submit-button,
 .go-back-button,
 .select-language-button {
-  background-color: #007bff;
+  background-color: #45a049;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -146,7 +138,12 @@ button:hover,
 .submit-button:hover,
 .go-back-button:hover,
 .select-language-button:hover {
+  background-color: #45a049;
+}
+
+.custom-button:hover {
   background-color: #0056b3;
 }
+
 
 
