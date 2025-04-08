@@ -21,7 +21,7 @@
       "id": 3,
       "text": "Danke",
       "translation": "Thank you",
-      "example": "Danke für deine Hilfe.",
+      "example": "Danke für deine Hilfe",
       "exampleTranslation": "Thank you for your help.",
       "partOfSpeech": "Interjection",
       "image": "/images/IntroLevel/German/Danke.png"
@@ -48,7 +48,7 @@
       "id": 6,
       "text": "Ja",
       "translation": "Yes",
-      "example": "Ja, ich verstehe.",
+      "example": "Ja, ich verstehe",
       "exampleTranslation": "Yes, I understand.",
       "partOfSpeech": "Adverb",
       "image": "/images/IntroLevel/German/Ja.jpg"
@@ -57,7 +57,7 @@
       "id": 7,
       "text": "Nein",
       "translation": "No",
-      "example": "Nein, ich spreche kein Deutsch.",
+      "example": "Nein, ich spreche kein Deutsch",
       "exampleTranslation": "No, I don't speak German.",
       "partOfSpeech": "Adverb",
       "image": "/images/IntroLevel/German/Nein.jpg"
@@ -75,7 +75,7 @@
       "id": 9,
       "text": "Familie",
       "translation": "Family",
-      "example": "Meine Familie ist sehr groß.",
+      "example": "Meine Familie ist sehr groß",
       "exampleTranslation": "My family is very big.",
       "partOfSpeech": "Noun",
       "image": "/images/IntroLevel/German/Familie.jpg"
@@ -84,7 +84,7 @@
       "id": 10,
       "text": "Freund",
       "translation": "Friend",
-      "example": "Mein bester Freund heißt Max.",
+      "example": "Mein bester Freund heißt Max",
       "exampleTranslation": "My best friend’s name is Max.",
       "partOfSpeech": "Noun",
       "image": "/images/IntroLevel/German/Freund.jpg"
