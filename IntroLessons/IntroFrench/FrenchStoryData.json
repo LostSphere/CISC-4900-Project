@@ -1,92 +1,93 @@
 [
-  {
+    {
       "id": 1,
-      "text": "Bonjour",
-      "translation": "Hello / Good morning",
-      "example": "Bonjour, comment allez-vous?",
+      "text": "Ciao",
+      "translation": "Hello / Goodbye",
+      "example": "Ciao, come stai?",
       "exampleTranslation": "Hello, how are you?",
-      "partOfSpeech": "Noun",
-      "image": "/images/IntroLevel/Bonjour.jpg"
-  },
-  {
+      "partOfSpeech": "Interjection",
+      "image": "/images/IntroLevel/Italian/Ciao.jpg"
+    },
+    {
       "id": 2,
-      "text": "Merci",
+      "text": "Grazie",
       "translation": "Thank you",
-      "example": "Merci pour votre aide.",
+      "example": "Grazie per il tuo aiuto",
       "exampleTranslation": "Thank you for your help.",
-      "partOfSpeech": "Noun",
-      "image": "/images/IntroLevel/merci.png"
-  },
-  {
+      "partOfSpeech": "Interjection",
+      "image": "/images/IntroLevel/Italian/Grazie.jpg"
+    },
+    {
       "id": 3,
-      "text": "Oui",
-      "translation": "Yes",
-      "example": "Oui, j'aimerais un café.",
-      "exampleTranslation": "Yes, I would like a coffee.",
-      "partOfSpeech": "Adverb",
-      "image": "/images/IntroLevel/Oui.png"
-  },
-  {
-      "id": 4,
-      "text": "Non",
-      "translation": "No",
-      "example": "Non, je ne peux pas venir.",
-      "exampleTranslation": "No, I can't come.",
-      "partOfSpeech": "Adverb",
-      "image": "/images/IntroLevel/Non.png"
-  },
-  {
-      "id": 5,
-      "text": "S'il vous plaît",
+      "text": "Per favore",
       "translation": "Please",
-      "example": "Un verre d'eau, s'il vous plaît.",
-      "exampleTranslation": "A glass of water, please.",
+      "example": "Un caffè, per favore",
+      "exampleTranslation": "A coffee, please.",
+      "partOfSpeech": "Phrase",
+      "image": "/images/IntroLevel/Italian/PerFavore.jpeg"
+    },
+    {
+      "id": 4,
+      "text": "Mi dispiace",
+      "translation": "I'm sorry",
+      "example": "Mi dispiace, è stato un errore",
+      "exampleTranslation": "I'm sorry, it was a mistake.",
+      "partOfSpeech": "Phrase",
+      "image": "/images/IntroLevel/Italian/MiDispiace.jpeg"
+    },
+    {
+      "id": 5,
+      "text": "Sì",
+      "translation": "Yes",
+      "example": "Sì, voglio un gelato",
+      "exampleTranslation": "Yes, I want an ice cream.",
       "partOfSpeech": "Adverb",
-      "image": "/images/IntroLevel/please.jpg"
-  },
-  {
+      "image": "/images/IntroLevel/Italian/Si.jpeg"
+    },
+    {
       "id": 6,
-      "text": "Excusez-moi",
-      "translation": "Excuse me",
-      "example": "Excusez-moi, où sont les toilettes?",
-      "exampleTranslation": "Excuse me, where is the restroom?",
-      "partOfSpeech": "Verb",
-      "image": "/images/IntroLevel/ExcuseMe.png"
-  },
-  {
+      "text": "No",
+      "translation": "No",
+      "example": "No, non voglio andare",
+      "exampleTranslation": "No, I don’t want to go.",
+      "partOfSpeech": "Adverb",
+      "image": "/images/IntroLevel/Italian/No.jpeg"
+    },
+    {
       "id": 7,
-      "text": "Bien",
-      "translation": "Well / Good",
-      "example": "Je vais bien, merci.",
-      "exampleTranslation": "I'm doing well, thank you.",
-      "partOfSpeech": "Adverb",
-      "image": "/images/IntroLevel/Bien.png"
-  },
-  {
+      "text": "Come stai?",
+      "translation": "How are you?",
+      "example": "Ciao, come stai oggi?",
+      "exampleTranslation": "Hello, how are you today?",
+      "partOfSpeech": "Phrase",
+      "image": "/images/IntroLevel/Italian/ComeStai.jpeg"
+    },
+    {
       "id": 8,
-      "text": "Mal",
-      "translation": "Bad / Poorly",
-      "example": "Je me sens mal aujourd'hui.",
-      "exampleTranslation": "I feel bad today.",
-      "partOfSpeech": "Adverb",
-      "image": "/images/IntroLevel/Mal.png"
-  },
-  {
+      "text": "Famiglia",
+      "translation": "Family",
+      "example": "La mia famiglia è molto grande",
+      "exampleTranslation": "My family is very big.",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntroLevel/Italian/Famiglia.jpeg"
+    },
+    {
       "id": 9,
-      "text": "Beau",
-      "translation": "Beautiful / Handsome",
-      "example": "Ce paysage est très beau.",
-      "exampleTranslation": "This landscape is very beautiful.",
-      "partOfSpeech": "Adjective",
-      "image": "/images/IntroLevel/Beau.png"
-  },
-  {
+      "text": "Amico",
+      "translation": "Friend",
+      "example": "Il mio migliore amico si chiama Marco",
+      "exampleTranslation": "My best friend's name is Marco.",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntroLevel/Italian/Amico.jpeg"
+    },
+    {
       "id": 10,
-      "text": "Grand",
-      "translation": "Big / Tall",
-      "example": "Cette maison est très grande.",
-      "exampleTranslation": "This house is very big.",
-      "partOfSpeech": "Adjective",
-      "image": "/images/IntroLevel/Grand.png"
-  }
-]
+      "text": "Arrivederci",
+      "translation": "Goodbye",
+      "example": "Arrivederci, ci vediamo domani",
+      "exampleTranslation": "Goodbye, see you tomorrow.",
+      "partOfSpeech": "Interjection",
+      "image": "/images/IntroLevel/Italian/Arrivederci.png"
+    }
+  ]
+  
