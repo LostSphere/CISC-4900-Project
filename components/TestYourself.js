@@ -1,12 +1,20 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import frenchVocabulary from "../assets/frenchVocabulary.json";
-import spanishVocabulary from "../assets/spanishVocabulary.json";
+import frenchVocabulary from "../IntroLessons/IntroFrench/FrenchData.json";
+import spanishVocabulary from "../IntroLessons/IntroSpanish/SpanishData.json";
+import mandarinVocabulary from "../IntroLessons/IntroMandarin/MandarinData.json";
+import japaneseVocabulary from "../IntroLessons/IntroJapanese/JapaneseData.json";
+import italianVocabulary from "../IntroLessons/IntroItalian/ItalianData.json";
+import germanVocabulary from "../IntroLessons/IntroGerman/GermanData.json";
 import "./TestYourself.css";
 
 const languageOptions = [
   { name: "French", image: "/images/CountryFlag/France.png", file: "frenchVocabulary" },
   { name: "Spanish", image: "/images/CountryFlag/Spain.png", file: "spanishVocabulary" },
+  { name: "Mandarin", image: "/images/CountryFlag/China.png", file: "mandarinVocabulary" },
+  { name: "Japanese", image: "/images/CountryFlag/Japan.png", file: "japaneseVocabulary" },
+  { name: "Italian", image: "/images/CountryFlag/Italy.png", file: "italianVocabulary" },
+  { name: "German", image: "/images/CountryFlag/German.png", file: "germanVocabulary" },
 ];
 
 function TestYourself() {
@@ -18,11 +26,32 @@ function TestYourself() {
   const [selectedWords, setSelectedWords] = useState([]);
   const [vocabulary, setVocabulary] = useState([]);
 
+  const buttonStyle = {
+    padding: '12px 24px',
+    fontSize: '1rem',
+    fontFamily: 'Arial, sans-serif',
+    backgroundColor: '#007bff',
+    color: 'white',
+    border: 'none',
+    borderRadius: '10px',
+    cursor: 'pointer',
+    margin: '10px',
+    transition: 'background-color 0.3s ease',
+  };
+
   const shuffleVocabulary = (vocab) => {
     const shuffled = [...vocab];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    if (selectedLanguage === "Mandarin" || selectedLanguage === "Japanese") {
+      shuffled.forEach((item, index) => {
+        const example = item.example;
+        const shuffledExample = example.split('').sort(() => Math.random() - 0.5).join('');
+        shuffled[index] = { ...item, example: shuffledExample };
+      });
+    } else {
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
     }
     return shuffled;
   };
@@ -36,25 +65,33 @@ function TestYourself() {
   };
 
   const loadVocabulary = (language) => {
-    let vocab = [];
-    if (language === "French") {
-      vocab = frenchVocabulary;
-    } else if (language === "Spanish") {
-      vocab = spanishVocabulary;
-    }
+    const vocabFiles = {
+      French: frenchVocabulary,
+      Spanish: spanishVocabulary,
+      Mandarin: mandarinVocabulary,
+      Japanese: japaneseVocabulary,
+      Italian: italianVocabulary,
+      German: germanVocabulary,
+    };
+    const vocab = vocabFiles[language] || [];
     const shuffledVocab = shuffleVocabulary(vocab);
     setVocabulary(shuffledVocab);
   };
-  
+
   const shuffleSentence = useCallback((index) => {
     if (vocabulary.length > 0) {
-      const sentence = vocabulary[index]?.sentence;
-      if (sentence && typeof sentence === 'string') {
-        const wordsWithPunctuation = sentence.split(/([.,!?;:])|\s+/).filter(Boolean);
+      const example = vocabulary[index]?.example;
+      if (example && typeof example === 'string') {
+        let wordsWithPunctuation = [];
+        if (selectedLanguage === "Mandarin" || selectedLanguage === "Japanese") {
+          wordsWithPunctuation = example.split('').filter(Boolean);
+        } else {
+          wordsWithPunctuation = example.split(/([.,!?;:])|\s+/).filter(Boolean);
+        }
         setWordOrder(wordsWithPunctuation.sort(() => Math.random() - 0.5));
       }
     }
-  }, [vocabulary]);
+  }, [vocabulary, selectedLanguage]);
 
   useEffect(() => {
     if (selectedLanguage !== null && vocabulary.length > 0) {
@@ -64,6 +101,7 @@ function TestYourself() {
 
   const calculateProgress = () => {
     if (vocabulary.length === 0) return 0;
+    if (quizCompleted) return 100;
     return (currentQuestionIndex / vocabulary.length) * 100;
   };
 
@@ -87,39 +125,83 @@ function TestYourself() {
     clickSound.play();
   };
 
-  const speakSentence = (sentence) => {
+  const speakSentence = (example) => {
     if ("speechSynthesis" in window) {
-      const utterance = new SpeechSynthesisUtterance(sentence);
-      utterance.lang = selectedLanguage === "French" ? "fr-FR" : "es-ES";
+      const utterance = new SpeechSynthesisUtterance(example);
+      switch (selectedLanguage) {
+        case "French":
+          utterance.lang = "fr-FR";
+          break;
+        case "Spanish":
+          utterance.lang = "es-ES";
+          break;
+        case "Mandarin":
+          utterance.lang = "zh-CN";
+          break;
+        case "Japanese":
+          utterance.lang = "ja-JP";
+          break;
+        case "Italian":
+          utterance.lang = "it-IT";
+          break;
+        case "German":
+          utterance.lang = "de-DE";
+          break;
+        default:
+          utterance.lang = "en-US";
+          break;
+      }
       speechSynthesis.speak(utterance);
     }
   };
 
   const checkAnswer = () => {
     if (vocabulary.length > 0) {
-      const correctSentence = vocabulary[currentQuestionIndex]?.sentence;
+      const correctSentence = vocabulary[currentQuestionIndex]?.example;
       const cleanUserInput = selectedWords.join(" ").trim();
-      const cleanCorrectSentence = correctSentence.trim();
       const normalizedUserInput = normalizeUserInput(cleanUserInput);
-      const normalizedCorrectSentence = normalizeUserInput(cleanCorrectSentence);
+      const normalizedCorrectSentence = normalizeUserInput(correctSentence.trim());
 
-      if (normalizedUserInput === normalizedCorrectSentence) {
-        playCorrectSound();
-        if (currentQuestionIndex < vocabulary.length - 1) {
-          setTimeout(() => {
-            setCurrentQuestionIndex(currentQuestionIndex + 1);
-            setSelectedWords([]);
-          }, 1000);
+      if (selectedLanguage === "Mandarin" || selectedLanguage === "Japanese") {
+        if (checkMandarinOrJapaneseAnswer(normalizedUserInput, normalizedCorrectSentence)) {
+          playCorrectSound();
+          proceedToNextQuestion();
         } else {
-          setTimeout(() => {
-            playCompletionSound();
-            setQuizCompleted(true);
-          }, 1000);
+          playWrongSound();
+          setTimeout(() => setSelectedWords([]), 1000);
         }
       } else {
-        playWrongSound();
-        setTimeout(() => setSelectedWords([]), 1000);
+        if (normalizedUserInput === normalizedCorrectSentence) {
+          playCorrectSound();
+          proceedToNextQuestion();
+        } else {
+          playWrongSound();
+          setTimeout(() => setSelectedWords([]), 1000);
+        }
       }
+    }
+  };
+
+  const checkMandarinOrJapaneseAnswer = (userInput, correctSentence) => {
+    const cleanUserInput = userInput.replace(/[\s.,!?;:]+/g, '');
+    const cleanCorrectSentence = correctSentence.replace(/[\s.,!?;:]+/g, '');
+    if (cleanUserInput === cleanCorrectSentence) {
+      return true;
+    }
+    return false;
+  };
+
+  const proceedToNextQuestion = () => {
+    if (currentQuestionIndex < vocabulary.length - 1) {
+      setTimeout(() => {
+        setCurrentQuestionIndex(currentQuestionIndex + 1);
+        setSelectedWords([]);
+      }, 1000);
+    } else {
+      setTimeout(() => {
+        playCompletionSound();
+        setQuizCompleted(true);
+      }, 1000);
     }
   };
 
@@ -146,15 +228,13 @@ function TestYourself() {
   return (
     <div className="test-yourself-container">
       {selectedLanguage && (
-  <div className="progress-bar-container">
-    <div
-      className="progress-bar"
-      style={{ width: `${calculateProgress()}%` }}
-    />
-  </div>
-)}
-
-
+        <div className="progress-bar-container">
+          <div
+            className="progress-bar"
+            style={{ width: `${calculateProgress()}%` }}
+          />
+        </div>
+      )}
       {!selectedLanguage ? (
         <div>
           <h2>Select a language to start</h2>
@@ -168,7 +248,7 @@ function TestYourself() {
               </div>
             ))}
           </div>
-          <button className="home-button" onClick={() => navigate("/home")}>
+          <button style={buttonStyle} className="home-button" onClick={() => navigate("/home")}>
             🏠 Back to Home
           </button>
         </div>
@@ -176,13 +256,13 @@ function TestYourself() {
         <div className="quiz-completed">
           <h2>Quiz Completed!</h2>
           <p>Great job! 🎉</p>
-          <button onClick={() => startQuiz(selectedLanguage)} className="try-again-button">
+          <button style={buttonStyle}  onClick={() => startQuiz(selectedLanguage)} className="try-again-button">
             🔄 Try Again
           </button>
-          <button onClick={() => setSelectedLanguage(null)} className="select-language-button">
+          <button style={buttonStyle} onClick={() => setSelectedLanguage(null)} className="select-language-button">
             🌍 Select Another Language
           </button>
-          <button onClick={() => navigate("/home")} className="home-button">
+          <button style={buttonStyle} onClick={() => navigate("/home")} className="home-button">
             🏠 Back to Home
           </button>
         </div>
@@ -190,11 +270,11 @@ function TestYourself() {
         <div className="quiz-container">
           <h2>Listen and Arrange the Sentence</h2>
           <div className="speech-container">
-            <button onClick={() => speakSentence(vocabulary[currentQuestionIndex]?.sentence)} className="repeat-button">
+            <button onClick={() => speakSentence(vocabulary[currentQuestionIndex]?.example)} className="repeat-button">
               🔊 Repeat
             </button>
           </div>
-          <p className="translation">({vocabulary[currentQuestionIndex]?.translation || 'Loading translation...'})</p>
+          <p className="exampleTranslation">({vocabulary[currentQuestionIndex]?.exampleTranslation || 'Loading translation...'})</p>
           <div className="user-input-container">
             <p className="user-input">
               {selectedWords.map((word, index) => (
@@ -221,10 +301,14 @@ function TestYourself() {
             ))}
           </div>
 
-          <div className="button-container">
-            <button onClick={() => setSelectedLanguage(null)} className="go-back-button">⬅️ Select Another Language</button>
-            <button onClick={checkAnswer} className="submit-button">⌨️ Enter</button>
-            <button className="home-button" onClick={() => navigate("/home")}>
+          <div style={{ display: "flex", flexWrap: "nowrap", justifyContent: "center", gap: "10px", flexDirection: "row" }}>
+            <button style={buttonStyle} onClick={() => setSelectedLanguage(null)}>
+              🌍 Select Another Language
+            </button>
+            <button style={buttonStyle} onClick={checkAnswer}>
+              ➡️ Enter
+            </button>
+            <button style={buttonStyle} onClick={() => navigate("/home")}>
               🏠 Back to Home
             </button>
           </div>
