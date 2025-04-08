@@ -21,7 +21,7 @@
       "id": 3,
       "text": "はい",
       "translation": "Yes",
-      "example": "はい、それは本当においしいです。",
+      "example": "はい、それは本当においしいです",
       "exampleTranslation": "Yes, it’s really delicious.",
       "partOfSpeech": "Adverb",
       "image": "/images/IntroLevel/Japanese/Hai.jpg"
@@ -30,7 +30,7 @@
       "id": 4,
       "text": "いいえ",
       "translation": "No",
-      "example": "いいえ、まだ終わっていません。",
+      "example": "いいえ、まだ終わっていません",
       "exampleTranslation": "No, I haven’t finished yet.",
       "partOfSpeech": "Adverb",
       "image": "/images/IntroLevel/Japanese/Iie.jpg"
@@ -39,7 +39,7 @@
       "id": 5,
       "text": "お願いします",
       "translation": "Please",
-      "example": "メニューを見せてください、お願いします。",
+      "example": "メニューを見せてください、お願いします",
       "exampleTranslation": "Please show me the menu.",
       "partOfSpeech": "Expression",
       "image": "/images/IntroLevel/Japanese/OnegaiShimasu.jpg"
@@ -66,7 +66,7 @@
       "id": 8,
       "text": "悪い",
       "translation": "Bad",
-      "example": "今日は天気が悪いので、外出したくない。",
+      "example": "今日は天気が悪いので、外出したくない",
       "exampleTranslation": "The weather is bad today, so I don’t want to go outside.",
       "partOfSpeech": "Adjective",
       "image": "/images/IntroLevel/Japanese/Warui.jpg"
@@ -75,7 +75,7 @@
       "id": 9,
       "text": "美しい",
       "translation": "Beautiful",
-      "example": "この公園は春にとても美しいです。",
+      "example": "この公園は春にとても美しいです",
       "exampleTranslation": "This park is very beautiful in spring.",
       "partOfSpeech": "Adjective",
       "image": "/images/IntroLevel/Japanese/Utsukushii.jpg"
@@ -84,7 +84,7 @@
       "id": 10,
       "text": "大きい",
       "translation": "Big / Large",
-      "example": "彼の家はとても大きくて、部屋がたくさんあります。",
+      "example": "彼の家はとても大きくて、部屋がたくさんあります",
       "exampleTranslation": "His house is very big and has many rooms.",
       "partOfSpeech": "Adjective",
       "image": "/images/IntroLevel/Japanese/Ookii.jpg"
