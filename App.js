@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";  
 import HomePage from "./components/HomePage";
 import LoginPage from "./components/LoginPage";
@@ -13,8 +13,18 @@ import IntroToJapanese from "./IntroLessons/IntroJapanese/IntroToJapanese";
 import IntroToMandarin from "./IntroLessons/IntroMandarin/IntroToMandarin";
 import IntroToItalian from "./IntroLessons/IntroItalian/IntroToItalian";
 import IntroToGerman from "./IntroLessons/IntroGerman/IntroToGerman";
+import "./App.css";
 
 function App() {
+  useEffect(() => {
+    const savedDarkMode = localStorage.getItem("darkMode") || "off";
+    if (savedDarkMode === "on") {
+      document.body.classList.add("settings-dark-mode");
+    } else {
+      document.body.classList.remove("settings-dark-mode");
+    }
+  }, []);
+
   return (
     <Routes>
       <Route path="/" element={<LoginPage />} /> 
