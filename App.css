@@ -418,5 +418,31 @@ body.settings-dark-mode .test-yourself-container {
   body.settings-dark-mode .login-button:hover {
     background-color: #2e7d32;
   }
+
+  /* AboutPage */
+  body.settings-dark-mode .about-page {
+    background-color: #333333; 
+  }
+  
+  body.settings-dark-mode .about-content {
+    background-color: #555555; 
+    color: white; 
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.1); 
+  }
+  
+  body.settings-dark-mode .about-content h1,
+  body.settings-dark-mode .about-content p {
+    color: white; 
+  }
+  
+  body.settings-dark-mode .go-back-button {
+    background-color: #4CAF50; 
+    color: white; 
+  }
+  
+  body.settings-dark-mode .go-back-button:hover {
+    background-color: #45a049; 
+  }
+
   
   
