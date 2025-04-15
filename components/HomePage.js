@@ -86,6 +86,11 @@ function HomePage() {
                 {translations[selectedLanguage]?.settings || "Settings"}
               </Link>
             </li>
+            <li>
+              <Link to="/about">
+                {translations[selectedLanguage]?.about || "About"}
+              </Link>
+            </li>
           </ul>
         </nav>
 
