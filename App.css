@@ -1,5 +1,4 @@
-
-  /* Dark Mode Styles */
+  /* SettingsPage */
   body.settings-dark-mode {
     background-color: #121212;
     color: white;
@@ -46,10 +45,10 @@
     background-color: #66bb6a;
   }
   
-/* Global Dark Mode Styles */
-body.settings-dark-mode .homepage-wrapper {
-    background-color: #121212; /* Dark background */
-    color: white; /* Light text */
+  /* HomePage */
+  body.settings-dark-mode .homepage-wrapper {
+    background-color: #121212; 
+    color: white; 
   }
   
   body.settings-dark-mode .profile-section {
@@ -57,34 +56,34 @@ body.settings-dark-mode .homepage-wrapper {
   }
   
   body.settings-dark-mode .profile-image {
-    background-color: #333333; /* Dark background for profile image */
+    background-color: #333333; 
   }
   
   body.settings-dark-mode .profile-initials {
-    color: white; /* Light color for initials */
+    color: white; 
   }
   
   body.settings-dark-mode .profile-name {
-    color: white; /* Light text for the profile name */
+    color: white; 
   }
   
   body.settings-dark-mode .homepage-container {
-    background-color: #333333; /* Dark background for the container */
-    color: white; /* Light text */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Darker shadow */
+    background-color: #333333; 
+    color: white; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
   }
   
   body.settings-dark-mode .homepage-header {
-    color: white; /* Light color for the header */
+    color: white; 
   }
   
   body.settings-dark-mode .homepage-paragraph {
-    color: #bbb; /* Lighter text for the paragraph */
+    color: #bbb; 
   }
   
   body.settings-dark-mode .homepage-nav a {
-    background-color: #444444; /* Dark background for nav links */
-    color: white; /* Light text for nav links */
+    background-color: #444444; 
+    color: white; 
   }
   
   body.settings-dark-mode .homepage-nav a:hover {
@@ -93,37 +92,37 @@ body.settings-dark-mode .homepage-wrapper {
   }
   
   body.settings-dark-mode .home-logout-button {
-    background-color: #66bb6a; /* Green button in dark mode */
+    background-color: #66bb6a; 
   }
   
   body.settings-dark-mode .home-logout-button:hover {
-    background-color: #4caf50; /* Darker green on hover */
+    background-color: #4caf50; 
   }
 
-  /* Dark Mode Styles */
-body.settings-dark-mode .lesson-page-container {
-    background-color: #121212; /* Dark background */
-    color: white; /* Light text */
+  /* LessonPage */
+  body.settings-dark-mode .lesson-page-container {
+    background-color: #121212; 
+    color: white; 
   }
   
   body.settings-dark-mode .lesson-search-bar {
-    background-color: #333333; /* Dark background for search bar */
-    color: white; /* Light text */
-    border: 1px solid #444444; /* Darker border */
+    background-color: #333333; 
+    color: white; 
+    border: 1px solid #444444; 
   }
   
   body.settings-dark-mode .lesson-search-bar:focus {
-    border-color: #66bb6a; /* Green border on focus */
+    border-color: #66bb6a; 
   }
   
   body.settings-dark-mode .lesson-scroll-container {
-    scrollbar-color: #66bb6a #121212; /* Green scrollbar */
+    scrollbar-color: #66bb6a #121212; 
   }
   
   body.settings-dark-mode .lesson-card {
-    background-color: #333333; /* Dark background for lesson cards */
-    color: white; /* Light text */
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3); /* Darker shadow */
+    background-color: #333333; 
+    color: white; 
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3); 
   }
   
   body.settings-dark-mode .lesson-card:hover {
@@ -132,19 +131,19 @@ body.settings-dark-mode .lesson-page-container {
   }
   
   body.settings-dark-mode .lesson-name {
-    color: white; /* Light color for lesson name */
+    color: white;
   }
   
   body.settings-dark-mode .lesson-language {
-    color: #bbb; /* Lighter color for language */
+    color: #bbb; 
   }
   
   body.settings-dark-mode .home-button {
-    background-color: #66bb6a; /* Green button in dark mode */
+    background-color: #66bb6a; 
   }
   
   body.settings-dark-mode .home-button:hover {
-    background-color: #4caf50; /* Darker green on hover */
+    background-color: #4caf50; /
   }
   
 /* Dark Mode Styles for Story Containers */
@@ -154,70 +153,63 @@ body.settings-dark-mode .italian-story-container,
 body.settings-dark-mode .japanese-story-container,
 body.settings-dark-mode .mandarin-story-container,
 body.settings-dark-mode .spanish-story-container {
-  background: linear-gradient(135deg, #333333, #444444); /* Dark gradient for background */
-  color: white; /* Light text */
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5); /* Darker shadow */
+  background: linear-gradient(135deg, #333333, #444444); 
+  color: white; 
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5); 
 }
 
-/* Dark Mode Styles for Story Text */
 body.settings-dark-mode .story-text {
-  color: white; /* Light text for story */
+  color: white; 
 }
 
-/* Dark Mode Styles for Story Choices */
 body.settings-dark-mode .story-choices {
-  color: white; /* Light text for choices */
+  color: white; 
 }
 
 /* Dark Mode Styles for Story Buttons */
 body.settings-dark-mode .story-button {
-  background: linear-gradient(90deg, #66bb6a, #4caf50); /* Green button in dark mode */
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Darker shadow */
+  background: linear-gradient(90deg, #66bb6a, #4caf50); 
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); 
 }
 
-/* Dark Mode Styles for Story Button Hover */
 body.settings-dark-mode .story-button:hover {
   background: linear-gradient(90deg, #4caf50, #388e3c);
 }
 
-/* Dark Mode Styles for Story Button Active */
 body.settings-dark-mode .story-button:active {
   background: #2c6e2f;
 }
 
-/* Dark Mode Styles for Quiz Options Story Button */
 body.settings-dark-mode .quiz-options .story-button {
-  background: #66bb6a; /* Green button for quiz options */
+  background: #66bb6a; 
 }
 
-/* Dark Mode Styles for Quiz Options Story Button Hover */
 body.settings-dark-mode .quiz-options .story-button:hover {
   background: #4caf50;
 }
 
-/* Dark Mode Styles for Test Yourself Container */
+/* TestYourSelfPage */
 body.settings-dark-mode .test-yourself-container {
-    background-color: #333333; /* Dark background */
-    color: white; /* Light text */
+    background-color: #333333; 
+    color: white; 
     padding: 25px;
     text-align: center;
   }
   
-  /* Dark Mode Styles for Language Selection Section */
   body.settings-dark-mode .language-selection {
     display: flex;
     overflow-x: auto;
     gap: 20px;
     justify-content: center;
     padding: 15px;
-    background-color: #222222; /* Dark background for selection */
+    background-color: #222222; 
   }
   
   body.settings-dark-mode .language-card-container {
-    background-color: #444444; /* Dark card background */
+    background-color: #444444; 
     padding: 15px;
     border-radius: 12px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -233,11 +225,10 @@ body.settings-dark-mode .test-yourself-container {
     border-radius: 8px;
     transition: transform 0.2s;
     font-size: 1.1rem;
-    background-color: #555555; /* Dark background for card */
-    color: white; /* Light text for cards */
+    background-color: #555555; 
+    color: white; 
   }
   
-  /* Dark  */
   body.settings-dark-mode .quiz-container,
   body.settings-dark-mode .test-yourself-quiz {
     max-width: 600px;
@@ -245,21 +236,20 @@ body.settings-dark-mode .test-yourself-container {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
   }
   
   body.settings-dark-mode .quiz-container {
-    background: #444444; /* Dark background */
-    color: white; /* Light text */
+    background: #444444; 
+    color: white; 
   }
   
   body.settings-dark-mode .test-yourself-quiz {
-    background: #555555; /* Slightly lighter dark background */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Lighter shadow */
+    background: #555555; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
     color: white;
   }
   
-  /* Dark Mode Styles for Word Arrangement Section */
   body.settings-dark-mode .word-button,
   body.settings-dark-mode .selected-word {
     display: inline-block;
@@ -270,8 +260,8 @@ body.settings-dark-mode .test-yourself-container {
     text-align: center;
     border: 2px solid #444;
     border-radius: 8px;
-    background-color: #57b843; /* Green background */
-    color: white; /* Light text */
+    background-color: #57b843; 
+    color: white; 
     cursor: pointer;
     transition: background-color 0.3s;
   }
@@ -286,18 +276,17 @@ body.settings-dark-mode .test-yourself-container {
     border-color: #31708f;
   }
   
-  /* Dark Mode Styles for Progress Bar */
   body.settings-dark-mode .progress-bar-container {
     width: 100%;
     height: 10px;
-    background-color: #555555; /* Darker background for progress bar */
+    background-color: #555555; 
     border-radius: 5px;
     margin-bottom: 20px;
   }
   
   body.settings-dark-mode .progress-bar {
     height: 100%;
-    background-color: #007bff; /* Blue progress bar */
+    background-color: #007bff; 
     border-radius: 5px;
     transition: width 0.3s ease-in-out;
   }
@@ -307,8 +296,8 @@ body.settings-dark-mode .test-yourself-container {
   body.settings-dark-mode .submit-button,
   body.settings-dark-mode .go-back-button,
   body.settings-dark-mode .select-language-button {
-    background-color: #45a049; /* Green button */
-    color: white; /* Light text */
+    background-color: #45a049; 
+    color: white; 
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -338,7 +327,7 @@ body.settings-dark-mode .test-yourself-container {
   }
   
 
-    /* Login Page*/
+  /* Login Page*/
   body.settings-dark-mode .login-container {
     background-color: #121212;
   }
