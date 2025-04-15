@@ -3,6 +3,7 @@
   padding: 25px;
 }
 
+/* Language Selection Section */
 .language-selection {
   display: flex;
   overflow-x: auto;
@@ -44,6 +45,7 @@
   object-fit: cover;
 }
 
+/* Quiz Container */
 .quiz-container,
 .test-yourself-quiz {
   max-width: 600px;
@@ -63,6 +65,7 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
+/* Word Arrangement Section */
 .word-container {
   display: flex;
   flex-wrap: wrap;
@@ -96,6 +99,7 @@
   border-color: #31708f;
 }
 
+/* Progress Bar */
 .progress-bar-container {
   width: 100%;
   height: 10px;
@@ -111,6 +115,7 @@
   transition: width 0.3s ease-in-out;
 }
 
+/* General Buttons */
 button,
 .submit-button,
 .go-back-button,
@@ -133,17 +138,6 @@ button,
   width: 200px;
 }
 
-button:hover,
-.repeat-button:hover,
-.submit-button:hover,
-.go-back-button:hover,
-.select-language-button:hover {
-  background-color: #45a049;
-}
-
-.custom-button:hover {
-  background-color: #0056b3;
-}
 
 
 
