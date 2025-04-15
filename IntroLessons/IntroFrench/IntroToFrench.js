@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import storyData from "./FrenchStoryData.json"; 
+import storyData from "./FrenchData.json"; 
 import quizData from "./FrenchQuizData.json"; 
 import "./IntroToFrench.css"; 
 
