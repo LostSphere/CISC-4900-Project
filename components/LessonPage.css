@@ -80,14 +80,11 @@
   font-size: 14px;
   font-weight: bold;
   color: white;
-  background: #007bff;
+  background:  #45a049;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.home-button:hover {
-  background: #0056b3;
-}
 
 
