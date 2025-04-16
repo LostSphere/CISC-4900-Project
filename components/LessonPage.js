@@ -4,6 +4,7 @@ import translations from "../assets/translations.json";
 import "./LessonPage.css";
 
 const Introduction = [
+  { name: "Intro to English", image: "/images/IntroLevel/IntroductionLessons/America.jpg", language: "English" },
   { name: "Intro to French", image: "/images/IntroLevel/IntroductionLessons/France.jpg", language: "French" },
   { name: "Intro to Spanish", image: "/images/IntroLevel/IntroductionLessons/Spain.jpg", language: "Spanish" },
   { name: "Intro to Japanese", image: "/images/IntroLevel/IntroductionLessons/Japan.jpg", language: "Japanese" },
@@ -33,6 +34,8 @@ function LessonPage({ language = "en" }) {
   const handleLessonClick = (lesson) => {
     const routeMap = {
       "Spanish Fiesta": "/spanish-story",
+      "Lost in Tokyo": "/japanese-story",
+      "Intro to English": "/intro-to-english",
       "Intro to French": "/intro-to-french",
       "Intro to Spanish": "/intro-to-spanish",
       "Intro to Japanese": "/intro-to-japanese",
@@ -68,6 +71,7 @@ function LessonPage({ language = "en" }) {
         />
       </div>
 
+      <h2 className="lesson-section-heading">Introduction</h2>
       <h3>{currentTranslations.introductionLessons}</h3>
       <div className="lesson-scroll-container">
         {filteredIntroduction.length > 0 ? (
@@ -86,6 +90,7 @@ function LessonPage({ language = "en" }) {
         )}
       </div>
 
+      <h2 className="lesson-section-heading">Cultural Adventures</h2>
       <h3>{currentTranslations.adventureLessons}</h3>
       <div className="lesson-scroll-container">
         {filteredAdventure.length > 0 ? (
