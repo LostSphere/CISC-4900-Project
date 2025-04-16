@@ -12,9 +12,10 @@ function IntroToFrench() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [score, setScore] = useState(0);
+  const storageKey = "quizProgress_French";
 
   useEffect(() => {
-    const savedProgress = JSON.parse(localStorage.getItem('quizProgress'));
+    const savedProgress = JSON.parse(localStorage.getItem(storageKey));
     if (savedProgress) {
       setCurrentScene(savedProgress.currentScene);
       setHistory(savedProgress.history);
@@ -24,7 +25,7 @@ function IntroToFrench() {
       setQuizCompleted(savedProgress.quizCompleted);
     }
   }, []);
-
+  
   useEffect(() => {
     const progress = {
       currentScene,
@@ -34,9 +35,9 @@ function IntroToFrench() {
       score,
       quizCompleted
     };
-    localStorage.setItem('quizProgress', JSON.stringify(progress));
+    localStorage.setItem(storageKey, JSON.stringify(progress));
   }, [currentScene, history, isQuizActive, currentQuestionIndex, score, quizCompleted]);
-
+  
   const handleNext = () => {
     const currentIndex = storyData.findIndex(scene => scene.id === currentScene.id);
     if (currentIndex !== -1 && currentIndex < storyData.length - 1) {
