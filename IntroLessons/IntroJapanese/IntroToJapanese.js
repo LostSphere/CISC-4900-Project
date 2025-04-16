@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import storyData from "./JapaneseData.json";
 import quizData from "./JapaneseQuizData.json";
@@ -12,6 +12,32 @@ function IntroToJapanese() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [score, setScore] = useState(0);
+  const storageKey = "quizProgress_Japanese";
+
+  useEffect(() => {
+    const savedProgress = JSON.parse(localStorage.getItem(storageKey));
+    if (savedProgress) {
+      setCurrentScene(savedProgress.currentScene);
+      setHistory(savedProgress.history);
+      setIsQuizActive(savedProgress.isQuizActive);
+      setCurrentQuestionIndex(savedProgress.currentQuestionIndex);
+      setScore(savedProgress.score);
+      setQuizCompleted(savedProgress.quizCompleted);
+    }
+  }, []);
+  
+  useEffect(() => {
+    const progress = {
+      currentScene,
+      history,
+      isQuizActive,
+      currentQuestionIndex,
+      score,
+      quizCompleted
+    };
+    localStorage.setItem(storageKey, JSON.stringify(progress));
+  }, [currentScene, history, isQuizActive, currentQuestionIndex, score, quizCompleted]);
+  
 
   const handleNext = () => {
     const currentIndex = storyData.findIndex(scene => scene.id === currentScene.id);
@@ -41,6 +67,28 @@ function IntroToJapanese() {
     }
   };
 
+  const handleQuit = () => {
+    const progress = {
+      currentScene,
+      history,
+      isQuizActive,
+      currentQuestionIndex,
+      score,
+      quizCompleted
+    };
+    localStorage.setItem('quizProgress', JSON.stringify(progress));
+    navigate("/lesson");
+  };
+
+  const handleTryAgain = () => {
+    setIsQuizActive(false);
+    setQuizCompleted(false);
+    setScore(0);
+    setCurrentQuestionIndex(0);
+    setCurrentScene(storyData[0]);
+    setHistory([]);
+  };
+
   const handleQuizAnswer = (selectedOption) => {
     if (selectedOption === quizData[currentQuestionIndex].answer) {
       setScore(score + 1);
@@ -58,15 +106,21 @@ function IntroToJapanese() {
   if (quizCompleted) {
     return (
       <div className="japanese-story-container">
-        <h2>Quiz Completed</h2>
-        <p>Your score: {score} / {quizData.length}</p>
-        <p>Greatjob！ 🎉</p>
-        <button className="story-button" onClick={() => navigate("/lesson")}>
-          Return to Lesson Page
-        </button>
+        <h2>Quiz Completed!</h2>
+        <p>Your Score: {score} / {quizData.length}</p>
+        <p>Bravo ! 🎉</p>
+        <div className="button-container" style={{ display: "flex", justifyContent: "center", gap: "20px" }}>
+          <button className="story-button" onClick={() => navigate("/lesson")}>
+            Return to Lesson Page
+          </button>
+          <button className="story-button" onClick={handleTryAgain}>
+            Try Again
+          </button>
+        </div>
       </div>
     );
   }
+
 
   if (isQuizActive) {
     return (
@@ -83,6 +137,10 @@ function IntroToJapanese() {
               </button>
             ))}
           </div>
+        </div>
+        <div className="button-container" style={{ display: "flex", justifyContent: "center", gap: "20px", marginTop: "20px" }}>
+        <button className="story-button" onClick={handleQuit}>Exit Lesson</button>
+        <button className="story-button" onClick={handleTryAgain}>Back To Lesson</button>
         </div>
       </div>
     );
@@ -104,15 +162,19 @@ function IntroToJapanese() {
         </p>
         <p className="story-example-translation">{currentScene.exampleTranslation}</p>
         <div className="button-container" style={{ display: "flex", justifyContent: "center", gap: "20px" }}>
-          <button className="story-button" onClick={handleNext}>Next ➡️</button>
-          {history.length > 0 && (
-            <button className="story-button" onClick={handleGoBack}>⬅️ Go Back</button>
-          )}
-          <button className="story-button" onClick={() => navigate(-1)}>Exit lesson</button>
+  {history.length > 0 && (
+    <button className="story-button" onClick={handleGoBack}>⬅️ Go Back</button>
+  )}
+  <button className="story-button" onClick={handleNext}>Next ➡️</button>
+  <button className="story-button" onClick={() => setIsQuizActive(true)}>Skip to Quiz</button>
+</div>
+        <div className="button-container" style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
+          <button className="story-button" onClick={() => navigate(-1)}>Exit Lesson</button>
         </div>
       </div>
     </div>
   );
+  
 }
 
 export default IntroToJapanese;
