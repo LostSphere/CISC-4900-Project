@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import storyData from "./SpanishStoryData.json";
 import quizData from "./quizData.json";
@@ -12,6 +12,31 @@ function SpanishStory() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [score, setScore] = useState(0);
+  const storageKey = "quizProgress_SpanishFiesta";
+
+  useEffect(() => {
+    const savedProgress = JSON.parse(localStorage.getItem(storageKey));
+    if (savedProgress) {
+      setCurrentScene(savedProgress.currentScene);
+      setHistory(savedProgress.history);
+      setIsQuizActive(savedProgress.isQuizActive);
+      setCurrentQuestionIndex(savedProgress.currentQuestionIndex);
+      setScore(savedProgress.score);
+      setQuizCompleted(savedProgress.quizCompleted);
+    }
+  }, []);
+  
+  useEffect(() => {
+    const progress = {
+      currentScene,
+      history,
+      isQuizActive,
+      currentQuestionIndex,
+      score,
+      quizCompleted
+    };
+    localStorage.setItem(storageKey, JSON.stringify(progress));
+  }, [currentScene, history, isQuizActive, currentQuestionIndex, score, quizCompleted]);
 
   const handleNext = () => {
     const currentIndex = storyData.findIndex(scene => scene.id === currentScene.id);
@@ -56,15 +81,42 @@ function SpanishStory() {
     }
   };
 
+  const handleQuit = () => {
+    const progress = {
+      currentScene,
+      history,
+      isQuizActive,
+      currentQuestionIndex,
+      score,
+      quizCompleted
+    };
+    localStorage.setItem('quizProgress', JSON.stringify(progress));
+    navigate("/lesson");
+  };
+
+  const handleTryAgain = () => {
+    setIsQuizActive(false);
+    setQuizCompleted(false);
+    setScore(0);
+    setCurrentQuestionIndex(0);
+    setCurrentScene(storyData[0]);
+    setHistory([]);
+  };
+
   if (quizCompleted) {
     return (
       <div className="spanish-story-container">
         <h2>Quiz Completed!</h2>
         <p>Your Score: {score} / {quizData.length}</p>
-        <p>Great job!</p>
-        <button className="story-button" onClick={() => navigate("/lesson")}>
-          Return to Lesson Page
-        </button>
+        <p>Bravo ! 🎉</p>
+        <div className="button-container" style={{ display: "flex", justifyContent: "center", gap: "20px" }}>
+          <button className="story-button" onClick={() => navigate("/lesson")}>
+            Return to Lesson Page
+          </button>
+          <button className="story-button" onClick={handleTryAgain}>
+            Try Again
+          </button>
+        </div>
       </div>
     );
   }
@@ -84,6 +136,10 @@ function SpanishStory() {
               </button>
             ))}
           </div>
+        </div>
+        <div className="button-container" style={{ display: "flex", justifyContent: "center", gap: "20px", marginTop: "20px" }}>
+        <button className="story-button" onClick={handleQuit}>Exit Lesson</button>
+        <button className="story-button" onClick={handleTryAgain}>Back To Lesson</button>
         </div>
       </div>
     );
@@ -105,15 +161,19 @@ function SpanishStory() {
         </p>
         <p className="story-example-translation">{currentScene.exampleTranslation}</p>
         <div className="button-container" style={{ display: "flex", justifyContent: "center", gap: "20px" }}>
-          <button className="story-button" onClick={handleNext}>Next ➡️</button>
-          {history.length > 0 && (
-            <button className="story-button" onClick={handleGoBack}>⬅️ Go Back</button>
-          )}
+  {history.length > 0 && (
+    <button className="story-button" onClick={handleGoBack}>⬅️ Go Back</button>
+  )}
+  <button className="story-button" onClick={handleNext}>Next ➡️</button>
+  <button className="story-button" onClick={() => setIsQuizActive(true)}>Skip to Quiz</button>
+</div>
+        <div className="button-container" style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
           <button className="story-button" onClick={() => navigate(-1)}>Exit Lesson</button>
         </div>
       </div>
     </div>
   );
+  
 }
 
 export default SpanishStory;
