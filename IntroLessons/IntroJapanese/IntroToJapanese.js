@@ -61,12 +61,28 @@ function IntroToJapanese() {
 
   const handleTextToSpeech = (text) => {
     if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+  
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'ja-JP';
-      speechSynthesis.speak(utterance);
+  
+      const setVoiceAndSpeak = () => {
+        const voices = window.speechSynthesis.getVoices();
+        if (voices.length > 0) {
+          const selectedVoice = voices.find(voice => voice.lang === 'ja-JP') || voices[0];
+          utterance.voice = selectedVoice;
+          window.speechSynthesis.speak(utterance);
+        }
+      };
+  
+      if (window.speechSynthesis.getVoices().length === 0) {
+        window.speechSynthesis.onvoiceschanged = setVoiceAndSpeak;
+      } else {
+        setVoiceAndSpeak();
+      }
     }
   };
-
+  
   const handleQuit = () => {
     const progress = {
       currentScene,
