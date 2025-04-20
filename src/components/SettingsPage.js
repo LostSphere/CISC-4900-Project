@@ -19,14 +19,14 @@ function SettingsPage() {
   const [showPasswordChange, setShowPasswordChange] = useState(false);
 
   const profileImageOptions = [
-    { image: "/images/profileImages/Pig.jpg", emoji: "🐖", name: "Pig" },
-    { image: "/images/profileImages/hippo.jpg", emoji: "🦛", name: "Hippo" },
-    { image: "/images/profileImages/monkey.jpg", emoji: "🐒", name: "Monkey" },
-    { image: "/images/profileImages/cat.jpg", emoji: "🐱", name: "Cat" },
-    { image: "/images/profileImages/dog.jpg", emoji: "🐶", name: "Dog" },
-    { image: "/images/profileImages/penguin.jpg", emoji: "🐧", name: "Penguin" },
-    { image: "/images/profileImages/panda.jpg", emoji: "🐼", name: "Panda" },
-    { image: "/images/profileImages/bird.jpg", emoji: "🐦", name: "Bird" }
+    { image: "/images/ProfileImages/Pig.jpg", emoji: "🐖", name: "Pig" },
+    { image: "/images/ProfileImages/hippo.jpg", emoji: "🦛", name: "Hippo" },
+    { image: "/images/ProfileImages/monkey.jpg", emoji: "🐒", name: "Monkey" },
+    { image: "/images/ProfileImages/cat.jpg", emoji: "🐱", name: "Cat" },
+    { image: "/images/ProfileImages/dog.jpg", emoji: "🐶", name: "Dog" },
+    { image: "/images/ProfileImages/penguin.jpg", emoji: "🐧", name: "Penguin" },
+    { image: "/images/ProfileImages/panda.jpg", emoji: "🐼", name: "Panda" },
+    { image: "/images/ProfileImages/bird.jpg", emoji: "🐦", name: "Bird" }
   ];
 
   useEffect(() => {
