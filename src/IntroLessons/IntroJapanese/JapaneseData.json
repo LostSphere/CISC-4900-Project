@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "こんにちは",
+      "translation": "Hello",
+      "example": "こんにちは、お元気ですか？",
+      "exampleTranslation": "Hello, how are you?",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntroLevel/Japanese/Konnichiwa.jpg"
+    },
+    {
+      "id": 2,
+      "text": "ありがとう",
+      "translation": "Thank you",
+      "example": "ありがとう、元気です",
+      "exampleTranslation": "Thank you, I’m fine.",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntroLevel/Japanese/Arigatou.jpg"
+    },
+    {
+      "id": 3,
+      "text": "はい",
+      "translation": "Yes",
+      "example": "はい、わかります",
+      "exampleTranslation": "Yes, I understand..",
+      "partOfSpeech": "Interjection",
+      "image": "/images/IntroLevel/Japanese/Hai.jpg"
+    },
+    {
+      "id": 4,
+      "text": "いいえ",
+      "translation": "No",
+      "example": "いいえ、すみません",
+      "exampleTranslation": "No, excuse me.",
+      "partOfSpeech": "Noun/Interjection",
+      "image": "/images/IntroLevel/Japanese/Iie.jpg"
+    },
+    {
+      "id": 5,
+      "text": "ください",
+      "translation": "Please",
+      "example": "水をください",
+      "exampleTranslation": "Please give me water.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntroLevel/Japanese/OnegaiShimasu.jpg"
+    },
+    {
+      "id": 6,
+      "text": "すみません",
+      "translation": "Excuse me / Sorry",
+      "example": "すみません、遅れました",
+      "exampleTranslation": "Sorry, I'm late.",
+      "partOfSpeech": "Expression/Interjection",
+      "image": "/images/IntroLevel/Japanese/Sumimasen.jpg"
+    },
+    {
+      "id": 7,
+      "text": "元気",
+      "translation": "Healthy / Well",
+      "example": "元気です",
+      "exampleTranslation": "I’m fine. / I’m well.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/IntroLevel/Japanese/Genki.jpg"
+    },
+    {
+      "id": 8,
+      "text": "悪い",
+      "translation": "Bad",
+      "example": "天気が悪い",
+      "exampleTranslation": "The weather is bad",
+      "partOfSpeech": "Adjective",
+      "image": "/images/IntroLevel/Japanese/Warui.jpg"
+    },
+    {
+      "id": 9,
+      "text": "美しい",
+      "translation": "Beautiful",
+      "example": "花は美しい",
+      "exampleTranslation": "The flower is beautiful",
+      "partOfSpeech": "Adjective",
+      "image": "/images/IntroLevel/Japanese/Utsukushii.jpg"
+    },
+    {
+      "id": 10,
+      "text": "大きい",
+      "translation": "Big / Large",
+      "example": "犬は大きい",
+      "exampleTranslation": "The dog is big",
+      "partOfSpeech": "Adjective",
+      "image": "/images/IntroLevel/Japanese/Ookii.jpg"
+    }
+  ]
+  
