@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "Hello",
+      "translation": "Hello",
+      "example": "Hello, my name is Sarah",
+      "exampleTranslation": "Hello, my name is Sarah",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntroLevel/English/Hello.jpg"
+    },
+    {
+      "id": 2,
+      "text": "Goodbye",
+      "translation": "Goodbye",
+      "example": "Goodbye! See you tomorrow",
+      "exampleTranslation": "Goodbye! See you tomorrow",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntroLevel/English/Goodbye.jpg"
+    },
+    {
+      "id": 3,
+      "text": "Yes",
+      "translation": "Yes",
+      "example": "Yes, I like pizza",
+      "exampleTranslation": "Yes, I like pizza",
+      "partOfSpeech": "Adverb/Noun",
+      "image": "/images/IntroLevel/English/Yes.jpg"
+    },
+    {
+      "id": 4,
+      "text": "No",
+      "translation": "No",
+      "example": "No, I don't have a pen",
+      "exampleTranslation": "No, I don't have a pen",
+      "partOfSpeech": "Adverb",
+      "image": "/images/IntroLevel/English/No.jpg"
+    },
+    {
+      "id": 5,
+      "text": "Please",
+      "translation": "Please",
+      "example": "Can you help me, please?",
+      "exampleTranslation": "Can you help me, please?",
+      "partOfSpeech": "Adverb/Verb",
+      "image": "/images/IntroLevel/English/Please.jpg"
+    },
+    {
+      "id": 6,
+      "text": "Thank you",
+      "translation": "Thank You",
+      "example": "Thank you for your help!",
+      "exampleTranslation": "Thank you for your help!",
+      "partOfSpeech": "Interjection/Noun",
+      "image": "/images/IntroLevel/English/ThankYou.jpg"
+    },
+    {
+      "id": 7,
+      "text": "Sorry",
+      "translation": "Sorry",
+      "example": "Sorry, I'm late",
+      "exampleTranslation": "Sorry, I'm late",
+      "partOfSpeech": "Adjective/Adverb/Noun",
+      "image": "/images/IntroLevel/English/Sorry.jpg"
+    },
+    {
+      "id": 8,
+      "text": "Name",
+      "translation": "Name",
+      "example": "What is your name?",
+      "exampleTranslation": "What is your name?",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntroLevel/English/Name.jpg"
+    },
+    {
+      "id": 9,
+      "text": "Water",
+      "translation": "Water",
+      "example": "I need a glass of water",
+      "exampleTranslation": "I need a glass of water",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntroLevel/English/Water.jpg"
+    },
+    {
+      "id": 10,
+      "text": "Eat",
+      "translation": "Eat",
+      "example": "I like to eat apples",
+      "exampleTranslation": "I like to eat apples",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntroLevel/English/Eat.jpg"
+    }
+  ]
+  
