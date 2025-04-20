@@ -1,0 +1,53 @@
+[
+    {
+      "question": "Yo practico _____.",
+      "answer": "Baile",
+      "options": ["Música", "Baile", "Nosotros", "Felizmente"]
+    },
+    {
+      "question": "La _____ comienza.",
+      "answer": "Celebración",
+      "options": ["Cantar", "Baile", "Celebración", "Alegría"]
+    },
+    {
+      "question": "Siento mucha _____.",
+      "answer": "Alegría",
+      "options": ["Divertido", "Música", "Ruidoso/a", "Alegría"]
+    },
+    {
+      "question": "Escucho la _____.",
+      "answer": "Música",
+      "options": ["Cantar", "Baile", "Música", "Alegría"]
+    },
+    {
+      "question": "La fiesta es _____.",
+      "answer": "Divertido",
+      "options": ["Nosotros", "Cantar", "Bailar", "Divertido"]
+    },
+    {
+      "question": "Nos gusta _____.",
+      "answer": "Bailar",
+      "options": ["Bailar", "Baile", "Música", "Cantar"]
+    },
+    {
+      "question": "Ellos _____ en la fiesta.",
+      "answer": "Cantan",
+      "options": ["Escuchan", "Celebran", "Cantan", "Bailan"]
+    },
+    {
+      "question": "Ellos celebran _____.",
+      "answer": "Felizmente",
+      "options": ["Baile", "Felizmente", "Ruidoso/a", "Divertido"]
+    },
+    {
+      "question": "¡Lanza _____ ahora!",
+      "answer": "Confeti",
+      "options": ["Bailamos", "Escuchamos", "Confeti", "Cantamos"]
+    },
+    {
+      "question": "La celebración es _____.",
+      "answer": "Ruidoso",
+      "options": ["Nosotros", "Felizmente", "Bailar", "Ruidoso"]
+    }
+  ]
+  
