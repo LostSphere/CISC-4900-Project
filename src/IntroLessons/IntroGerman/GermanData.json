@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "text": "Hallo",
+      "translation": "Hello",
+      "example": "Hallo, wie geht es dir?",
+      "exampleTranslation": "Hello, how are you?",
+      "partOfSpeech": "Interjection",
+      "image": "/images/IntroLevel/German/Hallo.png"
+    },
+    {
+      "id": 2,
+      "text": "Tschüss",
+      "translation": "Goodbye",
+      "example": "Tschüss, bis morgen!",
+      "exampleTranslation": "Goodbye, see you tomorrow!",
+      "partOfSpeech": "Interjection",
+      "image": "/images/IntroLevel/German/Tschuess.png"
+    },
+    {
+      "id": 3,
+      "text": "Danke",
+      "translation": "Thank you",
+      "example": "Danke für deine Hilfe",
+      "exampleTranslation": "Thank you for your help.",
+      "partOfSpeech": "Interjection",
+      "image": "/images/IntroLevel/German/Danke.png"
+    },
+    {
+      "id": 4,
+      "text": "Bitte",
+      "translation": "Please / You're welcome",
+      "example": "Ein Glas Wasser, bitte.",
+      "exampleTranslation": "A glass of water, please.",
+      "partOfSpeech": "Phrase",
+      "image": "/images/IntroLevel/German/Bitte.jpeg"
+    },
+    {
+      "id": 5,
+      "text": "Entschuldigung",
+      "translation": "Sorry / Excuse me",
+      "example": "Entschuldigung, wo ist die Toilette?",
+      "exampleTranslation": "Excuse me, where is the bathroom?",
+      "partOfSpeech": "Interjection",
+      "image": "/images/IntroLevel/German/Entschuldigung.jpeg"
+    },
+    {
+      "id": 6,
+      "text": "Ja",
+      "translation": "Yes",
+      "example": "Ja, ich verstehe",
+      "exampleTranslation": "Yes, I understand.",
+      "partOfSpeech": "Adverb",
+      "image": "/images/IntroLevel/German/Ja.jpg"
+    },
+    {
+      "id": 7,
+      "text": "Nein",
+      "translation": "No",
+      "example": "Nein, ich spreche kein Deutsch",
+      "exampleTranslation": "No, I don't speak German.",
+      "partOfSpeech": "Adverb",
+      "image": "/images/IntroLevel/German/Nein.jpg"
+    },
+    {
+      "id": 8,
+      "text": "Wie geht’s?",
+      "translation": "How are you?",
+      "example": "Hallo! Wie geht’s?",
+      "exampleTranslation": "Hello! How are you?",
+      "partOfSpeech": "Phrase",
+      "image": "/images/IntroLevel/German/WieGehts.jpg"
+    },
+    {
+      "id": 9,
+      "text": "Familie",
+      "translation": "Family",
+      "example": "Meine Familie ist sehr groß",
+      "exampleTranslation": "My family is very big.",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntroLevel/German/Familie.jpg"
+    },
+    {
+      "id": 10,
+      "text": "Freund",
+      "translation": "Friend",
+      "example": "Mein bester Freund heißt Max",
+      "exampleTranslation": "My best friend’s name is Max.",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntroLevel/German/Freund.jpg"
+    }
+]
