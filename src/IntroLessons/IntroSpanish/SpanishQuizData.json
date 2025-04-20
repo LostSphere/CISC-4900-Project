@@ -1,0 +1,53 @@
+[
+    {
+      "question": "_____, ¿cómo estás?",
+      "answer": "Hola",
+      "options": ["Hola", "Gracias", "No", "Sí"]
+    },
+    {
+      "question": "_____, por tu ayuda.",
+      "answer": "Gracias",
+      "options": ["No", "Gracias", "Por favor", "Lo siento"]
+    },
+    {
+      "question": "_____, quiero un poco más.",
+      "answer": "Sí",
+      "options": ["Bien", "No", "Sí", "Mal"]
+    },
+    {
+      "question": "_____, no puedo ir.",
+      "answer": "No",
+      "options": ["No", "Bien", "Por favor", "Gracias"]
+    },
+    {
+      "question": "Una taza de café, _____.",
+      "answer": "Por favor",
+      "options": ["Por favor", "Sí", "No", "Gracias"]
+    },
+    {
+      "question": "_____, nos vemos mañana.",
+      "answer": "Adiós",
+      "options": ["No", "Adiós", "Bien", "Gracias"]
+    },
+    {
+      "question": "_____, fue un accidente.",
+      "answer": "Lo siento",
+      "options": ["Bien", "No", "Por favor", "Lo siento"]
+    },
+    {
+      "question": "Mi _____ es muy grande.",
+      "answer": "Familia",
+      "options": ["Familia", "Bien", "Mal", "No"]
+    },
+    {
+      "question": "Hola, _____ hoy?",
+      "answer": "¿Cómo estás?",
+      "options": ["Grande", "Hermoso", "¿Cómo estás?", "Mal"]
+    },
+    {
+      "question": "Mi mejor ____ se llama Carlos.",
+      "answer": "Amigo",
+      "options": ["Amigo", "Hola", "Sí", "No"]
+    }
+  ]
+  
