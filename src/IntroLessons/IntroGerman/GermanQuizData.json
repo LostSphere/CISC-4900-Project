@@ -1,0 +1,52 @@
+[
+    {
+      "question": "_____, wie geht es dir?",
+      "answer": "Hallo",
+      "options": ["Hallo", "Tschüss", "Nein", "Ja"]
+    },
+    {
+      "question": "_____, bis morgen!",
+      "answer": "Tschüss",
+      "options": ["Danke", "Ja", "Tschüss", "Wie geht’s?"]
+    },
+    {
+      "question": "_____, für deine Hilfe.",
+      "answer": "Danke",
+      "options": ["Danke", "Bitte", "Nein", "Freund"]
+    },
+    {
+      "question": "Ein Glas Wasser, _____.",
+      "answer": "Bitte",
+      "options": ["Ja", "Nein", "Bitte", "Tschüss"]
+    },
+    {
+      "question": "_____, wo ist die Toilette?",
+      "answer": "Entschuldigung",
+      "options": ["Entschuldigung", "Hallo", "Ja", "Familie"]
+    },
+    {
+      "question": "_____, ich verstehe.",
+      "answer": "Ja",
+      "options": ["Ja", "Nein", "Wie geht’s?", "Danke"]
+    },
+    {
+      "question": "_____, ich spreche kein Deutsch.",
+      "answer": "Nein",
+      "options": ["Nein", "Ja", "Bitte", "Freund"]
+    },
+    {
+      "question": "Hallo! _____?",
+      "answer": "Wie geht’s?",
+      "options": ["Freund", "Wie geht’s?", "Ja", "Danke"]
+    },
+    {
+      "question": "Meine _____ ist sehr groß.",
+      "answer": "Familie",
+      "options": ["Freund", "Familie", "Ja", "Bitte"]
+    },
+    {
+      "question": "Mein bester _____ heißt Max.",
+      "answer": "Freund",
+      "options": ["Familie", "Nein", "Freund", "Tschüss"]
+    }
+]
