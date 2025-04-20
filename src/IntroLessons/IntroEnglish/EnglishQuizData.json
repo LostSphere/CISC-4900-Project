@@ -1,0 +1,53 @@
+[
+    {
+      "question": "_____, my name is Sarah.",
+      "answer": "Hello",
+      "options": ["Goodbye", "Yes", "Hello", "No"]
+    },
+    {
+      "question": "_____! See you tomorrow.",
+      "answer": "Goodbye",
+      "options": ["Goodbye", "Yes", "Hello", "No"]
+    },
+    {
+      "question": "_____ , I like pizza.",
+      "answer": "Yes",
+      "options": ["Yes", "No", "Please", "Thank you"]
+    },
+    {
+      "question": "_____ , I don't have a pen.",
+      "answer": ["No", "Sorry"],
+      "options": ["Yes", "No", "Please", "Sorry"]
+    },
+    {
+      "question": "Can you help me, _____?",
+      "answer": "Please",
+      "options": ["Sorry", "Thank you", "Please", "No"]
+    },
+    {
+      "question": "_____ for your help!",
+      "answer": "Thank you",
+      "options": ["Thank you", "Sorry", "Please", "Yes"]
+    },
+    {
+      "question": "_____, I'm late.",
+      "answer": "Sorry",
+      "options": ["Sorry", "Thank you", "Please", "Yes"]
+    },
+    {
+      "question": "What is your _____?",
+      "answer": "Name",
+      "options": ["Name", "Water", "Please", "Sorry"]
+    },
+    {
+      "question": "I need a glass of _____.",
+      "answer": "Water",
+      "options": ["Water", "Name", "Thank you", "Sorry"]
+    },
+    {
+      "question": "I like to _____ apples.",
+      "answer": "Eat",
+      "options": ["Eat", "Water", "Name", "Sorry"]
+    }
+  ]
+  
