@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "道に迷いました",
+      "translation": "I'm lost",
+      "partOfSpeech": "Phrase",
+      "example": "すみません、道に迷いました。",
+      "exampleTranslation": "Excuse me, I'm lost.",
+      "image": "/images/AdventureLevel/JapaneseLost/lost.jpeg"
+    },
+    {
+      "id": 2,
+      "text": "〜はどこですか？",
+      "translation": "Where is ~?",
+      "partOfSpeech": "Phrase",
+      "example": "駅はどこですか？",
+      "exampleTranslation": "Where is the station?",
+      "image": "/images/AdventureLevel/JapaneseLost/where-is.jpeg"
+    },
+    {
+      "id": 3,
+      "text": "助けてください",
+      "translation": "Please help me",
+      "partOfSpeech": "Phrase",
+      "example": "助けてください！道がわかりません。",
+      "exampleTranslation": "Please help me! I don't know the way.",
+      "image": "/images/AdventureLevel/JapaneseLost/help.jpg"
+    },
+    {
+      "id": 4,
+      "text": "駅",
+      "translation": "Train station",
+      "partOfSpeech": "Noun",
+      "example": "この近くに駅はありますか？",
+      "exampleTranslation": "Is there a train station nearby?",
+      "image": "/images/AdventureLevel/JapaneseLost/station.jpg"
+    },
+    {
+      "id": 5,
+      "text": "地図",
+      "translation": "Map",
+      "partOfSpeech": "Noun",
+      "example": "地図を見せてください。",
+      "exampleTranslation": "Please show me a map.",
+      "image": "/images/AdventureLevel/JapaneseLost/map.jpg"
+    },
+    {
+      "id": 6,
+      "text": "右",
+      "translation": "Right",
+      "partOfSpeech": "Noun",
+      "example": "右に曲がってください。",
+      "exampleTranslation": "Please turn right.",
+      "image": "/images/AdventureLevel/JapaneseLost/right.jpg"
+    },
+    {
+      "id": 7,
+      "text": "左",
+      "translation": "Left",
+      "partOfSpeech": "Noun",
+      "example": "左に行ってください。",
+      "exampleTranslation": "Please go left.",
+      "image": "/images/AdventureLevel/JapaneseLost/left.jpg"
+    },
+    {
+      "id": 8,
+      "text": "まっすぐ",
+      "translation": "Straight ahead",
+      "partOfSpeech": "Adverb",
+      "example": "まっすぐ進んでください。",
+      "exampleTranslation": "Please go straight ahead.",
+      "image": "/images/AdventureLevel/JapaneseLost/straight.jpg"
+    },
+    {
+      "id": 9,
+      "text": "この近く",
+      "translation": "Near here",
+      "partOfSpeech": "Phrase",
+      "example": "この近くにコンビニはありますか？",
+      "exampleTranslation": "Is there a convenience store near here?",
+      "image": "/images/AdventureLevel/JapaneseLost/nearby.jpeg"
+    },
+    {
+      "id": 10,
+      "text": "迷子センター",
+      "translation": "Lost and found center",
+      "partOfSpeech": "Noun",
+      "example": "迷子センターはどこですか？",
+      "exampleTranslation": "Where is the lost and found center?",
+      "image": "/images/AdventureLevel/JapaneseLost/lost-and-found.jpg"
+    }
+  ]
+  
