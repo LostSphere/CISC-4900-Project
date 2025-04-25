@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import storyData from "./JapaneseData.json";
-import quizData from "./JapaneseQuizData.json";
-import "./IntroToJapanese.css";
+import storyData from "./EnglishData.json"; 
+import quizData from "./EnglishQuizData.json"; 
+import "./IntroToEnglish.css"; 
 
-function IntroToJapanese() {
+function IntroToEnglish() {
   const navigate = useNavigate();
   const [currentScene, setCurrentScene] = useState(storyData[0]);
   const [history, setHistory] = useState([]);
@@ -12,7 +12,7 @@ function IntroToJapanese() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [score, setScore] = useState(0);
-  const storageKey = "quizProgress_Japanese";
+  const storageKey = "quizProgress_English";
 
   useEffect(() => {
     const savedProgress = JSON.parse(localStorage.getItem(storageKey));
@@ -37,7 +37,6 @@ function IntroToJapanese() {
     };
     localStorage.setItem(storageKey, JSON.stringify(progress));
   }, [currentScene, history, isQuizActive, currentQuestionIndex, score, quizCompleted]);
-  
 
   const handleNext = () => {
     const currentIndex = storyData.findIndex(scene => scene.id === currentScene.id);
@@ -64,12 +63,12 @@ function IntroToJapanese() {
       window.speechSynthesis.cancel();
   
       const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = 'ja-JP';
+      utterance.lang = 'en-US';
   
       const setVoiceAndSpeak = () => {
         const voices = window.speechSynthesis.getVoices();
         if (voices.length > 0) {
-          const selectedVoice = voices.find(voice => voice.lang === 'ja-JP') || voices[0];
+          const selectedVoice = voices.find(voice => voice.lang === 'en-US') || voices[0];
           utterance.voice = selectedVoice;
           window.speechSynthesis.speak(utterance);
         }
@@ -83,28 +82,6 @@ function IntroToJapanese() {
     }
   };
   
-  const handleQuit = () => {
-    const progress = {
-      currentScene,
-      history,
-      isQuizActive,
-      currentQuestionIndex,
-      score,
-      quizCompleted
-    };
-    localStorage.setItem('quizProgress', JSON.stringify(progress));
-    navigate("/lesson");
-  };
-
-  const handleTryAgain = () => {
-    setIsQuizActive(false);
-    setQuizCompleted(false);
-    setScore(0);
-    setCurrentQuestionIndex(0);
-    setCurrentScene(storyData[0]);
-    setHistory([]);
-  };
-
   const handleQuizAnswer = (selectedOption) => {
     let updatedScore = score;
   
@@ -121,21 +98,43 @@ function IntroToJapanese() {
       const completionSound = new Audio("/sounds/quiz_complete.mp3");
       completionSound.play();
   
-      localStorage.setItem("quizProgress_Japanese", JSON.stringify({ score: updatedScore }));
+      localStorage.setItem("quizProgress_English", JSON.stringify({ score: updatedScore }));
   
-      const highestScore = parseInt(localStorage.getItem("highestScore_IntroToJapanese"), 10) || 0;
+      const highestScore = parseInt(localStorage.getItem("highestScore_IntroToEnglish"), 10) || 0;
       if (updatedScore > highestScore) {
-        localStorage.setItem("highestScore_IntroToJapanese", updatedScore);
+        localStorage.setItem("highestScore_IntroToEnglish", updatedScore);
       }
     }
+  };
+  
+  const handleQuit = () => {
+    const progress = {
+      currentScene,
+      history,
+      isQuizActive,
+      currentQuestionIndex,
+      score,
+      quizCompleted
+    };
+    localStorage.setItem(storageKey, JSON.stringify(progress));
+    navigate("/lesson");
+  };
+
+  const handleTryAgain = () => {
+    setIsQuizActive(false);
+    setQuizCompleted(false);
+    setScore(0);
+    setCurrentQuestionIndex(0);
+    setCurrentScene(storyData[0]);
+    setHistory([]);
   };
 
   if (quizCompleted) {
     return (
-      <div className="japanese-story-container">
+      <div className="english-story-container">
         <h2>Quiz Completed!</h2>
         <p>Your Score: {score} / {quizData.length}</p>
-        <p>Bravo ! 🎉</p>
+        <p>Great job! 🎉</p>
         <div className="button-container" style={{ display: "flex", justifyContent: "center", gap: "20px" }}>
           <button className="story-button" onClick={() => navigate("/lesson")}>
             Return to Lesson Page
@@ -148,12 +147,11 @@ function IntroToJapanese() {
     );
   }
 
-
   if (isQuizActive) {
     return (
-      <div className="japanese-story-container">
+      <div className="english-story-container">
         <div className="progress-bar-container" style={{ marginBottom: "20px" }}>
-          <div style={{ width: `${((currentQuestionIndex + 1) / quizData.length) * 100}%`, height: "10px", background: "#007bff", borderRadius: "10px", transition: "width 0.3s ease-in-out" }}></div>
+        <div style={{ width: `${((currentQuestionIndex + 1) / quizData.length) * 100}%`, height: "10px", background: "#007bff", borderRadius: "10px", transition: "width 0.3s ease-in-out" }}></div>
         </div>
         <div>
           <p className="story-text">{quizData[currentQuestionIndex].question}</p>
@@ -166,16 +164,16 @@ function IntroToJapanese() {
           </div>
         </div>
         <div className="button-container" style={{ display: "flex", justifyContent: "center", gap: "20px", marginTop: "20px" }}>
-        <button className="story-button" onClick={handleQuit}>Exit Lesson</button>
-        <button className="story-button" onClick={handleTryAgain}>Back To Lesson</button>
+          <button className="story-button" onClick={handleQuit}>Exit Lesson</button>
+          <button className="story-button" onClick={handleTryAgain}>Back To Lesson</button>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="japanese-story-container">
-      <div className="progress-bar-container" style={{ marginBottom: "20px" }}>
+    <div className="english-story-container">
+       <div className="progress-bar-container" style={{ marginBottom: "20px" }}>
         <div style={{ width: `${((storyData.findIndex(scene => scene.id === currentScene.id) + 1) / storyData.length) * 100}%`, height: "10px", background: "#007bff", borderRadius: "10px", transition: "width 0.3s ease-in-out" }}></div>
       </div>
       <div>
@@ -201,7 +199,6 @@ function IntroToJapanese() {
       </div>
     </div>
   );
-  
 }
 
-export default IntroToJapanese;
+export default IntroToEnglish;
