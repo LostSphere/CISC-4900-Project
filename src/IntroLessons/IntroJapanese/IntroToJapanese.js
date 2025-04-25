@@ -83,7 +83,6 @@ function IntroToJapanese() {
     }
   };
   
-
   const handleQuit = () => {
     const progress = {
       currentScene,
@@ -107,16 +106,27 @@ function IntroToJapanese() {
   };
 
   const handleQuizAnswer = (selectedOption) => {
-    if (selectedOption === quizData[currentQuestionIndex].answer) {
-      setScore(score + 1);
+    let updatedScore = score;
+  
+    if (quizData[currentQuestionIndex].answer.includes(selectedOption)) {
+      updatedScore += 1;
+      setScore(updatedScore);
     }
-
+  
     if (currentQuestionIndex < quizData.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
     } else {
       setQuizCompleted(true);
+  
       const completionSound = new Audio("/sounds/quiz_complete.mp3");
       completionSound.play();
+  
+      localStorage.setItem("quizProgress_Japanese", JSON.stringify({ score: updatedScore }));
+  
+      const highestScore = parseInt(localStorage.getItem("highestScore_IntroToJapanese"), 10) || 0;
+      if (updatedScore > highestScore) {
+        localStorage.setItem("highestScore_IntroToJapanese", updatedScore);
+      }
     }
   };
 
