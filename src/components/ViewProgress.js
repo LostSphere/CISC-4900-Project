@@ -24,27 +24,41 @@ function ViewProgress() {
         let score = 0;
 
         if (course === "IntroToEnglish") {
-          // Get the score for English (or other courses)
-          const finalScore = parseInt(localStorage.getItem("finalScore_English"), 10) || 0;
-          score = finalScore;
+          const highestScore = parseInt(localStorage.getItem("highestScore_IntroToEnglish"), 10) || 0;
+          score = highestScore;
+        } else if (course === "IntroToFrench") {
+          const highestScore = parseInt(localStorage.getItem("highestScore_IntroToFrench"), 10) || 0;
+          score = highestScore;
+        } else if (course === "IntroToSpanish") {
+          const highestScore = parseInt(localStorage.getItem("highestScore_IntroToSpanish"), 10) || 0;
+          score = highestScore;
+        } else if (course === "IntroToJapanese") {
+          const highestScore = parseInt(localStorage.getItem("highestScore_IntroToJapanese"), 10) || 0;
+          score = highestScore;
+        } else if (course === "IntroToMandarin") {
+          const highestScore = parseInt(localStorage.getItem("highestScore_IntroToMandarin"), 10) || 0;
+          score = highestScore;
+        } else if (course === "IntroToItalian") {
+          const highestScore = parseInt(localStorage.getItem("highestScore_IntroToItalian"), 10) || 0;
+          score = highestScore;
+        } else if (course === "IntroToGerman") {
+          const highestScore = parseInt(localStorage.getItem("highestScore_IntroToGerman"), 10) || 0;
+          score = highestScore;
         } else {
-          // For other courses, get the current score and compare it with the highest score
           const storageKey = `quizProgress_${course}`;
           const savedProgress = JSON.parse(localStorage.getItem(storageKey)) || { score: 0 };
           const currentCourseScore = savedProgress.score;
-
-          // Get the highest score for this course from localStorage
+        
           const highestScore = parseInt(localStorage.getItem(`highestScore_${course}`), 10) || 0;
-
-          // If the current score is higher than the stored highest score, update it
+        
           if (currentCourseScore > highestScore) {
             localStorage.setItem(`highestScore_${course}`, currentCourseScore);
             score = currentCourseScore;
           } else {
             score = highestScore;
           }
-        }
-
+        }        
+        
         updatedProgress[course] = score;
       });
 
