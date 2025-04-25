@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import storyData from "./EnglishData.json"; 
-import quizData from "./EnglishQuizData.json"; 
-import "./IntroToEnglish.css"; 
+import storyData from "./JapaneseData.json";
+import quizData from "./JapaneseQuizData.json";
+import "./IntroToJapanese.css";
 
-function IntroToEnglish() {
+function IntroToJapanese() {
   const navigate = useNavigate();
   const [currentScene, setCurrentScene] = useState(storyData[0]);
   const [history, setHistory] = useState([]);
@@ -12,7 +12,7 @@ function IntroToEnglish() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [score, setScore] = useState(0);
-  const storageKey = "quizProgress_English";
+  const storageKey = "quizProgress_Japanese";
 
   useEffect(() => {
     const savedProgress = JSON.parse(localStorage.getItem(storageKey));
@@ -37,6 +37,7 @@ function IntroToEnglish() {
     };
     localStorage.setItem(storageKey, JSON.stringify(progress));
   }, [currentScene, history, isQuizActive, currentQuestionIndex, score, quizCompleted]);
+  
 
   const handleNext = () => {
     const currentIndex = storyData.findIndex(scene => scene.id === currentScene.id);
@@ -63,12 +64,12 @@ function IntroToEnglish() {
       window.speechSynthesis.cancel();
   
       const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = 'en-US';
+      utterance.lang = 'ja-JP';
   
       const setVoiceAndSpeak = () => {
         const voices = window.speechSynthesis.getVoices();
         if (voices.length > 0) {
-          const selectedVoice = voices.find(voice => voice.lang === 'en-US') || voices[0];
+          const selectedVoice = voices.find(voice => voice.lang === 'ja-JP') || voices[0];
           utterance.voice = selectedVoice;
           window.speechSynthesis.speak(utterance);
         }
@@ -82,21 +83,6 @@ function IntroToEnglish() {
     }
   };
   
-  const handleQuizAnswer = (selectedOption) => {
-    if (quizData[currentQuestionIndex].answer.includes(selectedOption)) {
-        setScore(score + 1);
-      }
-
-    if (currentQuestionIndex < quizData.length - 1) {
-      setCurrentQuestionIndex(currentQuestionIndex + 1);
-    } else {
-      setQuizCompleted(true);
-
-      const completionSound = new Audio("/sounds/quiz_complete.mp3");
-      completionSound.play();
-    }
-  };
-
   const handleQuit = () => {
     const progress = {
       currentScene,
@@ -106,7 +92,7 @@ function IntroToEnglish() {
       score,
       quizCompleted
     };
-    localStorage.setItem(storageKey, JSON.stringify(progress));
+    localStorage.setItem('quizProgress', JSON.stringify(progress));
     navigate("/lesson");
   };
 
@@ -119,12 +105,37 @@ function IntroToEnglish() {
     setHistory([]);
   };
 
+  const handleQuizAnswer = (selectedOption) => {
+    let updatedScore = score;
+  
+    if (quizData[currentQuestionIndex].answer.includes(selectedOption)) {
+      updatedScore += 1;
+      setScore(updatedScore);
+    }
+  
+    if (currentQuestionIndex < quizData.length - 1) {
+      setCurrentQuestionIndex(currentQuestionIndex + 1);
+    } else {
+      setQuizCompleted(true);
+  
+      const completionSound = new Audio("/sounds/quiz_complete.mp3");
+      completionSound.play();
+  
+      localStorage.setItem("quizProgress_Japanese", JSON.stringify({ score: updatedScore }));
+  
+      const highestScore = parseInt(localStorage.getItem("highestScore_IntroToJapanese"), 10) || 0;
+      if (updatedScore > highestScore) {
+        localStorage.setItem("highestScore_IntroToJapanese", updatedScore);
+      }
+    }
+  };
+
   if (quizCompleted) {
     return (
-      <div className="english-story-container">
+      <div className="japanese-story-container">
         <h2>Quiz Completed!</h2>
         <p>Your Score: {score} / {quizData.length}</p>
-        <p>Great job! 🎉</p>
+        <p>Bravo ! 🎉</p>
         <div className="button-container" style={{ display: "flex", justifyContent: "center", gap: "20px" }}>
           <button className="story-button" onClick={() => navigate("/lesson")}>
             Return to Lesson Page
@@ -137,11 +148,12 @@ function IntroToEnglish() {
     );
   }
 
+
   if (isQuizActive) {
     return (
-      <div className="english-story-container">
+      <div className="japanese-story-container">
         <div className="progress-bar-container" style={{ marginBottom: "20px" }}>
-        <div style={{ width: `${((currentQuestionIndex + 1) / quizData.length) * 100}%`, height: "10px", background: "#007bff", borderRadius: "10px", transition: "width 0.3s ease-in-out" }}></div>
+          <div style={{ width: `${((currentQuestionIndex + 1) / quizData.length) * 100}%`, height: "10px", background: "#007bff", borderRadius: "10px", transition: "width 0.3s ease-in-out" }}></div>
         </div>
         <div>
           <p className="story-text">{quizData[currentQuestionIndex].question}</p>
@@ -154,16 +166,16 @@ function IntroToEnglish() {
           </div>
         </div>
         <div className="button-container" style={{ display: "flex", justifyContent: "center", gap: "20px", marginTop: "20px" }}>
-          <button className="story-button" onClick={handleQuit}>Exit Lesson</button>
-          <button className="story-button" onClick={handleTryAgain}>Back To Lesson</button>
+        <button className="story-button" onClick={handleQuit}>Exit Lesson</button>
+        <button className="story-button" onClick={handleTryAgain}>Back To Lesson</button>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="english-story-container">
-       <div className="progress-bar-container" style={{ marginBottom: "20px" }}>
+    <div className="japanese-story-container">
+      <div className="progress-bar-container" style={{ marginBottom: "20px" }}>
         <div style={{ width: `${((storyData.findIndex(scene => scene.id === currentScene.id) + 1) / storyData.length) * 100}%`, height: "10px", background: "#007bff", borderRadius: "10px", transition: "width 0.3s ease-in-out" }}></div>
       </div>
       <div>
@@ -189,6 +201,7 @@ function IntroToEnglish() {
       </div>
     </div>
   );
+  
 }
 
-export default IntroToEnglish;
+export default IntroToJapanese;
