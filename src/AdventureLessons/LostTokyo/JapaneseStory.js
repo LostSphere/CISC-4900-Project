@@ -83,17 +83,27 @@ function JapaneseStory() {
   };
 
   const handleQuizAnswer = (selectedOption) => {
-    if (selectedOption === quizData[currentQuestionIndex].answer) {
-      setScore(score + 1);
+    let updatedScore = score;
+  
+    if (quizData[currentQuestionIndex].answer.includes(selectedOption)) {
+      updatedScore += 1;
+      setScore(updatedScore);
     }
-
+  
     if (currentQuestionIndex < quizData.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
     } else {
       setQuizCompleted(true);
-
+  
       const completionSound = new Audio("/sounds/quiz_complete.mp3");
       completionSound.play();
+  
+      localStorage.setItem("quizProgress_LostTokyo", JSON.stringify({ score: updatedScore }));
+  
+      const highestScore = parseInt(localStorage.getItem("highestScore_LostinTokyo"), 10) || 0;
+      if (updatedScore > highestScore) {
+        localStorage.setItem("highestScore_LostinTokyo", updatedScore);
+      }
     }
   };
 
@@ -121,7 +131,7 @@ function JapaneseStory() {
 
   if (quizCompleted) {
     return (
-      <div className="spanish-story-container">
+      <div className="japanese-story-container">
         <h2>Quiz Completed!</h2>
         <p>Your Score: {score} / {quizData.length}</p>
         <p>Bravo ! 🎉</p>
@@ -139,7 +149,7 @@ function JapaneseStory() {
 
   if (isQuizActive) {
     return (
-      <div className="spanish-story-container">
+      <div className="japanese-story-container">
         <div className="progress-bar-container" style={{ marginBottom: "20px" }}>
           <div style={{
             width: `${((currentQuestionIndex + 1) / quizData.length) * 100}%`,
@@ -168,7 +178,7 @@ function JapaneseStory() {
   }
 
   return (
-    <div className="spanish-story-container">
+    <div className="japanese-story-container">
       <div className="progress-bar-container" style={{ marginBottom: "20px" }}>
         <div style={{ width: `${((storyData.findIndex(scene => scene.id === currentScene.id) + 1) / storyData.length) * 100}%`, height: "10px", background: "#007bff", borderRadius: "10px", transition: "width 0.3s ease-in-out" }}></div>
       </div>
