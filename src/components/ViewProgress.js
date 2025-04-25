@@ -5,10 +5,12 @@ import "./ViewProgress.css";
 function ViewProgress() {
   const navigate = useNavigate();
   const [progressData, setProgressData] = useState({});
-
+  const [showModal, setShowModal] = useState(false);
+  const [perfectCourse, setPerfectCourse] = useState(""); 
   useEffect(() => {
     const fetchProgressData = () => {
-      const courses = [
+      const allCourses = [
+        // First row: intro courses
         "IntroToEnglish",
         "IntroToFrench",
         "IntroToSpanish",
@@ -16,49 +18,26 @@ function ViewProgress() {
         "IntroToMandarin",
         "IntroToItalian",
         "IntroToGerman",
+
+        // Second row: story-based courses
+        "Spanish Fiesta",
+        "Lost in Tokyo",
       ];
 
       const updatedProgress = {};
 
-      courses.forEach((course) => {
+      allCourses.forEach((course) => {
         let score = 0;
+        const storageKey = `highestScore_${course.replace(/\s+/g, "")}`;
+        const highestScore = parseInt(localStorage.getItem(storageKey), 10) || 0;
+        score = highestScore;
 
-        if (course === "IntroToEnglish") {
-          const highestScore = parseInt(localStorage.getItem("highestScore_IntroToEnglish"), 10) || 0;
-          score = highestScore;
-        } else if (course === "IntroToFrench") {
-          const highestScore = parseInt(localStorage.getItem("highestScore_IntroToFrench"), 10) || 0;
-          score = highestScore;
-        } else if (course === "IntroToSpanish") {
-          const highestScore = parseInt(localStorage.getItem("highestScore_IntroToSpanish"), 10) || 0;
-          score = highestScore;
-        } else if (course === "IntroToJapanese") {
-          const highestScore = parseInt(localStorage.getItem("highestScore_IntroToJapanese"), 10) || 0;
-          score = highestScore;
-        } else if (course === "IntroToMandarin") {
-          const highestScore = parseInt(localStorage.getItem("highestScore_IntroToMandarin"), 10) || 0;
-          score = highestScore;
-        } else if (course === "IntroToItalian") {
-          const highestScore = parseInt(localStorage.getItem("highestScore_IntroToItalian"), 10) || 0;
-          score = highestScore;
-        } else if (course === "IntroToGerman") {
-          const highestScore = parseInt(localStorage.getItem("highestScore_IntroToGerman"), 10) || 0;
-          score = highestScore;
-        } else {
-          const storageKey = `quizProgress_${course}`;
-          const savedProgress = JSON.parse(localStorage.getItem(storageKey)) || { score: 0 };
-          const currentCourseScore = savedProgress.score;
-        
-          const highestScore = parseInt(localStorage.getItem(`highestScore_${course}`), 10) || 0;
-        
-          if (currentCourseScore > highestScore) {
-            localStorage.setItem(`highestScore_${course}`, currentCourseScore);
-            score = currentCourseScore;
-          } else {
-            score = highestScore;
-          }
-        }        
-        
+        if (score === 10 && !localStorage.getItem(`congratulated_${course}`)) {
+          setShowModal(true);
+          setPerfectCourse(course); 
+          localStorage.setItem(`congratulated_${course}`, "true"); 
+        }
+
         updatedProgress[course] = score;
       });
 
@@ -79,6 +58,7 @@ function ViewProgress() {
 
   const handleCourseClick = (courseName) => {
     const routeMap = {
+      // First row
       "IntroToEnglish": "/intro-to-english",
       "IntroToFrench": "/intro-to-french",
       "IntroToSpanish": "/intro-to-spanish",
@@ -86,6 +66,10 @@ function ViewProgress() {
       "IntroToMandarin": "/intro-to-mandarin",
       "IntroToItalian": "/intro-to-italian",
       "IntroToGerman": "/intro-to-german",
+
+      // Second row
+      "Spanish Fiesta": "/spanish-story",
+      "Lost in Tokyo": "/japanese-story",
     };
 
     const route = routeMap[courseName];
@@ -94,13 +78,41 @@ function ViewProgress() {
     }
   };
 
+  const introCourses = [
+    "IntroToEnglish",
+    "IntroToFrench",
+    "IntroToSpanish",
+    "IntroToJapanese",
+    "IntroToMandarin",
+    "IntroToItalian",
+    "IntroToGerman",
+  ];
+
+  const storyCourses = [
+    "Spanish Fiesta",
+    "Lost in Tokyo",
+  ];
+
   return (
     <div className="view-progress-container">
       <h2>Course Progress</h2>
+
+      {showModal && (
+        <div className="modal">
+          <div className="modal-content">
+            <h3>🎉 Congratulations!</h3>
+            <p>You’ve completed {perfectCourse} with a perfect score of 10/10! 🏆</p>
+            <button onClick={() => setShowModal(false)}>Close</button>
+          </div>
+        </div>
+      )}
+
+      <h3>Intro Courses</h3>
       <div className="courses-container">
-        {Object.keys(progressData).map((course) => {
-          const score = progressData[course];
+        {introCourses.map((course) => {
+          const score = progressData[course] || 0;
           const progressPercentage = (score / 10) * 100;
+          const completedPerfectly = score === 10;
 
           return (
             <div
@@ -108,19 +120,53 @@ function ViewProgress() {
               className="course-container"
               onClick={() => handleCourseClick(course)}
             >
-              <h3>{course.replace(/([A-Z])/g, ' $1').trim()}</h3>
+              <h3>
+                {course.replace(/([A-Z])/g, ' $1').trim()}
+                {completedPerfectly && (
+                  <span className="trophy-icon">🏆</span>
+                )}
+              </h3>
               <div className="progress-info">
                 <p><strong>Score:</strong> {score} / 10</p>
                 <div className="progress-meter">
                   <div
                     className="progress-bar"
-                    style={{
-                      width: `${progressPercentage}%`,
-                      backgroundColor: score === 10 ? "#28a745" : "#007bff",
-                    }}
+                    style={{ width: `${progressPercentage}%`, backgroundColor: "#4caf50" }}
                   ></div>
                 </div>
-                <p>{score === 10 ? "Completed!" : `Progress: ${progressPercentage}%`}</p>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      <h3>Cultural Adventures</h3>
+      <div className="courses-container">
+        {storyCourses.map((course) => {
+          const score = progressData[course] || 0;
+          const progressPercentage = (score / 10) * 100;
+          const completedPerfectly = score === 10;
+
+          return (
+            <div
+              key={course}
+              className="course-container"
+              onClick={() => handleCourseClick(course)}
+            >
+              <h3>
+                {course.replace(/([A-Z])/g, ' $1').trim()}
+                {completedPerfectly && (
+                  <span className="trophy-icon">🏆</span>
+                )}
+              </h3>
+              <div className="progress-info">
+                <p><strong>Score:</strong> {score} / 10</p>
+                <div className="progress-meter">
+                  <div
+                    className="progress-bar"
+                    style={{ width: `${progressPercentage}%`, backgroundColor: "#4caf50" }}
+                  ></div>
+                </div>
               </div>
             </div>
           );
