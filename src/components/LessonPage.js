@@ -14,7 +14,7 @@ const Introduction = [
 ];
 
 const adventureLevels = [
-  { name: "Lost in Tokyo", language: "Japanese", image: "/images/AdventureLevel/AdventureLessons/lost_in_tokyo.jpg" },
+  { name: "Lost in Tokyo", language: "Japanese", image: "/images/AdventureLevel/AdventureLessons/lost_in_Tokyo.jpg" },
   { name: "Parisian Café", language: "French", image: "/images/AdventureLevel/AdventureLessons/parisian_cafe.jpg" },
   { name: "Spanish Fiesta", language: "Spanish", image: "/images/AdventureLevel/AdventureLessons/spanish_fiesta.jpg" },
   { name: "Mystery in Beijing", language: "Mandarin", image: "/images/AdventureLevel/AdventureLessons/mystery_in_beijing.jpg" },
@@ -33,8 +33,7 @@ function LessonPage({ language = "en" }) {
 
   const handleLessonClick = (lesson) => {
     const routeMap = {
-      "Spanish Fiesta": "/spanish-story",
-      "Lost in Tokyo": "/japanese-story",
+      //Intro Courses
       "Intro to English": "/intro-to-english",
       "Intro to French": "/intro-to-french",
       "Intro to Spanish": "/intro-to-spanish",
@@ -42,6 +41,11 @@ function LessonPage({ language = "en" }) {
       "Intro to Mandarin": "/intro-to-mandarin",
       "Intro to Italian": "/intro-to-italian",
       "Intro to German": "/intro-to-german",
+
+      // Cultural Adventures
+      "Spanish Fiesta": "/spanish-story",
+      "Lost in Tokyo": "/japanese-story",
+      "Parisian Café": "/french-story",
     };
     navigate(routeMap[lesson.name] || `/lesson/${lesson.name.replace(/\s+/g, "-").toLowerCase()}`);
   };
