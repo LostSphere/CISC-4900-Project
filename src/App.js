@@ -15,6 +15,7 @@ import ViewProgress from "./components/ViewProgress";
 // Adventure Lessons
 import SpanishStory from "./AdventureLessons/SpanishFiesta/SpanishStory";
 import JapaneseStory from "./AdventureLessons/LostTokyo/JapaneseStory";
+import FrenchStory from "./AdventureLessons/ParisianCafe/FrenchStory";
 
 // Intro Lessons
 import IntroToEnglish from "./IntroLessons/IntroEnglish/IntroToEnglish";
@@ -48,6 +49,7 @@ function App() {
       {/* Adventure Stories */}
       <Route path="/spanish-story" element={<SpanishStory />} />
       <Route path="/japanese-story" element={<JapaneseStory />} />
+      <Route path="/french-story" element={<FrenchStory />} />
 
       {/* Intro Lessons */}
       <Route path="/intro-to-english" element={<IntroToEnglish />} />
