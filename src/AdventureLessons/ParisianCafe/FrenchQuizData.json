@@ -1,0 +1,53 @@
+[
+    {
+      "question": "________ et un croissant aussi",
+      "answer": "Un café, s'il vous plaît",
+      "options": ["Un café, s'il vous plaît", "Un croissant", "Je voudrais un café au lait", "Un espresso"]
+    },
+    {
+      "question": "Je voudrais _________",
+      "answer": "Un croissant",
+      "options": ["Un croissant", "Un café", "Un café crème", "Un verre d'eau"]
+    },
+    {
+      "question": "________ s'il vous plaît",
+      "answer": "Je voudrais un café au lait",
+      "options": ["Je voudrais un café au lait", "Un croissant", "Un espresso", "Un thé"]
+    },
+    {
+      "question": "Excusez-moi, pouvez-vous apporter __________",
+      "answer": "L'addition, s'il vous plaît",
+      "options": ["L'addition, s'il vous plaît", "Un croissant", "Un verre d'eau", "Un café"]
+    },
+    {
+      "question": "Je voudrais ______",
+      "answer": "Un espresso",
+      "options": ["Un espresso", "Un café au lait", "Un croissant", "Un thé"]
+    },
+    {
+      "question": "_______ pour un café?",
+      "answer": "Ça fait combien",
+      "options": ["Ça fait combien", "L'addition, s'il vous plaît", "Un croissant", "Un café crème"]
+    },
+    {
+      "question": "Je voudrais _____, s'il vous plaît.",
+      "answer": "Un thé",
+      "options": ["Un thé", "Un café au lait", "Un espresso", "Un verre d'eau"]
+    },
+    {
+      "question": "Ce croissant est ________",
+      "answer": "délicieux",
+      "options": ["délicieux", "Un croissant", "Un café", "Un thé"]
+    },
+    {
+      "question": "Je voudrais ______",
+      "answer": "Un verre d'eau",
+      "options": ["Un verre d'eau", "Un café crème", "Un croissant", "Un espresso"]
+    },
+    {
+      "question": "Je voudrais _______, s'il vous plaît.",
+      "answer": "Un café crème",
+      "options": ["Un café crème", "Un croissant", "Un espresso", "Un café au lait"]
+    }
+  ]
+  
