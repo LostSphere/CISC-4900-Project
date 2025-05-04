@@ -27,6 +27,12 @@ import IntroToMandarin from "./IntroLessons/IntroMandarin/IntroToMandarin";
 import IntroToItalian from "./IntroLessons/IntroItalian/IntroToItalian";
 import IntroToGerman from "./IntroLessons/IntroGerman/IntroToGerman";
 
+// Intermediate Lessons
+import IntermediateToEnglish from "./IntermediateLessons/IntermediateEnglish/IntermediateToEnglish";
+import IntermediateToFrench from "./IntermediateLessons/IntermediateFrench/IntermediateToFrench";
+import IntermediateToGerman from "./IntermediateLessons/IntermediateGerman/IntermediateToGerman";
+import IntermediateToItalian from "./IntermediateLessons/IntermediateItalian/IntermediateToItalian";
+
 function App() {
   const [isChatbotOpen, setIsChatbotOpen] = useState(false);
 
@@ -67,6 +73,12 @@ function App() {
       <Route path="/intro-to-mandarin" element={<IntroToMandarin />} />
       <Route path="/intro-to-italian" element={<IntroToItalian />} />
       <Route path="/intro-to-german" element={<IntroToGerman />} />
+
+      {/* Intermediate Lessons */}
+      <Route path="/intermediate-to-english" element={<IntermediateToEnglish />} />
+      <Route path="/intermediate-to-french" element={<IntermediateToFrench />} />
+      <Route path="/intermediate-to-german" element={<IntermediateToGerman />} />
+      <Route path="/intermediate-to-italian" element={<IntermediateToItalian />} />
     </Routes>
     <div className="chatbot-icon" onClick={toggleChatbot}>
         🗨️
