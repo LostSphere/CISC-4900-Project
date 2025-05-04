@@ -13,16 +13,36 @@ const Introduction = [
   { name: "Intro to German", image: "/images/IntroLevel/IntroductionLessons/Germany.jpg", language: "German" }
 ];
 
+const Intermediate = [
+  { name: "Intermediate English", image: "/images/IntermediateLessons/IntermediateLevel/English.jpg", language: "English" },
+  { name: "Intermediate French", image: "/images/IntermediateLessons/IntermediateLevel/French.jpg", language: "French" },
+  { name: "Intermediate Spanish", image: "/images/IntermediateLessons/IntermediateLevel/Spanish.jpg", language: "Spanish" },
+  { name: "Intermediate Japanese", image: "/images/IntermediateLessons/IntermediateLevel/Japanese.jpg", language: "Japanese" },
+  { name: "Intermediate Mandarin", image: "/images/IntermediateLessons/IntermediateLevel/Mandarin.jpg", language: "Mandarin" },
+  { name: "Intermediate Italian", image: "/images/IntermediateLessons/IntermediateLevel/Italian.jpg", language: "Italian" },
+  { name: "Intermediate German", image: "/images/IntermediateLessons/IntermediateLevel/German.jpg", language: "German" }
+];
+
+const Advanced = [
+  { name: "Advanced English", image: "/images/AdvancedLessons/AdvancedLevel/English.jpg", language: "English" },
+  { name: "Advanced French", image: "/images/AdvancedLessons/AdvancedLevel/French.jpg", language: "French" },
+  { name: "Advanced Spanish", image: "/images/AdvancedLessons/AdvancedLevel/Spanish.jpg", language: "Spanish" },
+  { name: "Advanced Japanese", image: "/images/AdvancedLessons/AdvancedLevel/Japanese.jpg", language: "Japanese" },
+  { name: "Advanced Mandarin", image: "/images/AdvancedLessons/AdvancedLevel/Mandarin.jpg", language: "Mandarin" },
+  { name: "Advanced Italian", image: "/images/AdvancedLessons/AdvancedLevel/Italian.jpg", language: "Italian" },
+  { name: "Advanced German", image: "/images/AdvancedLessons/AdvancedLevel/German.jpg", language: "German" }
+];
+
 const adventureLevels = [
-  { name: "Lost in Tokyo", language: "Japanese", image: "/images/AdventureLevel/AdventureLessons/lost_in_Tokyo.jpg" },
-  { name: "Parisian Café", language: "French", image: "/images/AdventureLevel/AdventureLessons/parisian_cafe.jpg" },
-  { name: "Spanish Fiesta", language: "Spanish", image: "/images/AdventureLevel/AdventureLessons/spanish_fiesta.jpg" },
-  { name: "Mystery in Beijing", language: "Mandarin", image: "/images/AdventureLevel/AdventureLessons/mystery_in_beijing.jpg" },
-  { name: "Exploring Rome", language: "Italian", image: "/images/AdventureLevel/AdventureLessons/exploring_Rome.jpg" },
-  { name: "German Road Trip", language: "German", image: "/images/AdventureLevel/AdventureLessons/road_trip.jpg" },
-  { name: "Business in Shanghai", language: "Mandarin", image: "/images/AdventureLevel/AdventureLessons/business_in_shanghai.jpg" },
-  { name: "French Literature", language: "French", image: "/images/AdventureLevel/AdventureLessons/french_literature.jpg" },
-  { name: "Debating in Madrid", language: "Spanish", image: "/images/AdventureLevel/AdventureLessons/debating_Madrid.webp" },
+  { name: "Lost in Tokyo", image: "/images/AdventureLevel/AdventureLessons/lost_in_Tokyo.jpg", language: "Japanese" },
+  { name: "Parisian Café", image: "/images/AdventureLevel/AdventureLessons/parisian_cafe.jpg", language: "French" },
+  { name: "Spanish Fiesta", image: "/images/AdventureLevel/AdventureLessons/spanish_fiesta.jpg", language: "Spanish" },
+  { name: "Mystery in Beijing", image: "/images/AdventureLevel/AdventureLessons/mystery_in_beijing.jpg", language: "Mandarin" },
+  { name: "Exploring Rome", image: "/images/AdventureLevel/AdventureLessons/exploring_Rome.jpg", language: "Italian" },
+  { name: "German Road Trip", image: "/images/AdventureLevel/AdventureLessons/road_trip.jpg", language: "German" },
+  { name: "Business in Shanghai", image: "/images/AdventureLevel/AdventureLessons/business_in_shanghai.jpg", language: "Mandarin" },
+  { name: "French Literature", image: "/images/AdventureLevel/AdventureLessons/french_literature.jpg", language: "French" },
+  { name: "Debating in Madrid", image: "/images/AdventureLevel/AdventureLessons/debating_Madrid.webp", language: "Spanish" }
 ];
 
 function LessonPage({ language = "en" }) {
@@ -55,6 +75,18 @@ function LessonPage({ language = "en" }) {
       lesson.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       lesson.language.toLowerCase().includes(searchQuery.toLowerCase())
   );
+
+  const filteredIntermediate = Intermediate.filter(
+    (lesson) =>
+      lesson.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      lesson.language.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+  
+  const filteredAdvanced = Advanced.filter(
+    (lesson) =>
+      lesson.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      lesson.language.toLowerCase().includes(searchQuery.toLowerCase())
+  );  
 
   const filteredAdventure = adventureLevels.filter(
     (lesson) =>
@@ -93,6 +125,47 @@ function LessonPage({ language = "en" }) {
           <p>{currentTranslations.noLessonsFound}</p>
         )}
       </div>
+
+      <h2 className="lesson-section-heading">Intermediate</h2>
+      <h3>{currentTranslations.introductionLessons}</h3>
+      <div className="lesson-scroll-container">
+      {filteredIntermediate.length > 0 ? (
+         filteredIntermediate.map((lesson, index) => (
+          <div
+            key={index}
+            className="lesson-card"
+            onClick={() => handleLessonClick(lesson)}
+          >
+            <img src={lesson.image} alt={lesson.name} className="lesson-image" />
+            <p className="lesson-name">{lesson.name}</p>
+          </div>
+        ))
+      ) : (
+        <p>{currentTranslations.noLessonsFound}</p>
+      )}
+    </div>
+
+  
+
+    <h2 className="lesson-section-heading">Advanced</h2>
+<h3>{currentTranslations.advancedLessons}</h3>
+<div className="lesson-scroll-container">
+  {filteredAdvanced.length > 0 ? (
+    filteredAdvanced.map((lesson, index) => (
+      <div
+        key={index}
+        className="lesson-card"
+        onClick={() => handleLessonClick(lesson)}
+      >
+        <img src={lesson.image} alt={lesson.name} className="lesson-image" />
+        <p className="lesson-name">{lesson.name}</p>
+      </div>
+    ))
+  ) : (
+    <p>{currentTranslations.noLessonsFound}</p>
+  )}
+</div>
+
 
       <h2 className="lesson-section-heading">Cultural Adventures</h2>
       <h3>{currentTranslations.adventureLessons}</h3>
