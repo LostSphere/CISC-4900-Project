@@ -131,7 +131,7 @@ function ParisianCafe() {
 
   if (quizCompleted) {
     return (
-      <div className="parisian-cafe-container">
+      <div className="french-story-container">
         <h2>Quiz Completed!</h2>
         <p>Your Score: {score} / {quizData.length}</p>
         <p>Bravo ! 🎉</p>
@@ -149,7 +149,7 @@ function ParisianCafe() {
 
   if (isQuizActive) {
     return (
-      <div className="parisian-cafe-container">
+      <div className="french-story-container">
          <div className="progress-bar-container" style={{ marginBottom: "20px" }}>
           <div style={{
             width: `${((currentQuestionIndex + 1) / quizData.length) * 100}%`,
@@ -178,7 +178,7 @@ function ParisianCafe() {
   }
 
   return (
-    <div className="parisian-cafe-container">
+    <div className="french-story-container">
       <div className="progress-bar-container" style={{ marginBottom: "20px" }}>
         <div style={{ width: `${((storyData.findIndex(scene => scene.id === currentScene.id) + 1) / storyData.length) * 100}%`, height: "10px", background: "#007bff", borderRadius: "10px", transition: "width 0.3s ease-in-out" }}></div>
       </div>
