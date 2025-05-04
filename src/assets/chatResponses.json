@@ -1,0 +1,66 @@
+{
+  "homepageResponses": [
+    { "text": "Where can I start?", "userInput": "Where can I start?" },
+    { "text": "How do I change the password?", "userInput": "How do I change the password?" }
+  ],
+
+  "aboutPageResponses": [
+    { "text": "This is the about page. How can I help you?", "userInput": "This is the about page. How can I help you?" },
+    { "text": "We are a company focused on delivering great products.", "userInput": "We are a company focused on delivering great products." }
+  ],
+
+  "defaultResponses": [
+    { "text": "Hello! How can I assist you?", "userInput": "Hello! How can I assist you?" },
+    { "text": "I'm just a chatbot, but I'm doing great! How about you?", "userInput": "I'm just a chatbot, but I'm doing great! How about you?" },
+    { "text": "Goodbye! Have a great day!", "userInput": "Goodbye! Have a great day!" }
+  ],
+
+  "introEnglishResponses": [
+    { "text": "Welcome to the English lesson!", "userInput": "Welcome to the English lesson!" },
+    { "text": "How can I assist you with English?", "userInput": "How can I assist you with English?" },
+    { "text": "How can I assist you with English?", "userInput": "How can I assist you with English?" },
+    { "text": "How can I assist you with English?", "userInput": "How can I assist you with English?" }
+  ],
+
+  "introFrenchResponses": [
+    { "text": "Welcome to the French lesson!", "userInput": "Welcome to the French lesson!" },
+    { "text": "How can I assist you with French?", "userInput": "How can I assist you with French?" }
+  ],
+
+  "introSpanishResponses": [
+    { "text": "Welcome to the Spanish lesson!", "userInput": "Welcome to the Spanish lesson!" },
+    { "text": "How can I assist you with Spanish?", "userInput": "How can I assist you with Spanish?" }
+  ],
+
+  "introJapaneseResponses": [
+    { "text": "Welcome to the Japanese lesson!", "userInput": "Welcome to the Japanese lesson!" },
+    { "text": "How can I assist you with Japanese?", "userInput": "How can I assist you with Japanese?" }
+  ],
+
+  "introMandarinResponses": [
+    { "text": "Welcome to the Mandarin lesson!", "userInput": "Welcome to the Mandarin lesson!" },
+    { "text": "How can I assist you with Mandarin?", "userInput": "How can I assist you with Mandarin?" }
+  ],
+
+  "introItalianResponses": [
+    { "text": "Welcome to the Italian lesson!", "userInput": "Welcome to the Italian lesson!" },
+    { "text": "How can I assist you with Italian?", "userInput": "How can I assist you with Italian?" }
+  ],
+
+  "introGermanResponses": [
+    { "text": "Welcome to the German lesson!", "userInput": "Welcome to the German lesson!" },
+    { "text": "How can I assist you with German?", "userInput": "How can I assist you with German?" }
+  ],
+
+  "manualResponses": {
+    "Hello! How can I assist you?": "Hi! How can I assist you?",
+    "I'm just a chatbot, but I'm doing great! How about you?": "I'm just a chatbot, but I'm doing great! How about you?",
+    "Goodbye! Have a great day!": "Goodbye! Have a great day!",
+    "This is the about page. How can I help you?": "We are a company focused on delivering great products.",
+    "We are a company focused on delivering great products.": "We create innovative solutions for everyday problems.",
+    "Where can I start?": "You can start by clicking on the Start Lesson button",
+    "How do I change the password?": "To change your password, go to the settings page and follow the instructions.",
+    "default": "I'm not sure how to respond to that. 😔 Could you ask something else?"
+  }
+
+}
