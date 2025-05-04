@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "text": "Film",
+        "translation": "Movie",
+        "example": "Guardiamo un film stasera?",
+        "exampleTranslation": "Shall we watch a movie tonight?",
+        "partOfSpeech": "Noun",
+        "image": "/images/IntermediateLessons/Italian/Film.jpg"
+      },
+      {
+        "id": 2,
+        "text": "Cibo",
+        "translation": "Food",
+        "example": "Il cibo italiano è delizioso",
+        "exampleTranslation": "Italian food is delicious.",
+        "partOfSpeech": "Noun",
+        "image": "/images/IntermediateLessons/Italian/Cibo.jpg"
+      },      
+    {
+      "id": 3,
+      "text": "Casa",
+      "translation": "House",
+      "example": "La mia casa è vicino al parco",
+      "exampleTranslation": "My house is near the park.",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntermediateLessons/Italian/Casa.jpg"
+    },
+    {
+      "id": 4,
+      "text": "Lavoro",
+      "translation": "Work",
+      "example": "Oggi ho molto lavoro da fare",
+      "exampleTranslation": "Today I have a lot of work to do.",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntermediateLessons/Italian/Lavoro.jpg"
+    },
+    {
+      "id": 5,
+      "text": "Scuola",
+      "translation": "School",
+      "example": "Vado a scuola ogni giorno",
+      "exampleTranslation": "I go to school every day.",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntermediateLessons/Italian/Scuola.jpg"
+    },
+    {
+      "id": 6,
+      "text": "Tempo",
+      "translation": "Time / Weather",
+      "example": "Che tempo fa oggi?",
+      "exampleTranslation": "What's the weather like today?",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntermediateLessons/Italian/Tempo.jpg"
+    },
+    {
+      "id": 7,
+      "text": "Città",
+      "translation": "City",
+      "example": "La città è molto bella",
+      "exampleTranslation": "The city is very beautiful.",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntermediateLessons/Italian/Citta.jpg"
+    },
+    {
+      "id": 8,
+      "text": "Ristorante",
+      "translation": "Restaurant",
+      "example": "Andiamo al ristorante per cena",
+      "exampleTranslation": "Let's go to the restaurant for dinner.",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntermediateLessons/Italian/Ristorante.jpg"
+    },
+    {
+      "id": 9,
+      "text": "Libri",
+      "translation": "Books",
+      "example": "Mi piacciono i libri di storia",
+      "exampleTranslation": "I like history books.",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntermediateLessons/Italian/Libri.jpg"
+    },
+    {
+      "id": 10,
+      "text": "Viaggio",
+      "translation": "Trip",
+      "example": "Faccio un viaggio in Italia il prossimo mese",
+      "exampleTranslation": "I'm taking a trip to Italy next month.",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntermediateLessons/Italian/Viaggio.jpg"
+    }
+  ]
+  

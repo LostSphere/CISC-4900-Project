@@ -1,0 +1,53 @@
+[
+    {
+      "question": "Guardiamo un _____ stasera",
+      "answer": "Film",
+      "options": ["Film", "Famiglia", "Casa", "Scuola"]
+    },
+    {
+      "question": "Il ____ italiano è delizioso",
+      "answer": "Cibo",
+      "options": ["Lavoro", "Cibo", "Tempo", "Ristorante"]
+    },
+    {
+      "question": "La mia _____ è vicino al parco.",
+      "answer": "Casa",
+      "options": ["Città", "Ristorante", "Casa", "Libri"]
+    },
+    {
+      "question": "Oggi ho molto _____ da fare.",
+      "answer": "Lavoro",
+      "options": ["Scuola", "Lavoro", "Viaggio", "Città"]
+    },
+    {
+      "question": "Vado a _____ ogni giorno.",
+      "answer": "Scuola",
+      "options": ["Scuola", "Libri", "Tempo", "Casa"]
+    },
+    {
+      "question": "Che _____ fa oggi?",
+      "answer": "Tempo",
+      "options": ["Viaggio", "Ristorante", "Tempo", "Città"]
+    },
+    {
+      "question": "La _____ è molto bella.",
+      "answer": "Città",
+      "options": ["Famiglia", "Città", "Ristorante", "Viaggio"]
+    },
+    {
+      "question": "Andiamo al _____ per cena.",
+      "answer": "Ristorante",
+      "options": ["Scuola", "Ristorante", "Casa", "Lavoro"]
+    },
+    {
+      "question": "Mi piacciono i _____ di storia.",
+      "answer": "Libri",
+      "options": ["Viaggio", "Libri", "Famiglia", "Città"]
+    },
+    {
+      "question": "Faccio un _____ in Italia il prossimo mese.",
+      "answer": "Viaggio",
+      "options": ["Scuola", "Viaggio", "Lavoro", "Tempo"]
+    }
+  ]
+  
