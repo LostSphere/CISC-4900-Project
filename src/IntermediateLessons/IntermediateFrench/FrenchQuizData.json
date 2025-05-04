@@ -1,0 +1,53 @@
+[
+    {
+      "question": "Le train est très ______",
+      "answer": "rapide",
+      "options": ["contente", "rapide", "jouer", "regarde"]
+    },
+    {
+      "question": "Je suis ______ après l’école.",
+      "answer": "fatigué",
+      "options": ["marchons", "fatigué", "jouer", "regarde"]
+    },
+    {
+      "question": "Elle est ______ de son cadeau.",
+      "answer": "contente",
+      "options": ["fatigué", "rapide", "contente", "écoute"]
+    },
+    {
+      "question": "Nous ______ au parc chaque jour.",
+      "answer": "marchons",
+      "options": ["marchons", "regarde", "mangent", "écoute"]
+    },
+    {
+      "question": "Tu _____ à quoi ?",
+      "answer": "penses",
+      "options": ["penses", "jouer", "regarde", "rapide"]
+    },
+    {
+      "question": "Les enfants aiment _____ dehors.",
+      "answer": "jouer",
+      "options": ["jouer", "penses", "écoute", "marchons"]
+    },
+    {
+      "question": "Il ____ de la musique.",
+      "answer": "écoute",
+      "options": ["écoute", "regarde", "jouer", "fatigué"]
+    },
+    {
+      "question": "On ______ un film ce soir.",
+      "answer": "regarde",
+      "options": ["mangent", "regarde", "penses", "aider"]
+    },
+    {
+      "question": "Peux-tu m’_____, s’il te plaît ?",
+      "answer": "aider",
+      "options": ["aider", "mangent", "jouer", "écoute"]
+    },
+    {
+      "question": "Ils ______ des crêpes.",
+      "answer": "mangent",
+      "options": ["mangent", "regarde", "aider", "rapide"]
+    }
+  ]
+  

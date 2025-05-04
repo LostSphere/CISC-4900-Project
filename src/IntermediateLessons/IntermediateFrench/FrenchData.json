@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "rapide",
+      "translation": "fast",
+      "example": "Le train est très rapide.",
+      "exampleTranslation": "The train is very fast.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/IntermediateLessons/French/rapide.jpg"
+    },
+    {
+      "id": 2,
+      "text": "fatigué",
+      "translation": "tired",
+      "example": "Je suis fatigué après l’école.",
+      "exampleTranslation": "I’m tired after school.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/IntermediateLessons/French/fatigue.jpg"
+    },
+    {
+      "id": 3,
+      "text": "content",
+      "translation": "happy / pleased",
+      "example": "Elle est contente de son cadeau.",
+      "exampleTranslation": "She is happy with her gift.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/IntermediateLessons/French/content.jpg"
+    },
+    {
+      "id": 4,
+      "text": "marcher",
+      "translation": "to walk",
+      "example": "Nous marchons au parc chaque jour.",
+      "exampleTranslation": "We walk to the park every day.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/French/marcher.jpg"
+    },
+    {
+      "id": 5,
+      "text": "penser",
+      "translation": "to think",
+      "example": "Tu penses à quoi ?",
+      "exampleTranslation": "What are you thinking about?",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/French/penser.jpg"
+    },
+    {
+      "id": 6,
+      "text": "jouer",
+      "translation": "to play",
+      "example": "Les enfants aiment jouer dehors.",
+      "exampleTranslation": "The children like to play outside.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/French/jouer.jpg"
+    },
+    {
+      "id": 7,
+      "text": "écouter",
+      "translation": "to listen",
+      "example": "Il écoute de la musique.",
+      "exampleTranslation": "He is listening to music.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/French/ecouter.jpg"
+    },
+    {
+      "id": 8,
+      "text": "regarder",
+      "translation": "to watch / to look at",
+      "example": "On regarde un film ce soir.",
+      "exampleTranslation": "We’re watching a movie tonight.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/French/regarder.jpg"
+    },
+    {
+      "id": 9,
+      "text": "aider",
+      "translation": "to help",
+      "example": "Peux-tu m’aider, s’il te plaît ?",
+      "exampleTranslation": "Can you help me, please?",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/French/aider.jpg"
+    },
+    {
+      "id": 10,
+      "text": "manger",
+      "translation": "to eat",
+      "example": "Ils mangent des crêpes.",
+      "exampleTranslation": "They’re eating crepes.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/French/manger.jpg"
+    }
+  ]
+  
