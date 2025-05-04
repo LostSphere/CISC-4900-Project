@@ -45,15 +45,41 @@ const adventureLevels = [
   { name: "Debating in Madrid", image: "/images/AdventureLevel/AdventureLessons/debating_Madrid.webp", language: "Spanish" }
 ];
 
+// LessonSection component
+const LessonSection = ({ title, subTitle, filteredLessons, noLessonsText, handleLessonClick }) => (
+  <div>
+    <h2 className="lesson-section-heading">{title}</h2>
+    <h3>{subTitle}</h3>
+    <div className="lesson-scroll-container">
+      {filteredLessons.length > 0 ? (
+        filteredLessons.map((lesson, index) => (
+          <div
+            key={index}
+            className="lesson-card"
+            onClick={() => handleLessonClick(lesson)}
+          >
+            <img src={lesson.image} alt={lesson.name} className="lesson-image" />
+            <p className="lesson-name">{lesson.name}</p>
+            {lesson.language && <p className="lesson-language">{lesson.language}</p>}
+          </div>
+        ))
+      ) : (
+        <p>{noLessonsText}</p>
+      )}
+    </div>
+  </div>
+);
+
+// Main LessonPage component
 function LessonPage({ language = "en" }) {
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState("");
 
-  const currentTranslations = translations[language] || translations['en'];
+  const currentTranslations = translations[language] || translations["en"];
 
   const handleLessonClick = (lesson) => {
     const routeMap = {
-      //Intro Courses
+      // Intro Courses
       "Intro to English": "/intro-to-english",
       "Intro to French": "/intro-to-french",
       "Intro to Spanish": "/intro-to-spanish",
@@ -61,6 +87,15 @@ function LessonPage({ language = "en" }) {
       "Intro to Mandarin": "/intro-to-mandarin",
       "Intro to Italian": "/intro-to-italian",
       "Intro to German": "/intro-to-german",
+
+      // Intermediate Courses
+      "Intermediate English": "/intermediate-to-english",
+      "Intermediate French": "/intermediate-to-french",
+      "Intermediate German": "/intermediate-to-german",
+      "Intermediate Italian": "/intermediate-to-italian",
+      "Intermediate Japanese": "/intermediate-to-japanese",
+      "Intermediate Mandarin": "/intermediate-to-mandarin",
+      "Intermediate Spanish": "/intermediate-to-spanish",
 
       // Cultural Adventures
       "Spanish Fiesta": "/spanish-story",
@@ -81,12 +116,12 @@ function LessonPage({ language = "en" }) {
       lesson.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       lesson.language.toLowerCase().includes(searchQuery.toLowerCase())
   );
-  
+
   const filteredAdvanced = Advanced.filter(
     (lesson) =>
       lesson.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       lesson.language.toLowerCase().includes(searchQuery.toLowerCase())
-  );  
+  );
 
   const filteredAdventure = adventureLevels.filter(
     (lesson) =>
@@ -107,85 +142,37 @@ function LessonPage({ language = "en" }) {
         />
       </div>
 
-      <h2 className="lesson-section-heading">Introduction</h2>
-      <h3>{currentTranslations.introductionLessons}</h3>
-      <div className="lesson-scroll-container">
-        {filteredIntroduction.length > 0 ? (
-          filteredIntroduction.map((lesson, index) => (
-            <div
-              key={index}
-              className="lesson-card"
-              onClick={() => handleLessonClick(lesson)}
-            >
-              <img src={lesson.image} alt={lesson.name} className="lesson-image" />
-              <p className="lesson-name">{lesson.name}</p>
-            </div>
-          ))
-        ) : (
-          <p>{currentTranslations.noLessonsFound}</p>
-        )}
-      </div>
+      <LessonSection
+        title="Introduction"
+        subTitle={currentTranslations.introductionLessons}
+        filteredLessons={filteredIntroduction}
+        noLessonsText={currentTranslations.noLessonsFound}
+        handleLessonClick={handleLessonClick}
+      />
 
-      <h2 className="lesson-section-heading">Intermediate</h2>
-      <h3>{currentTranslations.introductionLessons}</h3>
-      <div className="lesson-scroll-container">
-      {filteredIntermediate.length > 0 ? (
-         filteredIntermediate.map((lesson, index) => (
-          <div
-            key={index}
-            className="lesson-card"
-            onClick={() => handleLessonClick(lesson)}
-          >
-            <img src={lesson.image} alt={lesson.name} className="lesson-image" />
-            <p className="lesson-name">{lesson.name}</p>
-          </div>
-        ))
-      ) : (
-        <p>{currentTranslations.noLessonsFound}</p>
-      )}
-    </div>
+      <LessonSection
+        title="Intermediate"
+        subTitle={currentTranslations.introductionLessons}
+        filteredLessons={filteredIntermediate}
+        noLessonsText={currentTranslations.noLessonsFound}
+        handleLessonClick={handleLessonClick}
+      />
 
-  
+      <LessonSection
+        title="Advanced"
+        subTitle={currentTranslations.advancedLessons}
+        filteredLessons={filteredAdvanced}
+        noLessonsText={currentTranslations.noLessonsFound}
+        handleLessonClick={handleLessonClick}
+      />
 
-    <h2 className="lesson-section-heading">Advanced</h2>
-<h3>{currentTranslations.advancedLessons}</h3>
-<div className="lesson-scroll-container">
-  {filteredAdvanced.length > 0 ? (
-    filteredAdvanced.map((lesson, index) => (
-      <div
-        key={index}
-        className="lesson-card"
-        onClick={() => handleLessonClick(lesson)}
-      >
-        <img src={lesson.image} alt={lesson.name} className="lesson-image" />
-        <p className="lesson-name">{lesson.name}</p>
-      </div>
-    ))
-  ) : (
-    <p>{currentTranslations.noLessonsFound}</p>
-  )}
-</div>
-
-
-      <h2 className="lesson-section-heading">Cultural Adventures</h2>
-      <h3>{currentTranslations.adventureLessons}</h3>
-      <div className="lesson-scroll-container">
-        {filteredAdventure.length > 0 ? (
-          filteredAdventure.map((lesson, index) => (
-            <div
-              key={index}
-              className="lesson-card"
-              onClick={() => handleLessonClick(lesson)}
-            >
-              <img src={lesson.image} alt={lesson.name} className="lesson-image" />
-              <p className="lesson-name">{lesson.name}</p>
-              <p className="lesson-language">{lesson.language}</p>
-            </div>
-          ))
-        ) : (
-          <p>{currentTranslations.noLessonsFound}</p>
-        )}
-      </div>
+      <LessonSection
+        title="Cultural Adventures"
+        subTitle={currentTranslations.adventureLessons}
+        filteredLessons={filteredAdventure}
+        noLessonsText={currentTranslations.noLessonsFound}
+        handleLessonClick={handleLessonClick}
+      />
 
       <button className="home-button" onClick={() => navigate("/home")}>
         {currentTranslations.backToHome}
