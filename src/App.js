@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 
@@ -11,6 +11,7 @@ import SettingsPage from "./components/SettingsPage";
 import AboutPage from "./components/AboutPage";
 import TestYourself from "./components/TestYourself";
 import ViewProgress from "./components/ViewProgress";
+import Chatbot from "./components/Chatbot";
 
 // Adventure Lessons
 import SpanishStory from "./AdventureLessons/SpanishFiesta/SpanishStory";
@@ -27,12 +28,19 @@ import IntroToItalian from "./IntroLessons/IntroItalian/IntroToItalian";
 import IntroToGerman from "./IntroLessons/IntroGerman/IntroToGerman";
 
 function App() {
+  const [isChatbotOpen, setIsChatbotOpen] = useState(false);
+
+  const toggleChatbot = () => {
+    setIsChatbotOpen(!isChatbotOpen);
+  };
+
   useEffect(() => {
     const savedDarkMode = localStorage.getItem("darkMode") || "off";
     document.body.classList.toggle("settings-dark-mode", savedDarkMode === "on");
   }, []);
 
   return (
+    <div>
     <Routes>
       {/* Main */}
       <Route path="/" element={<LoginPage />} />
@@ -60,6 +68,11 @@ function App() {
       <Route path="/intro-to-italian" element={<IntroToItalian />} />
       <Route path="/intro-to-german" element={<IntroToGerman />} />
     </Routes>
+    <div className="chatbot-icon" onClick={toggleChatbot}>
+        🗨️
+      </div>
+      {isChatbotOpen && <Chatbot />}
+      </div>
   );
 }
 
