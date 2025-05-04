@@ -1,0 +1,53 @@
+[
+    {
+      "question": "_____, I had to adapt to the new environment.",
+      "answer": "Adapt",
+      "options": ["Assume", "Adapt", "Improve", "Support"]
+    },
+    {
+      "question": "I _____ you will join us for the meeting.",
+      "answer": "Assume",
+      "options": ["Estimate", "Determine", "Assume", "Support"]
+    },
+    {
+      "question": "This is just the _____ version of the program.",
+      "answer": "Basic",
+      "options": ["Basic", "Reluctant", "Determine", "Improve"]
+    },
+    {
+      "question": "We need to _____ the cause of the problem.",
+      "answer": "Determine",
+      "options": ["Maintain", "Support", "Improve", "Determine"]
+    },
+    {
+      "question": "Can you _____ the cost of the project?",
+      "answer": "Estimate",
+      "options": ["Maintain", "Estimate", "Support", "Adapt"]
+    },
+    {
+      "question": "I want to _____ my English skills.",
+      "answer": "Improve",
+      "options": ["Maintain", "Adapt", "Reluctant", "Improve"]
+    },
+    {
+      "question": "You must _____ a healthy lifestyle.",
+      "answer": "Maintain",
+      "options": ["Determine", "Maintain", "Improve", "Reluctant"]
+    },
+    {
+      "question": "She was _____ to speak in front of the class.",
+      "answer": "Reluctant",
+      "options": ["Reluctant", "Support", "Maintain", "Improve"]
+    },
+    {
+      "question": "I will _____ you no matter what.",
+      "answer": "Support",
+      "options": ["Adapt", "Support", "Estimate", "Improve"]
+    },
+    {
+      "question": "I _____ you take a break.",
+      "answer": "Suggest",
+      "options": ["Support", "Suggest", "Maintain", "Reluctant"]
+    }
+  ]
+  

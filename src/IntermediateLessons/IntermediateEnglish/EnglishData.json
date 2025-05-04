@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "Adapt",
+      "translation": "to adjust or change to suit new conditions",
+      "example": "I had to adapt to the new environment.",
+      "exampleTranslation": "I had to adapt to the new environment.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/English/Adapt.jpg"
+    },
+    {
+      "id": 2,
+      "text": "Assume",
+      "translation": "to take for granted or suppose something is true without proof.",
+      "example": "I assume you will join us for the meeting.",
+      "exampleTranslation": "I assume you will join us for the meeting.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/English/Assume.jpg"
+    },
+    {
+      "id": 3,
+      "text": "Basic",
+      "translation": "the simplest or most important part of something.",
+      "example": "This is just the basic version of the program.",
+      "exampleTranslation": "This is just the basic version of the program.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/IntermediateLessons/English/Basic.jpg"
+    },
+    {
+      "id": 4,
+      "text": "Determine",
+      "translation": "to decide",
+      "example": "We need to determine the cause of the problem.",
+      "exampleTranslation": "We need to determine the cause of the problem.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/English/Determine.jpg"
+    },
+    {
+      "id": 5,
+      "text": "Estimate",
+      "translation": "to roughly calculate or judge the value of something",
+      "example": "Can you estimate the cost of the project?",
+      "exampleTranslation": "Can you estimate the cost of the project?",
+      "partOfSpeech": "Verb/Noun",
+      "image": "/images/IntermediateLessons/English/Estimate.jpg"
+    },
+    {
+      "id": 6,
+      "text": "Improve",
+      "translation": "to make something better",
+      "example": "I want to improve my English skills.",
+      "exampleTranslation": "I want to improve my English skills.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/English/Improve.jpg"
+    },
+    {
+      "id": 7,
+      "text": "Maintain",
+      "translation": "to keep something in good condition",
+      "example": "You must maintain a healthy lifestyle.",
+      "exampleTranslation": "You must maintain a healthy lifestyle.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/English/Maintain.jpg"
+    },
+    {
+      "id": 8,
+      "text": "Reluctant",
+      "translation": "unwilling or hesitant to do something",
+      "example": "She was reluctant to speak in front of the class.",
+      "exampleTranslation": "She was reluctant to speak in front of the class.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/IntermediateLessons/English/Reluctant.jpg"
+    },
+    {
+      "id": 9,
+      "text": "Support",
+      "translation": "to give assistance or help someone with something",
+      "example": "I will support you no matter what.",
+      "exampleTranslation": "I will support you no matter what.",
+      "partOfSpeech": "Verb/Noun",
+      "image": "/images/IntermediateLessons/English/Support.jpg"
+    },
+    {
+      "id": 10,
+      "text": "Suggest",
+      "translation": "to offer an idea or recommendation",
+      "example": "I suggest you take a break.",
+      "exampleTranslation": "I suggest you take a break.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/English/Suggest.jpg"
+    }
+  ]
+  
