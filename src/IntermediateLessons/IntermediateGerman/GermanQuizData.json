@@ -1,0 +1,53 @@
+[
+    {
+      "question": "Ich habe das Wochenende mit Freunden _____.",
+      "answer": "verbracht",
+      "options": ["verbracht", "beeinflussen", "verschwinden", "herausfinden"]
+    },
+    {
+      "question": "Meine Eltern _____ mir, spät aufzubleiben.",
+      "answer": "erlauben",
+      "options": ["erlauben", "verantwortlich", "sowieso", "herausfinden"]
+    },
+    {
+      "question": "Sie ist eine sehr _____ Person.",
+      "answer": "unabhängige",
+      "options": ["unabhängige", "verantwortliche", "sowieso", "beeinflusste"]
+    },
+    {
+      "question": "Ich habe viel _____ in diesem Bereich.",
+      "answer": "Erfahrung",
+      "options": ["Erfahrung", "Entscheidung", "Familie", "verantwortung"]
+    },
+    {
+      "question": "Der Hund ist plötzlich _____.",
+      "answer": "verschwunden",
+      "options": ["verschwunden", "verantwortlich", "unabhängig", "beeinflusst"]
+    },
+    {
+      "question": "Medien können die Meinung der Menschen _____ .",
+      "answer": "beeinflussen",
+      "options": ["beeinflussen", "verantworten", "verschwinden", "herausfinden"]
+    },
+    {
+      "question": "Er ist _____ für das Projekt.",
+      "answer": "verantwortlich",
+      "options": ["verantwortlich", "unabhängig", "Erfahrung", "sowieso"]
+    },
+    {
+      "question": "Das war eine schwierige _____.",
+      "answer": "Entscheidung",
+      "options": ["Entscheidung", "beeinflussen", "verschwinden", "verbringen"]
+    },
+    {
+      "question": "Ich möchte _____, wie das funktioniert.",
+      "answer": "herausfinden",
+      "options": ["herausfinden", "verschwinden", "sowieso", "verbringen"]
+    },
+    {
+      "question": "Ich gehe _____ nach Hause.",
+      "answer": "sowieso",
+      "options": ["sowieso", "verantwortlich", "unabhängig", "Ja"]
+    }
+  ]
+  

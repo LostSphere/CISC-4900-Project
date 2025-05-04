@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "verbringen",
+      "translation": "to spend (time)",
+      "example": "Ich habe das Wochenende mit Freunden verbracht.",
+      "exampleTranslation": "I spent the weekend with friends.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/German/verbringen.jpg"
+    },
+    {
+      "id": 2,
+      "text": "erlauben",
+      "translation": "to allow / permit",
+      "example": "Meine Eltern erlauben mir, spät aufzubleiben.",
+      "exampleTranslation": "My parents allow me to stay up late.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/German/erlauben.jpg"
+    },
+    {
+      "id": 3,
+      "text": "unabhängig",
+      "translation": "independent",
+      "example": "Sie ist eine sehr unabhängige Person.",
+      "exampleTranslation": "She is a very independent person.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/IntermediateLessons/German/unabhaengig.jpg"
+    },
+    {
+      "id": 4,
+      "text": "Erfahrung",
+      "translation": "experience",
+      "example": "Ich habe viel Erfahrung in diesem Bereich.",
+      "exampleTranslation": "I have a lot of experience in this field.",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntermediateLessons/German/Erfahrung.jpg"
+    },
+    {
+      "id": 5,
+      "text": "verschwinden",
+      "translation": "to disappear",
+      "example": "Der Hund ist plötzlich verschwunden.",
+      "exampleTranslation": "The dog suddenly disappeared.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/German/verschwinden.jpg"
+    },
+    {
+      "id": 6,
+      "text": "beeinflussen",
+      "translation": "to influence",
+      "example": "Medien können die Meinung der Menschen beeinflussen.",
+      "exampleTranslation": "Media can influence people’s opinions.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/German/beeinflussen.jpg"
+    },
+    {
+      "id": 7,
+      "text": "verantwortlich",
+      "translation": "responsible",
+      "example": "Er ist verantwortlich für das Projekt.",
+      "exampleTranslation": "He is responsible for the project.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/IntermediateLessons/German/verantwortlich.jpg"
+    },
+    {
+      "id": 8,
+      "text": "Entscheidung",
+      "translation": "decision",
+      "example": "Das war eine schwierige Entscheidung.",
+      "exampleTranslation": "That was a difficult decision.",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntermediateLessons/German/Entscheidung.jpg"
+    },
+    {
+      "id": 9,
+      "text": "herausfinden",
+      "translation": "to find out / discover",
+      "example": "Ich möchte herausfinden, wie das funktioniert.",
+      "exampleTranslation": "I want to find out how that works.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/German/herausfinden.jpg"
+    },
+    {
+      "id": 10,
+      "text": "sowieso",
+      "translation": "anyway / in any case",
+      "example": "Ich gehe sowieso nach Hause.",
+      "exampleTranslation": "I'm going home anyway.",
+      "partOfSpeech": "Adverb",
+      "image": "/images/IntermediateLessons/German/sowieso.jpg"
+    }
+  ]
+  
