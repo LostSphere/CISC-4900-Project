@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "需要",
+      "translation": "to need",
+      "example": "我需要一杯咖啡。",
+      "exampleTranslation": "I need a cup of coffee.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/Mandarin/XuYao.jpg"
+    },
+    {
+      "id": 2,
+      "text": "决定",
+      "translation": "to decide / decision",
+      "example": "我还没有决定去哪儿。",
+      "exampleTranslation": "I haven't decided where to go yet.",
+      "partOfSpeech": "Verb/Noun",
+      "image": "/images/IntermediateLessons/Mandarin/JueDing.jpg"
+    },
+    {
+      "id": 3,
+      "text": "重要",
+      "translation": "important",
+      "example": "这个问题很重要。",
+      "exampleTranslation": "This question is very important.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/IntermediateLessons/Mandarin/ZhongYao.jpg"
+    },
+    {
+      "id": 4,
+      "text": "努力",
+      "translation": "to strive / to work hard",
+      "example": "只要努力，就会有收获。",
+      "exampleTranslation": "As long as you work hard, you will gain something.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/Mandarin/NuLi.jpg"
+    },
+    {
+      "id": 5,
+      "text": "了解",
+      "translation": "to understand / to comprehend",
+      "example": "我了解你的想法。",
+      "exampleTranslation": "I understand your thinking.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/Mandarin/LiaoJie.jpg"
+    },
+    {
+      "id": 6,
+      "text": "情况",
+      "translation": "situation / circumstances",
+      "example": "你能告诉我一下情况吗？",
+      "exampleTranslation": "Can you tell me the situation?",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntermediateLessons/Mandarin/QingKuang.jpg"
+    },
+    {
+      "id": 7,
+      "text": "影响",
+      "translation": "to influence / influence",
+      "example": "天气会影响我们的计划。",
+      "exampleTranslation": "The weather can affect our plans.",
+      "partOfSpeech": "Verb/Noun",
+      "image": "/images/IntermediateLessons/Mandarin/YingXiang.jpg"
+    },
+    {
+      "id": 8,
+      "text": "机会",
+      "translation": "opportunity",
+      "example": "我不想错过这个机会。",
+      "exampleTranslation": "I don't want to miss this opportunity.",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntermediateLessons/Mandarin/JiHui.jpg"
+    },
+    {
+      "id": 9,
+      "text": "成功",
+      "translation": "success / to succeed",
+      "example": "他终于成功了！",
+      "exampleTranslation": "He finally succeeded!",
+      "partOfSpeech": "Noun/Verb",
+      "image": "/images/IntermediateLessons/Mandarin/ChengGong.jpg"
+    },
+    {
+      "id": 10,
+      "text": "解决",
+      "translation": "to solve",
+      "example": "我们需要解决这个问题。",
+      "exampleTranslation": "We need to solve this problem.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/Mandarin/JieJue.jpg"
+    }
+  ]
+  
