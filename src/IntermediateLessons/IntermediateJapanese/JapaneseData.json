@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "努力",
+      "translation": "Effort",
+      "example": "努力が必要です。",
+      "exampleTranslation": "Effort is needed.",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntermediateLessons/Japanese/Doryoku.jpg"
+    },
+    {
+      "id": 2,
+      "text": "経験",
+      "translation": "Experience",
+      "example": "経験があります。",
+      "exampleTranslation": "I have experience.",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntermediateLessons/Japanese/Keiken.jpg"
+    },
+    {
+      "id": 3,
+      "text": "発見",
+      "translation": "Discovery",
+      "example": "新しい発見です。",
+      "exampleTranslation": "It’s a new discovery.",
+      "partOfSpeech": "Noun/Verb",
+      "image": "/images/IntermediateLessons/Japanese/Hakken.jpg"
+    },
+    {
+      "id": 4,
+      "text": "環境",
+      "translation": "Environment",
+      "example": "環境が大切です。",
+      "exampleTranslation": "The environment is important.",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntermediateLessons/Japanese/Kankyou.jpg"
+    },
+    {
+      "id": 5,
+      "text": "表現",
+      "translation": "Expression",
+      "example": "この表現は難しい。",
+      "exampleTranslation": "This expression is hard.",
+      "partOfSpeech": "Noun/Verb",
+      "image": "/images/IntermediateLessons/Japanese/Hyougen.jpg"
+    },
+    {
+      "id": 6,
+      "text": "状況",
+      "translation": "Situation",
+      "example": "状況が変わった。",
+      "exampleTranslation": "The situation changed.",
+      "partOfSpeech": "Noun",
+      "image": "/images/IntermediateLessons/Japanese/Joukyou.jpg"
+    },
+    {
+      "id": 7,
+      "text": "適当",
+      "translation": "Appropriate / Suitable",
+      "example": "適当な答えです。",
+      "exampleTranslation": "It's an appropriate answer.",
+      "partOfSpeech": "Adjective/Na-adjective",
+      "image": "/images/IntermediateLessons/Japanese/Tekitou.jpg"
+    },
+    {
+      "id": 8,
+      "text": "必要",
+      "translation": "Necessary",
+      "example": "これは必要です。",
+      "exampleTranslation": "This is necessary.",
+      "partOfSpeech": "Noun/Na-adjective",
+      "image": "/images/IntermediateLessons/Japanese/Hitsuyou.jpg"
+    },
+    {
+      "id": 9,
+      "text": "成長",
+      "translation": "Growth",
+      "example": "子どもが成長した。",
+      "exampleTranslation": "The child grew.",
+      "partOfSpeech": "Noun/Verb",
+      "image": "/images/IntermediateLessons/Japanese/Seichou.jpg"
+    },
+    {
+      "id": 10,
+      "text": "関係",
+      "translation": "Relationship / Connection",
+      "example": "関係があります。",
+      "exampleTranslation": "There is a connection.",
+      "partOfSpeech": "Noun/Verb",
+      "image": "/images/IntermediateLessons/Japanese/Kankei.jpg"
+    }
+  ]
+  
