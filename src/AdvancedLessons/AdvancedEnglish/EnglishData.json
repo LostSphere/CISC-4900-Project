@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "Convoluted",
+      "translation": "extremely complex and difficult to follow",
+      "example": "The explanation was too convoluted.",
+      "exampleTranslation": "The explanation was too convoluted.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/English/Convoluted.jpg"
+    },
+    {
+      "id": 2,
+      "text": "Discrepancy",
+      "translation": "a lack of agreement or consistency between two things",
+      "example": "There was a discrepancy.",
+      "exampleTranslation": "There was a discrepancy.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdvancedLessons/English/Discrepancy.jpg"
+    },
+    {
+      "id": 3,
+      "text": "Prevalent",
+      "translation": "widespread or commonly found",
+      "example": "It's prevalent in business.",
+      "exampleTranslation": "It's prevalent in business.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/English/Prevalent.jpg"
+    },
+    {
+      "id": 4,
+      "text": "Alleviate",
+      "translation": "to make something less severe or painful",
+      "example": "The medicine alleviated her pain.",
+      "exampleTranslation": "The medicine alleviated her pain.",
+      "partOfSpeech": "Verb",
+      "image": "/images/AdvancedLessons/English/Alleviate.jpg"
+    },
+    {
+      "id": 5,
+      "text": "Articulate",
+      "translation": "to express clearly in words or able to speak clearly",
+      "example": "He articulates well.",
+      "exampleTranslation": "He articulates well.",
+      "partOfSpeech": "Verb/Adjective",
+      "image": "/images/AdvancedLessons/English/Articulate.jpg"
+    },
+    {
+      "id": 6,
+      "text": "Substantiate",
+      "translation": "to prove the truth of something with evidence",
+      "example": "Can you substantiate that?",
+      "exampleTranslation": "Can you substantiate that?",
+      "partOfSpeech": "Verb",
+      "image": "/images/AdvancedLessons/English/Substantiate.jpg"
+    },
+    {
+      "id": 7,
+      "text": "Ubiquitous",
+      "translation": "present, appearing, or found everywhere",
+      "example": "Smartphones are ubiquitous now.",
+      "exampleTranslation": "Smartphones are ubiquitous now.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/English/Ubiquitous.jpg"
+    },
+    {
+      "id": 8,
+      "text": "Meticulous",
+      "translation": "showing great attention to detail",
+      "example": "She is meticulous with her work.",
+      "exampleTranslation": "She is meticulous with her work.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/English/Meticulous.jpg"
+    },
+    {
+      "id": 9,
+      "text": "Ambiguous",
+      "translation": "having more than one possible meaning; unclear",
+      "example": "The message was ambiguous.",
+      "exampleTranslation": "The message was ambiguous.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/English/Ambiguous.jpg"
+    },
+    {
+      "id": 10,
+      "text": "Inevitable",
+      "translation": "certain to happen; unavoidable",
+      "example": "Change is inevitable.",
+      "exampleTranslation": "Change is inevitable.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/English/Inevitable.jpg"
+    }
+  ]
+  

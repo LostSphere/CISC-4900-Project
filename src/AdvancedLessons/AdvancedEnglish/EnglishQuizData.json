@@ -1,0 +1,53 @@
+[
+    {
+      "question": "The explanation was too ______.",
+      "answer": "Convoluted",
+      "options": ["Assume", "Prevalent", "Convoluted", "Support"]
+    },
+    {
+      "question": "There was a ______.",
+      "answer": "Discrepancy",
+      "options": ["Estimate", "Discrepancy", "Reluctant", "Alleviated"]
+    },
+    {
+      "question": "It's ______ in business.",
+      "answer": "Prevalent",
+      "options": ["Prevalent", "Inevitable", "Maintain", "Ubiquitous"]
+    },
+    {
+      "question": "The medicine _______ her pain.",
+      "answer": "Alleviated",
+      "options": ["Maintain", "Improve", "Articulates", "Alleviated"]
+    },
+    {
+      "question": "He _______ well.",
+      "answer": "Articulates",
+      "options": ["Support", "Articulates", "Substantiate", "Determine"]
+    },
+    {
+      "question": "Can you ______  that?",
+      "answer": "Substantiate",
+      "options": ["Maintain", "Substantiate", "Improve", "Reluctant"]
+    },
+    {
+      "question": "She is ________ with her work.",
+      "answer": "Meticulous",
+      "options": ["Determine", "Meticulous", "Ubiquitous", "Improve"]
+    },
+    {
+      "question": "She was _____ to speak in front of the class.",
+      "answer": "Reluctant",
+      "options": ["Reluctant", "Support", "Improve", "Inevitable"]
+    },
+    {
+      "question": "Smartphones are _______ now.",
+      "answer": "Ubiquitous",
+      "options": ["Ubiquitous", "Improve", "Alleviated", "Prevalent"]
+    },
+    {
+      "question": "Change is _______.",
+      "answer": "Inevitable",
+      "options": ["Reluctant", "Inevitable", "Maintain", "Substantiate"]
+    }
+  ]
+  
