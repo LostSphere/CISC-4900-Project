@@ -13,11 +13,6 @@ import TestYourself from "./components/TestYourself";
 import ViewProgress from "./components/ViewProgress";
 import Chatbot from "./components/Chatbot";
 
-// Adventure Lessons
-import SpanishStory from "./AdventureLessons/SpanishFiesta/SpanishStory";
-import JapaneseStory from "./AdventureLessons/LostTokyo/JapaneseStory";
-import FrenchStory from "./AdventureLessons/ParisianCafe/FrenchStory";
-
 // Intro Lessons
 import IntroToEnglish from "./IntroLessons/IntroEnglish/IntroToEnglish";
 import IntroToFrench from "./IntroLessons/IntroFrench/IntroToFrench";
@@ -32,6 +27,25 @@ import IntermediateToEnglish from "./IntermediateLessons/IntermediateEnglish/Int
 import IntermediateToFrench from "./IntermediateLessons/IntermediateFrench/IntermediateToFrench";
 import IntermediateToGerman from "./IntermediateLessons/IntermediateGerman/IntermediateToGerman";
 import IntermediateToItalian from "./IntermediateLessons/IntermediateItalian/IntermediateToItalian";
+import IntermediateToJapanese from "./IntermediateLessons/IntermediateJapanese/IntermediateToJapanese";
+import IntermediateToMandarin from "./IntermediateLessons/IntermediateMandarin/IntermediateToMandarin";
+import IntermediateToSpanish from "./IntermediateLessons/IntermediateSpanish/IntermediateToSpanish";
+
+// Advanced Lessons
+import AdvancedToEnglish from "./AdvancedLessons/AdvancedEnglish/AdvancedToEnglish";
+import AdvancedToFrench from "./AdvancedLessons/AdvancedFrench/AdvancedToFrench";
+import AdvancedToGerman from "./AdvancedLessons/AdvancedGerman/AdvancedToGerman";
+//import AdvancedToItalian from "./AdvancedLessons/AdvancedItalian/AdvancedToItalian";
+//import AdvancedToJapanese from "./AdvancedLessons/AdvancedJapanese/AdvancedToJapanese";
+//import AdvancedToMandarin from "./AdvancedLessons/AdvancedMandarin/AdvancedToMandarin";
+//import AdvancedToSpanish from "./AdvancedLessons/AdvancedSpanish/AdvancedToSpanish";
+
+
+
+// Adventure Lessons
+import SpanishStory from "./AdventureLessons/SpanishFiesta/SpanishStory";
+import JapaneseStory from "./AdventureLessons/LostTokyo/JapaneseStory";
+import FrenchStory from "./AdventureLessons/ParisianCafe/FrenchStory";
 
 function App() {
   const [isChatbotOpen, setIsChatbotOpen] = useState(false);
@@ -60,11 +74,6 @@ function App() {
       <Route path="/lesson" element={<LessonPage />} />
       <Route path="/test-yourself" element={<TestYourself />} />
 
-      {/* Adventure Stories */}
-      <Route path="/spanish-story" element={<SpanishStory />} />
-      <Route path="/japanese-story" element={<JapaneseStory />} />
-      <Route path="/french-story" element={<FrenchStory />} />
-
       {/* Intro Lessons */}
       <Route path="/intro-to-english" element={<IntroToEnglish />} />
       <Route path="/intro-to-french" element={<IntroToFrench />} />
@@ -79,6 +88,28 @@ function App() {
       <Route path="/intermediate-to-french" element={<IntermediateToFrench />} />
       <Route path="/intermediate-to-german" element={<IntermediateToGerman />} />
       <Route path="/intermediate-to-italian" element={<IntermediateToItalian />} />
+      <Route path="/intermediate-to-japanese" element={<IntermediateToJapanese />} />
+      <Route path="/intermediate-to-mandarin" element={<IntermediateToMandarin />} />
+      <Route path="/intermediate-to-spanish" element={<IntermediateToSpanish />} />
+
+      {/* Advanced Lessons */}
+      <Route path="/advanced-to-english" element={<AdvancedToEnglish />} />
+      <Route path="/advanced-to-french" element={<AdvancedToFrench />} />
+      <Route path="/advanced-to-german" element={<AdvancedToGerman />} />
+      {/*<Route path="/advanced-to-italian" element={<AdvancedToItalian />} />
+      <Route path="/advanced-to-japanese" element={<AdvancedToJapanese />} />
+      <Route path="/advanced-to-mandarin" element={<AdvancedToMandarin />} />
+      <Route path="/advanced-to-spanish" element={<AdvancedToSpanish />} />
+      */}
+
+
+
+
+      {/* Adventure Stories */}
+      <Route path="/spanish-story" element={<SpanishStory />} />
+      <Route path="/japanese-story" element={<JapaneseStory />} />
+      <Route path="/french-story" element={<FrenchStory />} />
+
     </Routes>
     <div className="chatbot-icon" onClick={toggleChatbot}>
         🗨️
