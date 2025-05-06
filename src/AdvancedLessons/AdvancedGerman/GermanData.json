@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "Fernweh",
+      "translation": "longing to travel",
+      "example": "Ich habe Fernweh.",
+      "exampleTranslation": "I feel a longing to travel.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdvancedLessons/German/Fernweh.jpg"
+    },
+    {
+      "id": 2,
+      "text": "Weltschmerz",
+      "translation": "It describes a deep sadness or melancholy about the world",
+      "example": "Er fühlt Weltschmerz.",
+      "exampleTranslation": "He feels world-weariness.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdvancedLessons/German/Weltschmerz.jpg"
+    },
+    {
+      "id": 3,
+      "text": "Schadenfreude",
+      "translation": "pleasure from others’ misfortune",
+      "example": "Sie zeigt Schadenfreude.",
+      "exampleTranslation": "She shows Schadenfreude.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdvancedLessons/German/Schadenfreude.jpg"
+    },
+    {
+      "id": 4,
+      "text": "Kopfkino",
+      "translation": "mental movie / vivid imagination",
+      "example": "Ich hatte sofort Kopfkino.",
+      "exampleTranslation": "I immediately had a mental movie.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdvancedLessons/German/Kopfkino.jpg"
+    },
+    {
+      "id": 5,
+      "text": "Fremdschämen",
+      "translation": "vicarious embarrassment",
+      "example": "Ich musste fremdschämen.",
+      "exampleTranslation": "I felt second-hand embarrassment.",
+      "partOfSpeech": "Verb (used like a noun)",
+      "image": "/images/AdvancedLessons/German/Fremdschaemen.jpg"
+    },
+    {
+      "id": 6,
+      "text": "Torschlusspanik",
+      "translation": "last-minute panic / fear of missing out",
+      "example": "Sie hat Torschlusspanik.",
+      "exampleTranslation": "She has last-minute panic.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdvancedLessons/German/Torschlusspanik.jpg"
+    },
+    {
+      "id": 7,
+      "text": "Lebensmüde",
+      "translation": "weary of life / reckless",
+      "example": "Bist du lebensmüde?",
+      "exampleTranslation": "Are you out of your mind?",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/German/Lebensmuede.jpg"
+    },
+    {
+      "id": 8,
+      "text": "Zweisamkeit",
+      "translation": "togetherness (for two)",
+      "example": "Ich genieße die Zweisamkeit.",
+      "exampleTranslation": "I enjoy the togetherness.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdvancedLessons/German/Zweisamkeit.jpg"
+    },
+    {
+      "id": 9,
+      "text": "Innerer Schweinehund",
+      "translation": "inner weaker self",
+      "example": "Ich habe meinen Schweinehund besiegt.",
+      "exampleTranslation": "I beat my inner weaker self.",
+      "partOfSpeech": "Noun (idiom)",
+      "image": "/images/AdvancedLessons/German/InnererSchweinehund.jpg"
+    },
+    {
+      "id": 10,
+      "text": "verschlimmbessern",
+      "translation": "to make something worse by trying to improve it",
+      "example": "Er hat es verschlimmbessert.",
+      "exampleTranslation": "He made it worse while trying to fix it.",
+      "partOfSpeech": "Verb",
+      "image": "/images/AdvancedLessons/German/verschlimmbessern.jpg"
+    }
+  ]
+  

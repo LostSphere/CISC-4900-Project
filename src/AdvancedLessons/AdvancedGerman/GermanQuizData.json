@@ -1,0 +1,53 @@
+[
+    {
+      "question": "Ich habe _____.",
+      "answer": "Fernweh",
+      "options": ["Weltschmerz", "Fernweh", "Torschlusspanik", "Schadenfreude"]
+    },
+    {
+      "question": "Er fühlt _______.",
+      "answer": "Weltschmerz",
+      "options": ["Fremdschämen", "Weltschmerz", "Lebensmüde", "Kopfkino"]
+    },
+    {
+      "question": "Sie zeigt ________.",
+      "answer": "Schadenfreude",
+      "options": ["Torschlusspanik", "Kopfkino", "Fernweh", "Schadenfreude"]
+    },
+    {
+      "question": "Ich hatte sofort ______.",
+      "answer": "Kopfkino",
+      "options": ["Lebensmüde", "Fremdschämen", "Kopfkino", "Weltschmerz"]
+    },
+    {
+      "question": "Ich musste ________.",
+      "answer": "Fremdschämen",
+      "options": ["Fremdschämen", "verrückt", "Schadenfreude", "Fernweh"]
+    },
+    {
+      "question": "Sie hat ________.",
+      "answer": "Torschlusspanik",
+      "options": ["Torschlusspanik", "Weltschmerz", "Fernweh", "Lebensmüde"]
+    },
+    {
+      "question": "Bist du ______?",
+      "answer": "lebensmüde",
+      "options": ["verrückt", "lebensmüde", "mutig", "fremdschämen"]
+    },
+    {
+      "question": "Ich genieße die _______.",
+      "answer": "Zweisamkeit",
+      "options": ["Weltschmerz", "Torschlusspanik", "Zweisamkeit", "Kopfkino"]
+    },
+    {
+      "question": "Ich habe meinen ______ besiegt.",
+      "answer": "Schweinehund",
+      "options": ["Lebensmüde", "Schweinehund", "Kopfkino", "Schadenfreude"]
+    },
+    {
+      "question": "Er hat es ________.",
+      "answer": "Verschlimmbessern",
+      "options": ["Torschlusspanik", "Fremdschämen", "Verschlimmbessern", "Weltschmerz"]
+    }
+  ]
+  
