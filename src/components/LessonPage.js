@@ -70,7 +70,6 @@ const LessonSection = ({ title, subTitle, filteredLessons, noLessonsText, handle
   </div>
 );
 
-// Main LessonPage component
 function LessonPage({ language = "en" }) {
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState("");
@@ -96,6 +95,16 @@ function LessonPage({ language = "en" }) {
       "Intermediate Japanese": "/intermediate-to-japanese",
       "Intermediate Mandarin": "/intermediate-to-mandarin",
       "Intermediate Spanish": "/intermediate-to-spanish",
+
+      // Advanced Courses
+      "Advanced English": "/advanced-to-english",
+      "Advanced French": "/advanced-to-french",
+      "Advanced German": "/advanced-to-german",
+      "Advanced Italian": "/advanced-to-Italian",
+      "Advanced Japanese": "/advanced-to-japanese",
+      "Advanced Mandarin": "/advanced-to-mandarin",
+      "Advanced Spanish": "/advanced-to-spanish",
+
 
       // Cultural Adventures
       "Spanish Fiesta": "/spanish-story",
