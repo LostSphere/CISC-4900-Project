@@ -1,0 +1,53 @@
+[
+    {
+      "question": "Le temps est ______.",
+      "answer": "inéluctable",
+      "options": ["inéluctable", "époustouflant", "sérendipité", "procrastiner"]
+    },
+    {
+      "question": "La vue est ______.",
+      "answer": "époustouflante",
+      "options": ["époustouflante", "lugubre", "pusillanime", "anachronisme"]
+    },
+    {
+      "question": "C’était de la ______.",
+      "answer": "sérendipité",
+      "options": ["sérendipité", "fulgurant", "hypnagogique", "obséquieux"]
+    },
+    {
+      "question": "Il ______ toujours.",
+      "answer": "procrastine",
+      "options": ["procrastine", "regarde", "joue", "pense"]
+    },
+    {
+      "question": "Sa carrière est ______.",
+      "answer": "fulgurante",
+      "options": ["fulgurante", "inéluctable", "sérendipité", "obséquieux"]
+    },
+    {
+      "question": "Le ciel est ______.",
+      "answer": "lugubre",
+      "options": ["lugubre", "fatigué", "content", "anachronisme"]
+    },
+    {
+      "question": "Il est ______.",
+      "answer": "pusillanime",
+      "options": ["pusillanime", "procrastine", "joue", "mange"]
+    },
+    {
+      "question": "C’est un ______.",
+      "answer": "anachronisme",
+      "options": ["anachronisme", "hypnagogique", "inéluctable", "sérendipité"]
+    },
+    {
+      "question": "C’est un rêve ______.",
+      "answer": "hypnagogique",
+      "options": ["hypnagogique", "sérendipité", "époustouflant", "fatigué"]
+    },
+    {
+      "question": "Il est ______.",
+      "answer": "obséquieux",
+      "options": ["obséquieux", "inéluctable", "content", "regarde"]
+    }
+  ]
+  

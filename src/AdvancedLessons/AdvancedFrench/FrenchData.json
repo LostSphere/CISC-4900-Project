@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "Inéluctable",
+      "translation": "Something that cannot be prevented or escaped",
+      "example": "Le temps est inéluctable.",
+      "exampleTranslation": "Time is inevitable.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/French/ineluctable.jpg"
+    },
+    {
+      "id": 2,
+      "text": "Époustouflant",
+      "translation": "To describe something that is extremely impressive or astonishing",
+      "example": "La vue est époustouflante.",
+      "exampleTranslation": "The view is breathtaking.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/French/epoustouflant.jpg"
+    },
+    {
+      "id": 3,
+      "text": "Sérendipité",
+      "translation": "It describes the occurrence of events by chance in a happy or beneficial way",
+      "example": "C’était de la sérendipité.",
+      "exampleTranslation": "It was serendipity.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdvancedLessons/French/serendipite.jpg"
+    },
+    {
+      "id": 4,
+      "text": "Procrastiner",
+      "translation": "Refers to the act of delaying or postponing tasks or actions",
+      "example": "Il procrastine toujours.",
+      "exampleTranslation": "He always procrastinates.",
+      "partOfSpeech": "Verb",
+      "image": "/images/AdvancedLessons/French/procrastiner.jpg"
+    },
+    {
+      "id": 5,
+      "text": "Fulgurant",
+      "translation": "To describe something that happens very quickly and intensely",
+      "example": "Sa carrière est fulgurante.",
+      "exampleTranslation": "His career is dazzling.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/French/fulgurant.jpg"
+    },
+    {
+      "id": 6,
+      "text": "Lugubre",
+      "translation": "Used to describe something that has a dark, eerie, or sorrowful atmosphere",
+      "example": "Le ciel est lugubre.",
+      "exampleTranslation": "The sky is gloomy.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/French/lugubre.jpg"
+    },
+    {
+      "id": 7,
+      "text": "Pusillanime",
+      "translation": "To describe someone who is easily frightened",
+      "example": "Il est pusillanime.",
+      "exampleTranslation": "He is timid.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/French/pusillanime.jpg"
+    },
+    {
+      "id": 8,
+      "text": "Anachronisme",
+      "translation": "Something that is placed in the wrong time period, often something old-fashioned",
+      "example": "C’est un anachronisme.",
+      "exampleTranslation": "It’s an anachronism.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdvancedLessons/French/anachronisme.jpg"
+    },
+    {
+      "id": 9,
+      "text": "Hypnagogique",
+      "translation": "Describes the transitional state between wakefulness and sleep",
+      "example": "C’est un rêve hypnagogique.",
+      "exampleTranslation": "It’s a hypnagogic dream.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/French/hypnagogique.jpg"
+    },
+    {
+      "id": 10,
+      "text": "Obséquieux",
+      "translation": "Refers to someone who is excessively eager to please or overly submissive",
+      "example": "Il est obséquieux.",
+      "exampleTranslation": "He is obsequious.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/French/obsequieux.jpg"
+    }
+  ]
+  
