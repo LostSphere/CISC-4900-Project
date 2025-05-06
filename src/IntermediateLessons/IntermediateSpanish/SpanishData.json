@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "aunque",
+      "translation": "although / even though",
+      "example": "Aunque llovía, salió a correr.",
+      "exampleTranslation": "Although it was raining, he went out to run.",
+      "partOfSpeech": "Conjunction",
+      "image": "/images/IntermediateLessons/Spanish/Aunque.jpg"
+    },
+    {
+      "id": 2,
+      "text": "lograr",
+      "translation": "to achieve / to manage to",
+      "example": "Logré terminar el proyecto.",
+      "exampleTranslation": "I managed to finish the project.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/Spanish/Lograr.jpg"
+    },
+    {
+      "id": 3,
+      "text": "desarrollar",
+      "translation": "to develop",
+      "example": "Desarrollamos nuevas ideas.",
+      "exampleTranslation": "We developed new ideas.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/Spanish/Desarrollar.jpg"
+    },
+    {
+      "id": 4,
+      "text": "siguiente",
+      "translation": "next / following",
+      "example": "El siguiente paso es leer.",
+      "exampleTranslation": "The next step is to read.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/IntermediateLessons/Spanish/Siguiente.jpg"
+    },
+    {
+      "id": 5,
+      "text": "darse cuenta (de)",
+      "translation": "to realize",
+      "example": "Me di cuenta de mi error.",
+      "exampleTranslation": "I realized my mistake.",
+      "partOfSpeech": "Verb phrase",
+      "image": "/images/IntermediateLessons/Spanish/DarseCuenta.jpg"
+    },
+    {
+      "id": 6,
+      "text": "acostumbrarse",
+      "translation": "to get used to",
+      "example": "Me estoy acostumbrando al trabajo.",
+      "exampleTranslation": "I’m getting used to the work.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/Spanish/Acostumbrarse.jpg"
+    },
+    {
+      "id": 7,
+      "text": "mejorar",
+      "translation": "to improve",
+      "example": "Debo mejorar mi inglés.",
+      "exampleTranslation": "I must improve my English.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/Spanish/Mejorar.jpg"
+    },
+    {
+      "id": 8,
+      "text": "evitar",
+      "translation": "to avoid",
+      "example": "Evité el error.",
+      "exampleTranslation": "I avoided the mistake.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/Spanish/Evitar.jpg"
+    },
+    {
+      "id": 9,
+      "text": "confiar (en)",
+      "translation": "to trust",
+      "example": "Confío en ti.",
+      "exampleTranslation": "I trust you.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/Spanish/Confiar.jpg"
+    },
+    {
+      "id": 10,
+      "text": "conseguir",
+      "translation": "to get / to obtain",
+      "example": "Conseguí el libro.",
+      "exampleTranslation": "I got the book.",
+      "partOfSpeech": "Verb",
+      "image": "/images/IntermediateLessons/Spanish/Conseguir.jpg"
+    }
+  ]
+  

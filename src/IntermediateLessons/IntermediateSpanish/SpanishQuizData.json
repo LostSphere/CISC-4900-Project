@@ -1,0 +1,53 @@
+[
+    {
+      "question": "______ llovía, salió a correr.",
+      "answer": "Aunque",
+      "options": ["Aunque", "Lograr", "Desarrollar", "Evitar"]
+    },
+    {
+      "question": "_____, terminar el proyecto.",
+      "answer": "Lograr",
+      "options": ["Darse cuenta", "Conseguir", "Lograr", "Mejorar"]
+    },
+    {
+      "question": "_____, nuevas ideas.",
+      "answer": "Desarrollar",
+      "options": ["Desarrollar", "Evitar", "Confiar", "Acostumbrarse"]
+    },
+    {
+      "question": "El _____ paso es leer.",
+      "answer": "Siguiente",
+      "options": ["Siguiente", "Mejorar", "Darse cuenta", "Confiar"]
+    },
+    {
+      "question": "Me _____ de mi error.",
+      "answer": "Darse cuenta",
+      "options": ["Mejorar", "Conseguir", "Lograr", "Darse cuenta"]
+    },
+    {
+      "question": "Me estoy _____ al trabajo.",
+      "answer": "Acostumbrando",
+      "options": ["Acostumbrando", "Evitar", "Lograr", "Siguiente"]
+    },
+    {
+      "question": "Debo _____ mi inglés.",
+      "answer": "Mejorar",
+      "options": ["Conseguir", "Lograr", "Mejorar", "Darse cuenta"]
+    },
+    {
+      "question": "_____, el error.",
+      "answer": "Evitar",
+      "options": ["Evitar", "Mejorar", "Siguiente", "Lograr"]
+    },
+    {
+      "question": "_____, en ti.",
+      "answer": "Confiar",
+      "options": ["Confiar", "Lograr", "Desarrollar", "Acostumbrarse"]
+    },
+    {
+      "question": "_____, el libro.",
+      "answer": "Conseguir",
+      "options": ["Conseguir", "Evitar", "Lograr", "Siguiente"]
+    }
+  ]
+  
