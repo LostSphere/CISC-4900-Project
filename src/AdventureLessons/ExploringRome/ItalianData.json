@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "Storia",
+      "translation": "History",
+      "example": "Roma ha una lunga storia.",
+      "exampleTranslation": "Rome has a long history.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/ExploringRome/Storia.jpg"
+    },
+    {
+      "id": 2,
+      "text": "Colosseo",
+      "translation": "Colosseum",
+      "example": "Il Colosseo è molto grande.",
+      "exampleTranslation": "The Colosseum is very big.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/ExploringRome/Colosseo.jpg"
+    },
+    {
+      "id": 3,
+      "text": "Pantheon",
+      "translation": "a temple dedicated to all the gods",
+      "example": "Il Pantheon è un edificio antico.",
+      "exampleTranslation": "The Pantheon is an ancient building.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/ExploringRome/Pantheon.jpg"
+    },
+    {
+      "id": 4,
+      "text": "Vaticano",
+      "translation": "the chief residence of the popes",
+      "example": "Il Vaticano è piccole.",
+      "exampleTranslation": "The Vatican is small.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/ExploringRome/Vaticano.jpg"
+    },
+    {
+      "id": 5,
+      "text": "Fontana di Trevi",
+      "translation": "one of the most famous fountains in the world, located in Rome,",
+      "example": "La Fontana di Trevi è famosa.",
+      "exampleTranslation": "The Trevi Fountain is famous.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/ExploringRome/FontanaDiTrevi.jpg"
+    },
+    {
+      "id": 6,
+      "text": "Piazza Navona",
+      "translation": "one of the most famous and beautiful squares in Rome",
+      "example": "Piazza Navona è grande.",
+      "exampleTranslation": "Navona Square is big.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/ExploringRome/PiazzaNavona.jpg"
+    },
+    {
+      "id": 7,
+      "text": "Foro Romano",
+      "translation": "Roman Forum",
+      "example": "an ancient archaeological site in the center of Rome.",
+      "exampleTranslation": "The Roman Forum is ancient.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/ExploringRome/ForoRomano.jpg"
+    },
+    {
+      "id": 8,
+      "text": "Via del Corso",
+      "translation": "one of the main streets in the historic center of Rome",
+      "example": "Via del Corso è una strada lunga.",
+      "exampleTranslation": "Corso Street is a long street.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/ExploringRome/ViaDelCorso.jpg"
+    },
+    {
+      "id": 9,
+      "text": "Castel Sant'Angelo",
+      "translation": "a historic fortress located on the banks of the Tiber River in Rome",
+      "example": "Castel Sant'Angelo è molto grande.",
+      "exampleTranslation": "Castle Sant'Angelo is very big.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/ExploringRome/CastelSantAngelo.jpg"
+    },
+    {
+      "id": 10,
+      "text": "Duomo",
+      "translation": "large, rounded roof or ceiling of a building, often in the shape of a hemisphere or a circular structure",
+      "example": "Il Duomo di San Pietro è grande.",
+      "exampleTranslation": "St. Peter's Dome is big.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/ExploringRome/Duomo.jpg"
+    }
+  ]
+  
