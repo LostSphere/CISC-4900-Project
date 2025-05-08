@@ -1,0 +1,53 @@
+[
+    {
+      "question": "La Ferme des animaux est une _____ de la révolution russe.",
+      "answer": "allégorie",
+      "options": ["allégorie", "dystopie", "philosophie morale", "fable"]
+    },
+    {
+      "question": "\"1984\" est un roman _____ qui décrit une société totalitaire.",
+      "answer": "dystopie",
+      "options": ["dystopie", "tragédie", "réalisme", "romantisme"]
+    },
+    {
+      "question": "Les œuvres de Sartre sont souvent liées à la _____ morale.",
+      "answer": "philosophie morale",
+      "options": ["philosophie morale", "narratologie", "métafiction", "réalisme"]
+    },
+    {
+      "question": "La _____ analyse les structures du récit et des narrateurs.",
+      "answer": "narratologie",
+      "options": ["narratologie", "tragédie", "romantisme", "réalisme"]
+    },
+    {
+      "question": "La _____ de La Fontaine est une forme littéraire très ancienne.",
+      "answer": "fable",
+      "options": ["fable", "tragédie", "narratologie", "réalisme"]
+    },
+    {
+      "question": "La _____ grecque a influencé les écrivains français.",
+      "answer": "tragédie",
+      "options": ["tragédie", "romantisme", "réalisme", "dystopie"]
+    },
+    {
+      "question": "Le _____ se caractérise par l’expression des émotions et de la nature.",
+      "answer": "romantisme",
+      "options": ["romantisme", "réalisme", "philosophie morale", "métafiction"]
+    },
+    {
+      "question": "Le livre utilise la _____ pour interroger la nature de la réalité.",
+      "answer": "métafiction",
+      "options": ["métafiction", "narratologie", "fable", "réalisme"]
+    },
+    {
+      "question": "Balzac est un écrivain important du mouvement _____.",
+      "answer": "réalisme",
+      "options": ["réalisme", "romantisme", "narratologie", "dystopie"]
+    },
+    {
+      "question": "L'_____ permet de comprendre comment un texte fait référence à d'autres.",
+      "answer": "intertextualité",
+      "options": ["intertextualité", "réalisme", "tragédie", "romantisme"]
+    }
+  ]
+  
