@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "text": "allégorie",
+      "translation": "a narrative or story in which characters, events, or settings symbolize abstract ideas, moral qualities, or political concepts.",
+      "example": "La Ferme des animaux est une allégorie de la révolution russe.",
+      "exampleTranslation": "\"Animal Farm\" is an allegory of the Russian Revolution.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/FrenchLiterature/Allégorie.jpg"
+    },
+    {
+      "id": 2,
+      "text": "dystopie",
+      "translation": " a fictional society, often set in the future, that is characterized by oppression, suffering, and a lack of freedom",
+      "example": "\"1984\" est un roman dystopique qui décrit une société totalitaire.",
+      "exampleTranslation": "\"1984\" is a dystopian novel that describes a totalitarian society.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/FrenchLiterature/Dystopie.jpg"
+    },
+    {
+      "id": 3,
+      "text": "philosophie morale",
+      "translation": "branch of philosophy that explores questions about what is right and wrong, good and bad, justice and injustice, and how we ought to live our lives.",
+      "example": "Les œuvres de Sartre sont souvent liées à la philosophie morale.",
+      "exampleTranslation": "Sartre’s works are often related to moral philosophy.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/FrenchLiterature/PhilosophieMorale.jpg"
+    },
+    {
+      "id": 4,
+      "text": "narratologie",
+      "translation": "the study of narrative structure and the ways in which stories are told.",
+      "example": "La narratologie analyse les structures du récit et des narrateurs.",
+      "exampleTranslation": "Narratology analyzes the structures of narrative and narrators.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/FrenchLiterature/Narratologie.jpg"
+    },
+    {
+      "id": 5,
+      "text": "fable",
+      "translation": "a short, fictional story, often featuring animals, mythical creatures, or inanimate objects that are given human characteristics, such as the ability to talk or reason",
+      "example": "La fable de La Fontaine est une forme littéraire très ancienne.",
+      "exampleTranslation": "La Fontaine’s fable is a very old literary form.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/FrenchLiterature/Fable.jpg"
+    },
+    {
+      "id": 6,
+      "text": "tragédie",
+      "translation": "a type of dramatic or literary work that focuses on the downfall of a main character, often due to a combination of personal flaws, external forces, or fate.",
+      "example": "La tragédie grecque a influencé les écrivains français.",
+      "exampleTranslation": "Greek tragedy influenced French writers.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/FrenchLiterature/Tragedie.jpg"
+    },
+    {
+      "id": 7,
+      "text": "romantisme",
+      "translation": "refers to an artistic, literary, and intellectual movement that originated in the late 18th century and became prominent in the 19th century.",
+      "example": "Le romantisme se caractérise par l’expression des émotions et de la nature.",
+      "exampleTranslation": "Romanticism is characterized by the expression of emotions and nature.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/FrenchLiterature/Romantisme.jpg"
+    },
+    {
+      "id": 8,
+      "text": "métafiction",
+      "translation": "a type of fiction that self-consciously addresses the devices of fiction and the nature of storytelling.",
+      "example": "Le livre utilise la métafiction pour interroger la nature de la réalité.",
+      "exampleTranslation": "The book uses metafiction to question the nature of reality.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/FrenchLiterature/Metafiction.jpg"
+    },
+    {
+      "id": 9,
+      "text": "réalisme",
+      "translation": " refers to a movement that began in the mid-19th century as a reaction against the idealized and exaggerated representations found in Romanticism.",
+      "example": "Balzac est un écrivain important du mouvement réaliste.",
+      "exampleTranslation": "Balzac is an important writer of the realist movement.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/FrenchLiterature/Realisme.jpg"
+    },
+    {
+      "id": 10,
+      "text": "intertextualité",
+      "translation": "refers to the relationship between different texts and how they influence, reference, or echo one another.",
+      "example": "L'intertextualité permet de comprendre comment un texte fait référence à d'autres.",
+      "exampleTranslation": "Intertextuality allows us to understand how a text references others.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/FrenchLiterature/Intertextualite.jpg"
+    }
+]
