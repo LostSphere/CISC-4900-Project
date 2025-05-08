@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "公司",
+      "translation": "company; an organization involved in commercial, industrial, or professional activities",
+      "example": "这家公司在上海有很多分部。",
+      "exampleTranslation": "This company has many branches in Shanghai.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/BusinessShanghai/Gongsi.jpg"
+    },
+    {
+      "id": 2,
+      "text": "市场",
+      "translation": "market; a place or environment where commercial dealings occur",
+      "example": "上海是一个重要的国际市场。",
+      "exampleTranslation": "Shanghai is an important international market.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/BusinessShanghai/Shichang.jpg"
+    },
+    {
+      "id": 3,
+      "text": "投资",
+      "translation": "investment; the action or process of investing money for profit",
+      "example": "外国企业在上海投资很多。",
+      "exampleTranslation": "Foreign companies invest heavily in Shanghai.",
+      "partOfSpeech": "Noun / Verb",
+      "image": "/images/AdventureLevel/BusinessShanghai/Touzi.jpg"
+    },
+    {
+      "id": 4,
+      "text": "客户",
+      "translation": "client; a person or organization using the services of a professional or company",
+      "example": "我们需要更多的客户来扩展业务。",
+      "exampleTranslation": "We need more clients to expand our business.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/BusinessShanghai/Kehu.jpg"
+    },
+    {
+      "id": 5,
+      "text": "合作",
+      "translation": "cooperation; the process of working together toward the same goal",
+      "example": "我们正在与一家上海公司合作。",
+      "exampleTranslation": "We are cooperating with a company in Shanghai.",
+      "partOfSpeech": "Noun / Verb",
+      "image": "/images/AdventureLevel/BusinessShanghai/Hezuo.jpg"
+    },
+    {
+      "id": 6,
+      "text": "会议",
+      "translation": "meeting; a gathering of people for discussion or decision-making",
+      "example": "我明天要参加一个商务会议。",
+      "exampleTranslation": "I have to attend a business meeting tomorrow.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/BusinessShanghai/Huiyi.jpg"
+    },
+    {
+      "id": 7,
+      "text": "商务",
+      "translation": "business affairs; activities related to the buying and selling of goods and services",
+      "example": "他经常来上海出差处理商务。",
+      "exampleTranslation": "He often travels to Shanghai for business.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/BusinessShanghai/Shangwu.jpg"
+    },
+    {
+      "id": 8,
+      "text": "合同",
+      "translation": "contract; a written or spoken agreement enforceable by law",
+      "example": "我们已经签署了合同。",
+      "exampleTranslation": "We have already signed the contract.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/BusinessShanghai/Hetong.jpg"
+    },
+    {
+      "id": 9,
+      "text": "销售",
+      "translation": "sales; the exchange of goods or services for money",
+      "example": "我们的销售额在上海稳步增长。",
+      "exampleTranslation": "Our sales in Shanghai are steadily increasing.",
+      "partOfSpeech": "Noun / Verb",
+      "image": "/images/AdventureLevel/BusinessShanghai/Xiaoshou.jpg"
+    },
+    {
+      "id": 10,
+      "text": "经济",
+      "translation": "economy; the system of production and consumption of goods and services",
+      "example": "上海是中国最重要的经济中心之一。",
+      "exampleTranslation": "Shanghai is one of China’s most important economic centers.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/BusinessShanghai/Jingji.jpg"
+    }
+  ]
+  
