@@ -35,17 +35,21 @@ import IntermediateToSpanish from "./IntermediateLessons/IntermediateSpanish/Int
 import AdvancedToEnglish from "./AdvancedLessons/AdvancedEnglish/AdvancedToEnglish";
 import AdvancedToFrench from "./AdvancedLessons/AdvancedFrench/AdvancedToFrench";
 import AdvancedToGerman from "./AdvancedLessons/AdvancedGerman/AdvancedToGerman";
-//import AdvancedToItalian from "./AdvancedLessons/AdvancedItalian/AdvancedToItalian";
-//import AdvancedToJapanese from "./AdvancedLessons/AdvancedJapanese/AdvancedToJapanese";
-//import AdvancedToMandarin from "./AdvancedLessons/AdvancedMandarin/AdvancedToMandarin";
-//import AdvancedToSpanish from "./AdvancedLessons/AdvancedSpanish/AdvancedToSpanish";
-
-
+import AdvancedToItalian from "./AdvancedLessons/AdvancedItalian/AdvancedToItalian";
+import AdvancedToJapanese from "./AdvancedLessons/AdvancedJapanese/AdvancedToJapanese";
+import AdvancedToMandarin from "./AdvancedLessons/AdvancedMandarin/AdvancedToMandarin";
+import AdvancedToSpanish from "./AdvancedLessons/AdvancedSpanish/AdvancedToSpanish";
 
 // Adventure Lessons
 import SpanishStory from "./AdventureLessons/SpanishFiesta/SpanishStory";
 import JapaneseStory from "./AdventureLessons/LostTokyo/JapaneseStory";
 import FrenchStory from "./AdventureLessons/ParisianCafe/FrenchStory";
+import MandarinStory from "./AdventureLessons/MysteryBeijing/MandarinStory";
+import ItalianStory from "./AdventureLessons/ExploringRome/ItalianStory";
+import GermanStory from "./AdventureLessons/GermanRoadTrip/GermanStory";
+import LiteratureStory from "./AdventureLessons/FrenchLiterature/FrenchStory";
+import DebatingStory from "./AdventureLessons/DebatingMadrid/SpanishStory";
+import BusinessStory from "./AdventureLessons/BusinessShanghai/MandarinStory";
 
 function App() {
   const [isChatbotOpen, setIsChatbotOpen] = useState(false);
@@ -96,19 +100,22 @@ function App() {
       <Route path="/advanced-to-english" element={<AdvancedToEnglish />} />
       <Route path="/advanced-to-french" element={<AdvancedToFrench />} />
       <Route path="/advanced-to-german" element={<AdvancedToGerman />} />
-      {/*<Route path="/advanced-to-italian" element={<AdvancedToItalian />} />
+      <Route path="/advanced-to-italian" element={<AdvancedToItalian />} />
       <Route path="/advanced-to-japanese" element={<AdvancedToJapanese />} />
       <Route path="/advanced-to-mandarin" element={<AdvancedToMandarin />} />
       <Route path="/advanced-to-spanish" element={<AdvancedToSpanish />} />
-      */}
-
-
-
-
+      
       {/* Adventure Stories */}
       <Route path="/spanish-story" element={<SpanishStory />} />
       <Route path="/japanese-story" element={<JapaneseStory />} />
       <Route path="/french-story" element={<FrenchStory />} />
+      <Route path="/mandarin-story" element={<MandarinStory />} />
+      <Route path="/italian-story" element={<ItalianStory />} />
+      <Route path="/german-story" element={<GermanStory />} />
+      <Route path="/literature-story" element={<LiteratureStory />} />
+      <Route path="/debating-story" element={<DebatingStory />} />
+      <Route path="/business-story" element={<BusinessStory />} />
+
 
     </Routes>
     <div className="chatbot-icon" onClick={toggleChatbot}>
