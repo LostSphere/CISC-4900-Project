@@ -1,0 +1,53 @@
+[
+    {
+      "question": "La belleza de la flor es ______.",
+      "answer": "Efímero",
+      "options": ["Efímero", "Desenfrenado", "Inconmensurable", "Desconcertante"]
+    },
+    {
+      "question": "Su amor por ella era ______.",
+      "answer": "Inconmensurable",
+      "options": ["Desconcertante", "Inconmensurable", "Sobresaliente", "Represalia"]
+    },
+    {
+      "question": "El gobierno actuó ______.",
+      "answer": "Anticonstitucionalmente",
+      "options": ["Anticonstitucionalmente", "Desenfrenado", "Siguiente", "Insolente"]
+    },
+    {
+      "question": "Tiene un rendimiento ______ en la escuela.",
+      "answer": "Sobresaliente",
+      "options": ["Represalia", "Sobresaliente", "Irrenunciable", "Perenne"]
+    },
+    {
+      "question": "El festejo fue ______.",
+      "answer": "Desenfrenado",
+      "options": ["Desenfrenado", "Represalia", "Insolente", "Efímero"]
+    },
+    {
+      "question": "El niño fue ______ con su profesor.",
+      "answer": "Insolente",
+      "options": ["Insolente", "Efímero", "Perenne", "Desconcertante"]
+    },
+    {
+      "question": "La flor de loto es ______.",
+      "answer": "Perenne",
+      "options": ["Perenne", "Inconmensurable", "Desconcertante", "Desenfrenado"]
+    },
+    {
+      "question": "La libertad es un derecho ______.",
+      "answer": "Irrenunciable",
+      "options": ["Irrenunciable", "Desenfrenado", "Insolente", "Represalia"]
+    },
+    {
+      "question": "La situación es ______.",
+      "answer": "Desconcertante",
+      "options": ["Desconcertante", "Efímero", "Insolente", "Sobresaliente"]
+    },
+    {
+      "question": "La ______ fue inmediata.",
+      "answer": "Represalia",
+      "options": ["Represalia", "Perenne", "Irrenunciable", "Anticonstitucionalmente"]
+    }
+  ]
+  

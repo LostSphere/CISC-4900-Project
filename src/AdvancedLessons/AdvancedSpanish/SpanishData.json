@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "efímero",
+      "translation": "fleeting / short-lived",
+      "example": "La belleza de la flor es efímera.",
+      "exampleTranslation": "The beauty of the flower is fleeting.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/Spanish/Efímero.jpg"
+    },
+    {
+      "id": 2,
+      "text": "inconmensurable",
+      "translation": "immeasurable / immense",
+      "example": "Su amor por ella era inconmensurable.",
+      "exampleTranslation": "His love for her was immeasurable.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/Spanish/Inconmensurable.jpg"
+    },
+    {
+      "id": 3,
+      "text": "anticonstitucionalmente",
+      "translation": "unconstitutionally",
+      "example": "El gobierno actuó anticonstitucionalmente.",
+      "exampleTranslation": "The government acted unconstitutionally.",
+      "partOfSpeech": "Adverb",
+      "image": "/images/AdvancedLessons/Spanish/Anticonstitucionalmente.jpg"
+    },
+    {
+      "id": 4,
+      "text": "sobresaliente",
+      "translation": "outstanding / exceptional",
+      "example": "Tiene un rendimiento sobresaliente en la escuela.",
+      "exampleTranslation": "He has outstanding performance in school.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/Spanish/Sobresaliente.jpg"
+    },
+    {
+      "id": 5,
+      "text": "desenfrenado",
+      "translation": "uncontrolled / wild",
+      "example": "El festejo fue desenfrenado.",
+      "exampleTranslation": "The celebration was wild.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/Spanish/Desenfrenado.jpg"
+    },
+    {
+      "id": 6,
+      "text": "insolente",
+      "translation": "insolent / disrespectful",
+      "example": "El niño fue insolente con su profesor.",
+      "exampleTranslation": "The boy was disrespectful to his teacher.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/Spanish/Insolente.jpg"
+    },
+    {
+      "id": 7,
+      "text": "perenne",
+      "translation": "perennial / everlasting",
+      "example": "La flor de loto es perenne.",
+      "exampleTranslation": "The lotus flower is perennial.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/Spanish/Perenne.jpg"
+    },
+    {
+      "id": 8,
+      "text": "irrenunciable",
+      "translation": "non-renounceable / something that cannot be given up",
+      "example": "La libertad es un derecho irrenunciable.",
+      "exampleTranslation": "Freedom is a non-renounceable right.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/Spanish/Irrenunciable.jpg"
+    },
+    {
+      "id": 9,
+      "text": "desconcertante",
+      "translation": "bewildering / puzzling",
+      "example": "La situación es desconcertante.",
+      "exampleTranslation": "The situation is puzzling.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/Spanish/Desconcertante.jpg"
+    },
+    {
+      "id": 10,
+      "text": "represalia",
+      "translation": "retaliation / revenge",
+      "example": "La represalia fue inmediata.",
+      "exampleTranslation": "The retaliation was immediate.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdvancedLessons/Spanish/Represalia.jpg"
+    }
+  ]
+  
