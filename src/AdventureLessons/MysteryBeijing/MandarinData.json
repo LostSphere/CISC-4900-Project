@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "谜团",
+      "translation": "mystery",
+      "partOfSpeech": "Noun",
+      "example": "这个案件充满了谜团。",
+      "exampleTranslation": "This case is full of mystery.",
+      "image": "/images/AdventureLevel/BeijingMystery/mystery.jpg"
+    },
+    {
+      "id": 2,
+      "text": "古代",
+      "translation": "ancient",
+      "partOfSpeech": "Adjective",
+      "example": "北京有着丰富的古代历史。",
+      "exampleTranslation": "Beijing has a rich ancient history.",
+      "image": "/images/AdventureLevel/BeijingMystery/ancient.jpg"
+    },
+    {
+      "id": 3,
+      "text": "禁忌",
+      "translation": "taboo",
+      "partOfSpeech": "Noun",
+      "example": "这个地方有许多禁忌。",
+      "exampleTranslation": "This place has many taboos.",
+      "image": "/images/AdventureLevel/BeijingMystery/taboo.jpg"
+    },
+    {
+      "id": 4,
+      "text": "传说",
+      "translation": "legend",
+      "partOfSpeech": "Noun",
+      "example": "北京有许多流传的传说。",
+      "exampleTranslation": "Beijing has many legendary stories.",
+      "image": "/images/AdventureLevel/BeijingMystery/legend.jpg"
+    },
+    {
+      "id": 5,
+      "text": "遗址",
+      "translation": "ruins",
+      "partOfSpeech": "Noun",
+      "example": "我们参观了古代的遗址。",
+      "exampleTranslation": "We visited ancient ruins.",
+      "image": "/images/AdventureLevel/BeijingMystery/ruins.jpg"
+    },
+    {
+      "id": 6,
+      "text": "神秘",
+      "translation": "mysterious",
+      "partOfSpeech": "Adjective",
+      "example": "这座庙有一种神秘的氛围。",
+      "exampleTranslation": "This temple has a mysterious atmosphere.",
+      "image": "/images/AdventureLevel/BeijingMystery/mysterious.jpg"
+    },
+    {
+      "id": 7,
+      "text": "考古",
+      "translation": "archaeology",
+      "partOfSpeech": "Noun",
+      "example": "考古学家发现了许多有趣的遗物。",
+      "exampleTranslation": "Archaeologists discovered many interesting artifacts.",
+      "image": "/images/AdventureLevel/BeijingMystery/archaeology.jpg"
+    },
+    {
+      "id": 8,
+      "text": "宫殿",
+      "translation": "palace",
+      "partOfSpeech": "Noun",
+      "example": "北京的故宫是一个著名的古代宫殿。",
+      "exampleTranslation": "The Forbidden City in Beijing is a famous ancient palace.",
+      "image": "/images/AdventureLevel/BeijingMystery/palace.jpg"
+    },
+    {
+      "id": 9,
+      "text": "帝王",
+      "translation": "emperor",
+      "partOfSpeech": "Noun",
+      "example": "古代帝王的故事依然引人入胜。",
+      "exampleTranslation": "The stories of ancient emperors still captivate people.",
+      "image": "/images/AdventureLevel/BeijingMystery/emperor.jpg"
+    },
+    {
+      "id": 10,
+      "text": "传承",
+      "translation": "heritage",
+      "partOfSpeech": "Noun",
+      "example": "北京的文化传承了几千年。",
+      "exampleTranslation": "Beijing's culture has been passed down for thousands of years.",
+      "image": "/images/AdventureLevel/BeijingMystery/heritage.jpg"
+    }
+  ]
+  
