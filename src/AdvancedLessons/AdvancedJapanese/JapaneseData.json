@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "曖昧",
+      "translation": "Ambiguous",
+      "example": "彼の答えは曖昧だった。",
+      "exampleTranslation": "His answer was ambiguous.",
+      "partOfSpeech": "Na-adjective",
+      "image": "/images/AdvancedLessons/Japanese/Aimai.jpg"
+    },
+    {
+      "id": 2,
+      "text": "斬新",
+      "translation": "Innovative",
+      "example": "斬新なアイデアですね。",
+      "exampleTranslation": "That’s an innovative idea.",
+      "partOfSpeech": "Na-adjective",
+      "image": "/images/AdvancedLessons/Japanese/Zanshin.jpg"
+    },
+    {
+      "id": 3,
+      "text": "躊躇",
+      "translation": "Hesitation",
+      "example": "彼は返事に躊躇した。",
+      "exampleTranslation": "He hesitated to answer.",
+      "partOfSpeech": "Noun/Verb",
+      "image": "/images/AdvancedLessons/Japanese/Chucho.jpg"
+    },
+    {
+      "id": 4,
+      "text": "綿密",
+      "translation": "Detailed",
+      "example": "綿密な計画を立てた。",
+      "exampleTranslation": "We made a detailed plan.",
+      "partOfSpeech": "Na-adjective",
+      "image": "/images/AdvancedLessons/Japanese/Menmitsu.jpg"
+    },
+    {
+      "id": 5,
+      "text": "概念",
+      "translation": "Concept",
+      "example": "自由の概念は人によって異なる。",
+      "exampleTranslation": "The concept of freedom differs by person.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdvancedLessons/Japanese/Gainen.jpg"
+    },
+    {
+      "id": 6,
+      "text": "顕著",
+      "translation": "Remarkable",
+      "example": "彼の進歩は顕著だった。",
+      "exampleTranslation": "His progress was remarkable.",
+      "partOfSpeech": "Na-adjective",
+      "image": "/images/AdvancedLessons/Japanese/Kencho.jpg"
+    },
+    {
+      "id": 7,
+      "text": "模索",
+      "translation": "Search / Exploration",
+      "example": "彼は新しい方法を模索している。",
+      "exampleTranslation": "He is exploring a new method.",
+      "partOfSpeech": "Noun/Verb",
+      "image": "/images/AdvancedLessons/Japanese/Mosaku.jpg"
+    },
+    {
+      "id": 8,
+      "text": "確執",
+      "translation": "Conflict",
+      "example": "彼らの間に確執がある。",
+      "exampleTranslation": "There is a conflict between them.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdvancedLessons/Japanese/Kakushitsu.jpg"
+    },
+    {
+      "id": 9,
+      "text": "即座",
+      "translation": "Immediate",
+      "example": "彼は即座に反応した。",
+      "exampleTranslation": "He responded immediately.",
+      "partOfSpeech": "Noun/Adverb",
+      "image": "/images/AdvancedLessons/Japanese/Sokuza.jpg"
+    },
+    {
+      "id": 10,
+      "text": "卓越",
+      "translation": "Excellence",
+      "example": "彼の技術は卓越している。",
+      "exampleTranslation": "His skill is excellent.",
+      "partOfSpeech": "Noun/Verb",
+      "image": "/images/AdvancedLessons/Japanese/Takuetsu.jpg"
+    }
+  ]
+  
