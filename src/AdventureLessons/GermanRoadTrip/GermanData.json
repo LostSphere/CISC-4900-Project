@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "Autobahn",
+      "translation": "highway",
+      "example": "Die Autobahn in Deutschland hat keine Geschwindigkeitsbegrenzung.",
+      "exampleTranslation": "The highway in Germany has no speed limit.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/RoadTrip/Autobahn.jpg"
+    },
+    {
+      "id": 2,
+      "text": "Tankstelle",
+      "translation": "gas station",
+      "example": "Wir müssen an der nächsten Tankstelle anhalten.",
+      "exampleTranslation": "We need to stop at the next gas station.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/RoadTrip/Tankstelle.jpg"
+    },
+    {
+      "id": 3,
+      "text": "Maut",
+      "translation": "toll",
+      "example": "In Deutschland gibt es keine allgemeine Maut auf der Autobahn.",
+      "exampleTranslation": "In Germany, there is no general toll on the highway.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/RoadTrip/Maut.jpg"
+    },
+    {
+      "id": 4,
+      "text": "Raststätte",
+      "translation": "rest area",
+      "example": "Lass uns an der Raststätte eine Pause machen.",
+      "exampleTranslation": "Let's take a break at the rest area.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/RoadTrip/Raststaette.jpg"
+    },
+    {
+      "id": 5,
+      "text": "Fahrkarte",
+      "translation": "ticket (for travel)",
+      "example": "Ich habe meine Fahrkarte online gekauft.",
+      "exampleTranslation": "I bought my travel ticket online.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/RoadTrip/Fahrkarte.jpg"
+    },
+    {
+      "id": 6,
+      "text": "Landstraße",
+      "translation": "country road",
+      "example": "Die Landstraße führt durch schöne Dörfer.",
+      "exampleTranslation": "The country road passes through beautiful villages.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/RoadTrip/Landstrasse.jpg"
+    },
+    {
+      "id": 7,
+      "text": "Navigation",
+      "translation": "navigation",
+      "example": "Die Navigation zeigt Stau auf der Autobahn.",
+      "exampleTranslation": "The navigation shows traffic on the highway.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/RoadTrip/Navigation.jpg"
+    },
+    {
+      "id": 8,
+      "text": "Reiseplan",
+      "translation": "travel plan",
+      "example": "Unser Reiseplan enthält vier Städte.",
+      "exampleTranslation": "Our travel plan includes four cities.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/RoadTrip/Reiseplan.jpg"
+    },
+    {
+      "id": 9,
+      "text": "Mietwagen",
+      "translation": "rental car",
+      "example": "Wir haben einen Mietwagen in München gebucht.",
+      "exampleTranslation": "We booked a rental car in Munich.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/RoadTrip/Mietwagen.jpg"
+    },
+    {
+      "id": 10,
+      "text": "Kofferraum",
+      "translation": "trunk (of a car)",
+      "example": "Die Koffer sind im Kofferraum.",
+      "exampleTranslation": "The suitcases are in the trunk.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/RoadTrip/Kofferraum.jpg"
+    }
+  ]
+  
