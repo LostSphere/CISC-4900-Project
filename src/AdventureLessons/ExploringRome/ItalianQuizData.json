@@ -1,0 +1,53 @@
+[
+    {
+      "question": "Roma ha una lunga ______.",
+      "answer": "Storia",
+      "options": ["Pantheon", "Storia", "Foro Romano", "Vaticano"]
+    },
+    {
+      "question": "Il _____ è molto grande.",
+      "answer": "Colosseo",
+      "options": ["Vaticano", "Fontana di Trevi", "Colosseo", "Castel Sant'Angelo"]
+    },
+    {
+      "question": "Il _____ è un edificio antico.",
+      "answer": "Pantheon",
+      "options": ["Piazza Navona", "Pantheon", "Duomo", "Foro Romano"]
+    },
+    {
+      "question": "Il _____ è piccolo.",
+      "answer": "Vaticano",
+      "options": ["Foro Romano", "Vaticano", "Castel Sant'Angelo", "Via del Corso"]
+    },
+    {
+      "question": "La _____ è famosa.",
+      "answer": "Fontana di Trevi",
+      "options": ["Piazza Navona", "Castel Sant'Angelo", "Fontana di Trevi", "Duomo"]
+    },
+    {
+      "question": "_____ è grande.",
+      "answer": "Piazza Navona",
+      "options": ["Vaticano", "Fontana di Trevi", "Piazza Navona", "Storia"]
+    },
+    {
+      "question": "Il _____ è antico.",
+      "answer": "Foro Romano",
+      "options": ["Vaticano", "Duomo", "Foro Romano", "Colosseo"]
+    },
+    {
+      "question": "_____ è una strada lunga.",
+      "answer": "Via del Corso",
+      "options": ["Duomo", "Via del Corso", "Castel Sant'Angelo", "Pantheon"]
+    },
+    {
+      "question": "_____ è molto grande.",
+      "answer": "Castel Sant'Angelo",
+      "options": ["Colosseo", "Castel Sant'Angelo", "Fontana di Trevi", "Foro Romano"]
+    },
+    {
+      "question": "Il _____ di San Pietro è grande.",
+      "answer": "Duomo",
+      "options": ["Vaticano", "Duomo", "Piazza Navona", "Storia"]
+    }
+  ]
+  
