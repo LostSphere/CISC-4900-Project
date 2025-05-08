@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "辩证",
+      "translation": "logical thinking",
+      "example": "我们要辩证地看待问题。",
+      "exampleTranslation": "We need to think logically about the problem.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/Mandarin/BianZheng.jpg"
+    },
+    {
+      "id": 2,
+      "text": "颠覆",
+      "translation": "to overturn",
+      "example": "这场运动要颠覆旧体制。",
+      "exampleTranslation": "The movement aims to overturn the old system.",
+      "partOfSpeech": "Verb",
+      "image": "/images/AdvancedLessons/Mandarin/DianFu.jpg"
+    },
+    {
+      "id": 3,
+      "text": "推敲",
+      "translation": "to carefully consider",
+      "example": "他推敲了这句话。",
+      "exampleTranslation": "He carefully thought about this sentence.",
+      "partOfSpeech": "Verb",
+      "image": "/images/AdvancedLessons/Mandarin/TuiQiao.jpg"
+    },
+    {
+      "id": 4,
+      "text": "前瞻性",
+      "translation": "foresight",
+      "example": "这个计划有前瞻性。",
+      "exampleTranslation": "This plan has foresight.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdvancedLessons/Mandarin/QianZhanXing.jpg"
+    },
+    {
+      "id": 5,
+      "text": "弊端",
+      "translation": "problem; flaw",
+      "example": "这个制度有许多弊端。",
+      "exampleTranslation": "This system has many flaws.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdvancedLessons/Mandarin/BiDuan.jpg"
+    },
+    {
+      "id": 6,
+      "text": "错综复杂",
+      "translation": "complicated",
+      "example": "事情很错综复杂。",
+      "exampleTranslation": "The situation is very complicated.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/Mandarin/CuoZongFuZa.jpg"
+    },
+    {
+      "id": 7,
+      "text": "深思熟虑",
+      "translation": "to think carefully",
+      "example": "他深思熟虑后决定。",
+      "exampleTranslation": "He decided after thinking carefully.",
+      "partOfSpeech": "Verb",
+      "image": "/images/AdvancedLessons/Mandarin/ShenSiShuLv.jpg"
+    },
+    {
+      "id": 8,
+      "text": "权衡利弊",
+      "translation": "to weigh pros and cons",
+      "example": "我们要权衡利弊。",
+      "exampleTranslation": "We need to weigh the pros and cons.",
+      "partOfSpeech": "Verb",
+      "image": "/images/AdvancedLessons/Mandarin/QuanHengLiBi.jpg"
+    },
+    {
+      "id": 9,
+      "text": "循序渐进",
+      "translation": "step by step",
+      "example": "我们要循序渐进解决问题。",
+      "exampleTranslation": "We need to solve the problem step by step.",
+      "partOfSpeech": "Verb",
+      "image": "/images/AdvancedLessons/Mandarin/XunXuJianJin.jpg"
+    },
+    {
+      "id": 10,
+      "text": "自给自足",
+      "translation": "self-sufficient",
+      "example": "这个村庄自给自足。",
+      "exampleTranslation": "This village is self-sufficient.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/Mandarin/ZiJiZiZu.jpg"
+    }
+  ]
+  
