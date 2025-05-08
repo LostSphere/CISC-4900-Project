@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "debate",
+      "translation": "a formal discussion on a particular topic in a public meeting or legislative assembly",
+      "example": "El debate comenzó con una fuerte crítica al sistema político.",
+      "exampleTranslation": "The debate began with a strong critique of the political system.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/DebatingMadrid/Debate.jpg"
+    },
+    {
+      "id": 2,
+      "text": "orador",
+      "translation": "a speaker, especially one who delivers a formal address",
+      "example": "Cada orador tuvo cinco minutos para presentar su punto de vista.",
+      "exampleTranslation": "Each speaker had five minutes to present their point of view.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/DebatingMadrid/Orador.jpg"
+    },
+    {
+      "id": 3,
+      "text": "moderador",
+      "translation": "a person who presides over a debate or discussion to ensure it proceeds smoothly",
+      "example": "El moderador controlaba el tiempo y mantenía el orden.",
+      "exampleTranslation": "The moderator controlled the time and kept order.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/DebatingMadrid/Moderador.jpg"
+    },
+    {
+      "id": 4,
+      "text": "hechos",
+      "translation": "facts; pieces of information that can be proven to be true",
+      "example": "Los argumentos deben estar basados en hechos verificables.",
+      "exampleTranslation": "Arguments must be based on verifiable facts.",
+      "partOfSpeech": "Noun (Plural)",
+      "image": "/images/AdventureLevel/DebatingMadrid/Hechos.jpg"
+    },
+    {
+      "id": 5,
+      "text": "torneo",
+      "translation": "tournament; a series of contests or competitions",
+      "example": "Madrid acoge muchos torneos estudiantiles cada año.",
+      "exampleTranslation": "Madrid hosts many student tournaments each year.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/DebatingMadrid/Torneo.jpg"
+    },
+    {
+      "id": 6,
+      "text": "tema",
+      "translation": "topic or subject of a debate or discussion",
+      "example": "Un buen debate siempre tiene un tema claro.",
+      "exampleTranslation": "A good debate always has a clear topic.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/DebatingMadrid/Tema.jpg"
+    },
+    {
+      "id": 7,
+      "text": "refutación",
+      "translation": "refutation; the act of disproving or arguing against a statement or opinion",
+      "example": "El equipo presentó una excelente refutación a los argumentos contrarios.",
+      "exampleTranslation": "The team presented an excellent refutation to the opposing arguments.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/DebatingMadrid/Refutacion.jpg"
+    },
+    {
+      "id": 8,
+      "text": "jueces",
+      "translation": "judges; individuals who assess the performance and decide the winner",
+      "example": "Los jueces escucharon con atención antes de emitir su veredicto.",
+      "exampleTranslation": "The judges listened carefully before delivering their verdict.",
+      "partOfSpeech": "Noun (Plural)",
+      "image": "/images/AdventureLevel/DebatingMadrid/Jueces.jpg"
+    },
+    {
+      "id": 9,
+      "text": "opinión",
+      "translation": "opinion; a belief or view held about something",
+      "example": "La opinión fue tan fuerte que dividió al público.",
+      "exampleTranslation": "The opinion was so strong it divided the audience.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/DebatingMadrid/Opinion.jpg"
+    },
+    {
+      "id": 10,
+      "text": "Universidad",
+      "translation": "university; an institution of higher education",
+      "example": "Los debates en Madrid suelen celebrarse en la Universidad Complutense.",
+      "exampleTranslation": "Debates in Madrid are often held at the Complutense University.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdventureLevel/DebatingMadrid/Universidad.jpg"
+    }
+  ]
+  
