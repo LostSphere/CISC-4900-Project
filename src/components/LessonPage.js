@@ -110,6 +110,12 @@ function LessonPage({ language = "en" }) {
       "Spanish Fiesta": "/spanish-story",
       "Lost in Tokyo": "/japanese-story",
       "Parisian Café": "/french-story",
+      "Mystery in Beijing": "/mandarin-story",
+      "Exploring Rome": "/italian-story",
+      "German Road Trip": "/german-story",
+      "French Literature": "/literature-story",
+      "Debating in Madrid": "/debating-story",
+      "Business in Shanghai": "/business-story",
     };
     navigate(routeMap[lesson.name] || `/lesson/${lesson.name.replace(/\s+/g, "-").toLowerCase()}`);
   };
