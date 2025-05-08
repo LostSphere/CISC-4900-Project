@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "text": "Incommensurabile",
+      "translation": "too great to be measured",
+      "example": "La bellezza del tramonto è incommensurabile.",
+      "exampleTranslation": "The beauty of the sunset is beyond measure.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/Italian/Incommensurabile.jpg"
+    },
+    {
+      "id": 2,
+      "text": "Sovrastare",
+      "translation": "to be much taller or bigger than something",
+      "example": "Il castello sovrasta la valle.",
+      "exampleTranslation": "The castle towers over the valley.",
+      "partOfSpeech": "Verb",
+      "image": "/images/AdvancedLessons/Italian/Sovrastare.jpg"
+    },
+    {
+      "id": 3,
+      "text": "Pernicioso",
+      "translation": "very harmful",
+      "example": "L'inquinamento è pernicioso.",
+      "exampleTranslation": "Pollution is harmful.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/Italian/Pernicioso.jpg"
+    },
+    {
+      "id": 4,
+      "text": "Epocale",
+      "translation": "very important, changing everything",
+      "example": "La scoperta è stata epocale.",
+      "exampleTranslation": "The discovery was very important.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/Italian/Epocale.jpg"
+    },
+    {
+      "id": 5,
+      "text": "Sfumato",
+      "translation": "a smooth blending of colors or ideas",
+      "example": "Il pittore usa lo sfumato.",
+      "exampleTranslation": "The painter uses the blending technique.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdvancedLessons/Italian/Sfumato.jpg"
+    },
+    {
+      "id": 6,
+      "text": "Ineffabile",
+      "translation": "too great or beautiful to be described",
+      "example": "L'emozione era ineffabile.",
+      "exampleTranslation": "The emotion was indescribable.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/Italian/Ineffabile.jpg"
+    },
+    {
+      "id": 7,
+      "text": "Eclettico",
+      "translation": "choosing different styles or ideas",
+      "example": "Il suo stile è eclettico.",
+      "exampleTranslation": "His style is eclectic.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/Italian/Eclettico.jpg"
+    },
+    {
+      "id": 8,
+      "text": "Contumacia",
+      "translation": "being judged without being present",
+      "example": "Il colpevole è stato giudicato in contumacia.",
+      "exampleTranslation": "The offender was judged in absentia.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdvancedLessons/Italian/Contumacia.jpg"
+    },
+    {
+      "id": 9,
+      "text": "Fervore",
+      "translation": "great passion or excitement",
+      "example": "Parlava con fervore.",
+      "exampleTranslation": "He spoke with passion.",
+      "partOfSpeech": "Noun",
+      "image": "/images/AdvancedLessons/Italian/Fervore.jpg"
+    },
+    {
+      "id": 10,
+      "text": "Verosimile",
+      "translation": "seeming like it could be true",
+      "example": "La sua spiegazione è verosimile.",
+      "exampleTranslation": "His explanation seems true.",
+      "partOfSpeech": "Adjective",
+      "image": "/images/AdvancedLessons/Italian/Verosimile.jpg"
+    }
+  ]
+  

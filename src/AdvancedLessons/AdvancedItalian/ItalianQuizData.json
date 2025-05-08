@@ -1,0 +1,53 @@
+[
+    {
+      "question": "La bellezza del tramonto è _____.",
+      "answer": "incommensurabile",
+      "options": ["epocale", "pernicioso", "incommensurabile", "sfumato"]
+    },
+    {
+      "question": "Il castello ______ la valle.",
+      "answer": "sovrasta",
+      "options": ["sfuma", "ineffabile", "sovrasta", "perniciosa"]
+    },
+    {
+      "question": "L'inquinamento è ______.",
+      "answer": "pernicioso",
+      "options": ["eclettico", "epocale", "pernicioso", "incommensurabile"]
+    },
+    {
+      "question": "La scoperta è stata ______.",
+      "answer": "epocale",
+      "options": ["contumacia", "sfumato", "epocale", "ineffabile"]
+    },
+    {
+      "question": "Il pittore usa lo ______.",
+      "answer": "sfumato",
+      "options": ["eclettico", "epocale", "sfumato", "sovrastare"]
+    },
+    {
+      "question": "L'emozione era ______.",
+      "answer": "ineffabile",
+      "options": ["ineffabile", "contumacia", "incommensurabile", "pernicioso"]
+    },
+    {
+      "question": "Il suo stile è ______.",
+      "answer": "eclettico",
+      "options": ["epocale", "eclettico", "ineffabile", "sfumato"]
+    },
+    {
+      "question": "Il colpevole è stato giudicato in _______.",
+      "answer": "Contumacia",
+      "options": ["Contumacia", "epocale", "incommensurabile", "sfumato"]
+    },
+    {
+      "question": "Parlava con ______.",
+      "answer": "Fervore",
+      "options": ["sfumato", "Fervore", "pernicioso", "contumacia"]
+    },
+    {
+      "question": "La sua spiegazione è ________.",
+      "answer": "Verosimile",
+      "options": ["ineffabile", "Verosimile", "epocale", "sfumato"]
+    }
+  ]
+  
