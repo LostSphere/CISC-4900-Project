@@ -1,0 +1,53 @@
+[
+    {
+      "question": "El _____ comenzó con una fuerte crítica al sistema político.",
+      "answer": "debate",
+      "options": ["debate", "orador", "moderador", "tema"]
+    },
+    {
+      "question": "Cada _____ tuvo cinco minutos para presentar su punto de vista.",
+      "answer": "orador",
+      "options": ["tema", "moderador", "hechos", "orador"]
+    },
+    {
+      "question": "El _____ controlaba el tiempo y mantenía el orden.",
+      "answer": "moderador",
+      "options": ["orador", "hechos", "moderador", "refutación"]
+    },
+    {
+      "question": "Los argumentos deben estar basados en _____ verificables.",
+      "answer": "hechos",
+      "options": ["moderador", "refutación", "hechos", "torneo"]
+    },
+    {
+      "question": "Madrid acoge muchos _____ estudiantiles cada año.",
+      "answer": "torneo",
+      "options": ["torneo", "tema", "hechos", "debate"]
+    },
+    {
+      "question": "Un buen debate siempre tiene un _____ claro.",
+      "answer": "tema",
+      "options": ["refutación", "tema", "moderador", "orador"]
+    },
+    {
+      "question": "El equipo presentó una excelente _____ a los argumentos contrarios.",
+      "answer": "refutación",
+      "options": ["hechos", "refutación", "tema", "orador"]
+    },
+    {
+      "question": "Los _____ escucharon con atención antes de emitir su veredicto.",
+      "answer": "jueces",
+      "options": ["opinión", "universidad", "jueces", "moderador"]
+    },
+    {
+      "question": "La _____ fue tan fuerte que dividió al público.",
+      "answer": "opinión",
+      "options": ["tema", "opinión", "refutación", "torneo"]
+    },
+    {
+      "question": "Los debates en Madrid suelen celebrarse en la _____.",
+      "answer": "Universidad",
+      "options": ["Universidad", "moderador", "orador", "debate"]
+    }
+  ]
+  
