@@ -1,0 +1,53 @@
+[
+    {
+      "question": "Die _____ in Deutschland hat keine Geschwindigkeitsbegrenzung.",
+      "answer": "Autobahn",
+      "options": ["Autobahn", "Maut", "Tankstelle", "Landstraße"]
+    },
+    {
+      "question": "Wir müssen an der nächsten _____ anhalten.",
+      "answer": "Tankstelle",
+      "options": ["Fahrkarte", "Autobahn", "Tankstelle", "Raststätte"]
+    },
+    {
+      "question": "In Deutschland gibt es keine allgemeine _____ auf der Autobahn.",
+      "answer": "Maut",
+      "options": ["Navigation", "Maut", "Landstraße", "Reiseplan"]
+    },
+    {
+      "question": "Lass uns an der _____ eine Pause machen.",
+      "answer": "Raststätte",
+      "options": ["Raststätte", "Fahrkarte", "Autobahn", "Tankstelle"]
+    },
+    {
+      "question": "Ich habe meine _____ online gekauft.",
+      "answer": "Fahrkarte",
+      "options": ["Fahrkarte", "Navigation", "Maut", "Reiseplan"]
+    },
+    {
+      "question": "Die _____ führt durch schöne Dörfer.",
+      "answer": "Landstraße",
+      "options": ["Landstraße", "Tankstelle", "Raststätte", "Autobahn"]
+    },
+    {
+      "question": "Die _____ zeigt Stau auf der Autobahn.",
+      "answer": "Navigation",
+      "options": ["Navigation", "Fahrkarte", "Landstraße", "Raststätte"]
+    },
+    {
+      "question": "Unser _____ enthält vier Städte.",
+      "answer": "Reiseplan",
+      "options": ["Maut", "Reiseplan", "Navigation", "Tankstelle"]
+    },
+    {
+      "question": "Wir haben einen _____ in München gebucht.",
+      "answer": "Mietwagen",
+      "options": ["Autobahn", "Mietwagen", "Maut", "Reiseplan"]
+    },
+    {
+      "question": "Die Koffer sind im _______.",
+      "answer": "Kofferraum",
+      "options": ["Tankstelle", "Kofferraum", "Landstraße", "Fahrkarte"]
+    }
+  ]
+  
