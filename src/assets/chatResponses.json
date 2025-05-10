@@ -16,40 +16,213 @@
   ],
 
   "introEnglishResponses": [
-    { "text": "Welcome to the English lesson!", "userInput": "Welcome to the English lesson!" },
-    { "text": "How can I assist you with English?", "userInput": "How can I assist you with English?" },
-    { "text": "How can I assist you with English?", "userInput": "How can I assist you with English?" },
-    { "text": "How can I assist you with English?", "userInput": "How can I assist you with English?" }
+    { "text": "What’s the difference between 'Sorry' and 'Excuse me'?", "userInput": "What’s the difference between 'Sorry' and 'Excuse me'?" },
+    { "text": "How do I use 'Please' in a different sentence?", "userInput": "How do I use 'Please' in a different sentence?" },
+    { "text": "Why is 'Thank you' considered a noun sometimes?", "userInput": "Why is 'Thank you' considered a noun sometimes?" },
+    { "text": "Is 'Goodbye' formal or casual?", "userInput": "Is 'Goodbye' formal or casual?" }
   ],
 
   "introFrenchResponses": [
-    { "text": "Welcome to the French lesson!", "userInput": "Welcome to the French lesson!" },
-    { "text": "How can I assist you with French?", "userInput": "How can I assist you with French?" }
+    { "text": "Why is 'Bonjour' labeled as a noun?", "userInput": "Why is 'Bonjour' labeled as a noun?" },
+    { "text": "What’s the difference between 'Bien' and 'Bon' in French?", "userInput": "What’s the difference between 'Bien' and 'Bon' in French?" },
+    { "text": "Why is 'Excusez-moi' considered a verb?", "userInput": "Why is 'Excusez-moi' considered a verb?" },
+    { "text": "Can I use 'S’il vous plaît' in casual settings, or is it too formal?", "userInput": "Can I use 'S’il vous plaît' in casual settings, or is it too formal?" }
   ],
 
   "introSpanishResponses": [
-    { "text": "Welcome to the Spanish lesson!", "userInput": "Welcome to the Spanish lesson!" },
-    { "text": "How can I assist you with Spanish?", "userInput": "How can I assist you with Spanish?" }
+    { "text": "What nuance does 'Hola' carry in informal vs. formal settings?", "userInput": "What nuance does 'Hola' carry in informal vs. formal settings?" },
+    { "text": "How does 'Adiós' differ from 'Hasta luego' in conversational closure?", "userInput": "How does 'Adiós' differ from 'Hasta luego' in conversational closure?" },
+    { "text": "Why is 'Gracias' essential in expressing gratitude beyond literal meaning?", "userInput": "Why is 'Gracias' essential in expressing gratitude beyond literal meaning?" },
+    { "text": "How does 'Por favor' modify a request’s tone in Spanish pragmatics?", "userInput": "How does 'Por favor' modify a request’s tone in Spanish pragmatics?" }
   ],
 
   "introJapaneseResponses": [
-    { "text": "Welcome to the Japanese lesson!", "userInput": "Welcome to the Japanese lesson!" },
-    { "text": "How can I assist you with Japanese?", "userInput": "How can I assist you with Japanese?" }
+    { "text": "Why is 'こんにちは' labeled as a noun?", "userInput": "Why is 'こんにちは' labeled as a noun?" },
+    { "text": "What makes 'ありがとう' different from 'すみません'?", "userInput": "What makes 'ありがとう' different from 'すみません'?" },
+    { "text": "Why is 'はい' an interjection?", "userInput": "Why is 'はい' an interjection?" },
+    { "text": "What does '悪い' describe in the sentence '天気が悪い'?", "userInput": "What does '悪い' describe in the sentence '天気が悪い'?" }
   ],
 
   "introMandarinResponses": [
-    { "text": "Welcome to the Mandarin lesson!", "userInput": "Welcome to the Mandarin lesson!" },
-    { "text": "How can I assist you with Mandarin?", "userInput": "How can I assist you with Mandarin?" }
+    { "text": "Why is '你好' an interjection in Mandarin?", "userInput": "Why is '你好' an interjection in Mandarin?" },
+    { "text": "Why is '谢谢' an interjection and not a noun?", "userInput": "Why is '谢谢' an interjection and not a noun?" },
+    { "text": "How does '再见' compare to other farewell phrases in different languages?", "userInput": "How does '再见' compare to other farewell phrases in different languages?" },
+    { "text": "What makes '对不起' an apology phrase in Mandarin?", "userInput": "What makes '对不起' an apology phrase in Mandarin?" }
   ],
 
   "introItalianResponses": [
-    { "text": "Welcome to the Italian lesson!", "userInput": "Welcome to the Italian lesson!" },
-    { "text": "How can I assist you with Italian?", "userInput": "How can I assist you with Italian?" }
+    { "text": "How can 'Ciao' be used for both greetings and farewells?", "userInput": "How can 'Ciao' be used for both greetings and farewells?" },
+    { "text": "When do you use 'Per favore' vs. 'Grazie'?", "userInput": "When do you use 'Per favore' vs. 'Grazie'?" },
+    { "text": "How does 'Mi dispiace' differ in emotional contexts?", "userInput": "How does 'Mi dispiace' differ in emotional contexts?" },
+    { "text": "What’s the difference between 'Amico' and 'Famiglia' in Italian culture?", "userInput": "What’s the difference between 'Amico' and 'Famiglia' in Italian culture?" }
   ],
 
   "introGermanResponses": [
-    { "text": "Welcome to the German lesson!", "userInput": "Welcome to the German lesson!" },
-    { "text": "How can I assist you with German?", "userInput": "How can I assist you with German?" }
+    { "text": "What is the difference between 'Bitte' meaning 'Please' and 'Bitte' meaning 'You're welcome'?", "userInput": "What is the difference between 'Bitte' meaning 'Please' and 'Bitte' meaning 'You're welcome'?" },
+    { "text": "When do I use 'Entschuldigung' vs. 'Tschüss'?", "userInput": "When do I use 'Entschuldigung' vs. 'Tschüss'?" },
+    { "text": "What are some examples of other phrases like 'Wie geht’s?' that are used to ask about someone's well-being in German?", "userInput": "What are some examples of other phrases like 'Wie geht’s?' that are used to ask about someone's well-being in German?" },
+    { "text": "What is the plural form of 'Freund' (Friend)?", "userInput": "What is the plural form of 'Freund' (Friend)?" }
+  ],
+
+  "intermediateEnglishResponses": [
+    { "text": "How do 'assume' and 'determine' differ in decision-making?", "userInput": "How do 'assume' and 'determine' differ in decision-making?"},
+    { "text": "How does 'estimate' change when used as a verb versus a noun?", "userInput": "How does 'estimate' change when used as a verb versus a noun?"},
+    { "text": "How can 'maintain' describe keeping a healthy work environment?", "userInput": "How can 'maintain' describe keeping a healthy work environment?"},
+    { "text": "What is the opposite of 'improve' in personal growth?", "userInput": "What is the opposite of 'improve' in personal growth?"}
+  ],
+
+  "intermediateFrenchResponses": [
+    { "text": "How does 'rapide' convey speed in different contexts?", "userInput": "How does 'rapide' convey speed in different contexts?" },
+    { "text": "In which situations does 'fatigué' imply physical or mental exhaustion?", "userInput": "In which situations does 'fatigué' imply physical or mental exhaustion?" },
+    { "text": "How does 'content' reflect emotional satisfaction or contentment?", "userInput": "How does 'content' reflect emotional satisfaction or contentment?" },
+    { "text": "In what ways does 'marcher' describe habitual or purposeful walking?", "userInput": "In what ways does 'marcher' describe habitual or purposeful walking?" }
+  ],
+
+ "intermediateSpanishResponses": [
+    { "text": "How can 'aunque' contrast actions or situations in Spanish?", "userInput": "How can 'aunque' contrast actions or situations in Spanish?"},
+    { "text": "How does 'lograr' differ from 'alcanzar' in expressing achievement?", "userInput": "How does 'lograr' differ from 'alcanzar' in expressing achievement?"},
+    { "text": "How does 'desarrollar' relate to growth and innovation?", "userInput": "How does 'desarrollar' relate to growth and innovation?"},
+    { "text": "What does 'acostumbrarse' imply in adapting to new routines?", "userInput": "What does 'acostumbrarse' imply in adapting to new routines?"}
+  ],
+
+  "intermediateJapaneseResponses": [
+    { "text": "How is '努力' used to describe the effort required to succeed in challenging tasks?", "userInput": "How is '努力' used to describe the effort required to succeed in challenging tasks?"},
+    { "text": "In what context is '経験' used to refer to hands-on learning versus theoretical knowledge?", "userInput": "In what context is '経験' used to refer to hands-on learning versus theoretical knowledge?"},
+    { "text": "How is '発見' used in both scientific and everyday language to describe new insights?", "userInput": "How is '発見' used in both scientific and everyday language to describe new insights?"},
+    { "text": "How does '環境' influence the way we talk about personal and societal well-being?", "userInput": "How does '環境' influence the way we talk about personal and societal well-being?"}
+  ],
+
+  "intermediateMandarinResponses": [
+    { "text": "How is '需要' used in the sentence '我需要一杯咖啡' to express necessity?", "userInput": "How is '需要' used in the sentence '我需要一杯咖啡' to express necessity?"},
+    { "text": "How does '决定' function differently as a verb and noun in the context of '我还没有决定去哪儿'?", "userInput": "How does '决定' function differently as a verb and noun in the context of '我还没有决定去哪儿'?"},
+    { "text": "In what way is '重要' used to highlight significance in the sentence '这个问题很重要'?", "userInput": "In what way is '重要' used to highlight significance in the sentence '这个问题很重要'?"},
+    { "text": "How is '努力' used to convey the importance of hard work in the phrase '只要努力，就会有收获'?", "userInput": "How is '努力' used to convey the importance of hard work in the phrase '只要努力，就会有收获'?"}
+  ],
+
+  "intermediateItalianResponses": [
+    { "text": "How does 'Film' in 'Guardiamo un film stasera?' reflect a social invitation in Italian culture?", "userInput": "How does 'Film' in 'Guardiamo un film stasera?' reflect a social invitation in Italian culture?"},
+    { "text": "How does 'Cibo' in 'Il cibo italiano è delizioso' convey Italian pride in food?", "userInput": "How does 'Cibo' in 'Il cibo italiano è delizioso' convey Italian pride in food?"},
+    { "text": "How does 'Casa' in 'La mia casa è vicino al parco' represent emotional ties to home in Italy?", "userInput": "How does 'Casa' in 'La mia casa è vicino al parco' represent emotional ties to home in Italy?"},
+    { "text": "How does 'Lavoro' in 'Oggi ho molto lavoro da fare' reflect Italian work culture?", "userInput": "How does 'Lavoro' in 'Oggi ho molto lavoro da fare' reflect Italian work culture?"}
+  ],
+
+  "intermediateGermanResponses": [
+    { "text": "How does 'verbringen' convey spending time in different contexts?", "userInput": "How does 'verbringen' convey spending time in different contexts?" },
+    { "text": "How does 'erlauben' reflect authority in permission dynamics?", "userInput": "How does 'erlauben' reflect authority in permission dynamics?" },
+    { "text": "How does 'unabhängig' emphasize autonomy in life?", "userInput": "How does 'unabhängig' emphasize autonomy in life?" },
+    { "text": "How does 'Erfahrung' differentiate practical experience from theory?", "userInput": "How does 'Erfahrung' differentiate practical experience from theory?"}
+  ],
+
+  "advancedEnglishResponses": [
+    { "text": "What does 'convoluted' mean when describing a situation or explanation?", "userInput": "What does 'convoluted' mean when describing a situation or explanation?" },
+    { "text": "How can 'alleviate' be used in the context of pain or stress?", "userInput": "How can 'alleviate' be used in the context of pain or stress?" },
+    { "text": "In what context would you use the word 'discrepancy'?", "userInput": "In what context would you use the word 'discrepancy'?" },
+    { "text": "Why might something be described as 'prevalent' in society?", "userInput": "Why might something be described as 'prevalent' in society?" }
+  ],
+
+  "advancedFrenchResponses": [
+    { "text": "How does 'inéluctable' express the idea of inevitability in life's events?", "userInput": "How does 'inéluctable' express the idea of inevitability in life's events?" },
+    { "text": "In what situations would you describe something as 'époustouflant'?", "userInput": "In what situations would you describe something as 'époustouflant'?" },
+    { "text": "How is 'sérendipité' related to unexpected positive outcomes?", "userInput": "How is 'sérendipité' related to unexpected positive outcomes?" },
+    { "text": "Why might someone be prone to 'procrastiner' despite knowing deadlines?", "userInput": "Why might someone be prone to 'procrastiner' despite knowing deadlines?" }
+  ],
+
+  "advancedSpanishResponses": [
+    { "text": "Why might something beautiful be described as 'efímero'?", "userInput": "Why might something beautiful be described as 'efímero'?" },
+    { "text": "In what context would you describe feelings as 'inconmensurable'?", "userInput": "In what context would you describe feelings as 'inconmensurable'?" },
+    { "text": "What does it mean if a government acts 'anticonstitucionalmente'?", "userInput": "What does it mean if a government acts 'anticonstitucionalmente'?" },
+    { "text": "When can a student be described as 'sobresaliente'?", "userInput": "When can a student be described as 'sobresaliente'?" }
+  ],
+
+  "advancedJapaneseResponses": [
+    { "text": "How does the word '曖昧' describe situations with unclear meaning?", "userInput": "How does the word '曖昧' describe situations with unclear meaning?" },
+    { "text": "What kind of ideas would you describe as '斬新'?", "userInput": "What kind of ideas would you describe as '斬新'?" },
+    { "text": "When might a person experience '躊躇' in decision-making?", "userInput": "When might a person experience '躊躇' in decision-making?" },
+    { "text": "How does the term '卓越' relate to someone's skills or achievements?", "userInput": "How does the term '卓越' relate to someone's skills or achievements?" }
+  ],
+
+  "advancedMandarinResponses": [
+    { "text": "When might you use the term '辩证' in a discussion?", "userInput": "When might you use the term '辩证' in a discussion?" },
+    { "text": "How does the concept of '颠覆' relate to social or political change?", "userInput": "How does the concept of '颠覆' relate to social or political change?" },
+    { "text": "In what situations would someone '推敲' their thoughts before speaking?", "userInput": "In what situations would someone '推敲' their thoughts before speaking?" },
+    { "text": "How does '前瞻性' influence decision-making in business or policy?", "userInput": "How does '前瞻性' influence decision-making in business or policy?" }
+  ],
+
+  "advancedItalianResponses": [
+    { "text": "What does the term 'incommensurabile' mean in the sentence 'La bellezza del tramonto è incommensurabile'?", "userInput": "What does the term 'incommensurabile' mean in the sentence 'La bellezza del tramonto è incommensurabile'?" },
+    { "text": "How does the verb 'sovrastare' function in the sentence 'Il castello sovrasta la valle'?", "userInput": "How does the verb 'sovrastare' function in the sentence 'Il castello sovrasta la valle'?" },
+    { "text": "What does the adjective 'pernicioso' describe in the sentence 'L'inquinamento è pernicioso'?", "userInput": "What does the adjective 'pernicioso' describe in the sentence 'L'inquinamento è pernicioso'?" },
+    { "text": "What is the significance of 'epocale' in the context of the sentence 'La scoperta è stata epocale'?", "userInput": "What is the significance of 'epocale' in the context of the sentence 'La scoperta è stata epocale'?" }
+  ],
+
+  "advancedGermanResponses": [
+    { "text": "How does the term 'Fernweh' encapsulate a feeling of longing and its connection to travel?", "userInput": "How does the term 'Fernweh' encapsulate a feeling of longing and its connection to travel?" },
+    { "text": "In what contexts does 'Weltschmerz' describe emotional exhaustion, and how does it differ from general sadness?", "userInput": "In what contexts does 'Weltschmerz' describe emotional exhaustion, and how does it differ from general sadness?" },
+    { "text": "What cultural insights can be gained from the concept of 'Schadenfreude' and its relation to human nature?", "userInput": "What cultural insights can be gained from the concept of 'Schadenfreude' and its relation to human nature?" },
+    { "text": "How does 'Kopfkino' illustrate the impact of vivid imagination on personal experiences and memory?", "userInput": "How does 'Kopfkino' illustrate the impact of vivid imagination on personal experiences and memory?" }
+  ],
+
+  "SpanishStoryResponses": [
+    { "text": "How does the concept of 'baile' transcend mere physical movement, and what deeper cultural or emotional significance can it hold in various Spanish-speaking societies?", "userInput": "How does the concept of 'baile' transcend mere physical movement, and what deeper cultural or emotional significance can it hold in various Spanish-speaking societies?" },
+    { "text": "In what ways does 'celebración' extend beyond traditional festivities, and how can the word encapsulate both formal and informal expressions of joy in different social contexts?", "userInput": "In what ways does 'celebración' extend beyond traditional festivities, and how can the word encapsulate both formal and informal expressions of joy in different social contexts?" },
+    { "text": "What are the psychological and sociocultural dimensions of 'alegría' in relation to community rituals, and how does the concept interact with expressions of individual happiness?", "userInput": "What are the psychological and sociocultural dimensions of 'alegría' in relation to community rituals, and how does the concept interact with expressions of individual happiness?" },
+    { "text": "How can the term 'divertido' be dissected to distinguish between its surface-level connotations of enjoyment and its deeper implications for personal engagement in shared activities or group dynamics?", "userInput": "How can the term 'divertido' be dissected to distinguish between its surface-level connotations of enjoyment and its deeper implications for personal engagement in shared activities or group dynamics?" }
+  ],
+
+  "JapaneseStoryResponses": [
+    { "text": "How is '道に迷いました' used to express the speaker's need for help in a navigational context?", "userInput": "How is '道に迷いました' used to express the speaker's need for help in a navigational context?" },
+    { "text": "In what context does '駅はどこですか？' function as a question, and how does it aid in obtaining location-based information?", "userInput": "In what context does '駅はどこですか？' function as a question, and how does it aid in obtaining location-based information?" },
+    { "text": "How does '助けてください' function as a plea for assistance in situations involving confusion or distress?", "userInput": "How does '助けてください' function as a plea for assistance in situations involving confusion or distress?" },
+    { "text": "How is the word '右' used in a navigational context to provide clear direction, and why is it important for effective communication?", "userInput": "How is the word '右' used in a navigational context to provide clear direction, and why is it important for effective communication?" }
+  ],
+
+  "FrenchStoryResponses": [
+    { "text": "How does the phrase 'Un café, s'il vous plaît' function in a French cafe context, and what does it imply about politeness in requesting a drink?", "userInput": "How does the phrase 'Un café, s'il vous plaît' function in a French cafe context, and what does it imply about politeness in requesting a drink?" },
+    { "text": "What is the cultural significance of ordering 'Un croissant' in France, and how does the word encapsulate a common French breakfast experience?", "userInput": "What is the cultural significance of ordering 'Un croissant' in France, and how does the word encapsulate a common French breakfast experience?" },
+    { "text": "In what situations would 'Je voudrais un café au lait' be used in a French-speaking country, and how does it reflect French coffee culture?", "userInput": "In what situations would 'Je voudrais un café au lait' be used in a French-speaking country, and how does it reflect French coffee culture?" },
+    { "text": "How does the phrase 'L'addition, s'il vous plaît' relate to the etiquette of paying for a meal in a French cafe, and why is this phrase important for the completion of the dining experience?", "userInput": "How does the phrase 'L'addition, s'il vous plaît' relate to the etiquette of paying for a meal in a French cafe, and why is this phrase important for the completion of the dining experience?" }
+  ],
+
+  "MandarinStoryResponses": [
+    {"text": "How does the term '谜团' illustrate the complex nature of certain events, and why is it essential for creating a sense of intrigue in a narrative context?","userInput": "How does the term '谜团' illustrate the complex nature of certain events, and why is it essential for creating a sense of intrigue in a narrative context?"},
+    {"text": "What role does the adjective '古代' play in distinguishing historical periods, and how does it contribute to the understanding of cultural heritage?","userInput": "What role does the adjective '古代' play in distinguishing historical periods, and how does it contribute to the understanding of cultural heritage?"},
+    {"text": "How does '禁忌' influence social norms and cultural behaviors, and why is it important to recognize taboos in historical and modern contexts?","userInput": "How does '禁忌' influence social norms and cultural behaviors, and why is it important to recognize taboos in historical and modern contexts?"},
+    {"text": "How do '遗址' serve as physical remnants of the past, and what can they teach us about ancient civilizations and their way of life?","userInput": "How do '遗址' serve as physical remnants of the past, and what can they teach us about ancient civilizations and their way of life?"}
+  ],
+
+  "ItalianStoryResponses": [
+    {"text": "How is 'Storia' used in the sentence 'Roma ha una lunga storia' to convey a sense of Rome's historical richness?","userInput": "How is 'Storia' used in the sentence 'Roma ha una lunga storia' to convey a sense of Rome's historical richness?"},
+    {"text": "In what way does the word 'Colosseo' highlight the architectural grandeur of Rome in the sentence 'Il Colosseo è molto grande'?","userInput": "In what way does the word 'Colosseo' highlight the architectural grandeur of Rome in the sentence 'Il Colosseo è molto grande'?"},
+    {"text": "How does 'Pantheon' in the sentence 'Il Pantheon è un edificio antico' help introduce learners to Rome's religious and architectural history?","userInput": "How does 'Pantheon' in the sentence 'Il Pantheon è un edificio antico' help introduce learners to Rome's religious and architectural history?"},
+    {"text": "What cultural and religious importance does 'Vaticano' carry in the sentence 'Il Vaticano è piccolo'?","userInput": "What cultural and religious importance does 'Vaticano' carry in the sentence 'Il Vaticano è piccolo'?"}
+  ],
+
+  "GermanStoryResponses": [
+    {"text": "In what way does the use of the noun 'Autobahn' in the sentence 'Die Autobahn in Deutschland hat keine Geschwindigkeitsbegrenzung' reflect both a linguistic and cultural insight into Germany's transportation system?", "userInput": "In what way does the use of the noun 'Autobahn' in the sentence 'Die Autobahn in Deutschland hat keine Geschwindigkeitsbegrenzung' reflect both a linguistic and cultural insight into Germany's transportation system?"},
+    {"text": "How does the inclusion of the word 'Tankstelle' in the sentence 'Wir müssen an der nächsten Tankstelle anhalten' reveal practical aspects of travel logistics and road trip planning in German-speaking regions?", "userInput": "How does the inclusion of the word 'Tankstelle' in the sentence 'Wir müssen an der nächsten Tankstelle anhalten' reveal practical aspects of travel logistics and road trip planning in German-speaking regions?"},
+    {"text": "How does the term 'Maut' in the sentence 'In Deutschland gibt es keine allgemeine Maut auf der Autobahn' serve to emphasize a distinctive financial policy within Germany’s highway infrastructure?", "userInput": "How does the term 'Maut' in the sentence 'In Deutschland gibt es keine allgemeine Maut auf der Autobahn' serve to emphasize a distinctive financial policy within Germany’s highway infrastructure?"},
+    {"text": "What role does the noun 'Raststätte' play in the sentence 'Lass uns an der Raststätte eine Pause machen' in conveying the importance of structured rest areas during extended travel?", "userInput": "What role does the noun 'Raststätte' play in the sentence 'Lass uns an der Raststätte eine Pause machen' in conveying the importance of structured rest areas during extended travel?"}
+  ],
+
+  "LiteratureStoryResponses": [
+    { "text": "How does 'allégorie' in 'La Ferme des animaux' symbolize political events?", "userInput": "How does 'allégorie' in 'La Ferme des animaux' symbolize political events?" },
+    { "text": "How does 'dystopie' in '1984' reflect societal fears?", "userInput": "How does 'dystopie' in '1984' reflect societal fears?" },
+    { "text": "How does 'philosophie morale' in Sartre’s works explore ethical choices?", "userInput": "How does 'philosophie morale' in Sartre’s works explore ethical choices?" },
+    { "text": "How does 'narratologie' analyze the role of narrators in storytelling?", "userInput": "How does 'narratologie' analyze the role of narrators in storytelling?" }
+  ],
+
+  "DebatingStoryResponses": [
+    {"text": "How does 'debate' influence public opinion in political discussions?",  "userInput": "How does 'debate' influence public opinion in political discussions?"},
+    {"text": "In what way does the 'moderador' maintain order during intense debates?","userInput": "In what way does the 'moderador' maintain order during intense debates?"},
+    {"text": "How can 'hechos' shape the effectiveness of an argument in a debate?","userInput": "How can 'hechos' shape the effectiveness of an argument in a debate?"},
+    {"text": "What role do 'jueces' play in ensuring fairness in a debating tournament?","userInput": "What role do 'jueces' play in ensuring fairness in a debating tournament?"}
+  ],
+
+  "BusinessStoryResponses": [
+    {"text": "How does '公司' impact the economic development of a city like Shanghai?","userInput": "How does '公司' impact the economic development of a city like Shanghai?"},
+    {"text": "What role does '市场' play in shaping international trade dynamics?","userInput": "What role does '市场' play in shaping international trade dynamics?"},
+    {"text": "How does '投资' contribute to the growth of foreign businesses in Shanghai?","userInput": "How does '投资' contribute to the growth of foreign businesses in Shanghai?"},
+    {"text": "In what ways does '合作' foster innovation in multinational corporations?","userInput": "In what ways does '合作' foster innovation in multinational corporations?"}
   ],
 
   "manualResponses": {
@@ -60,7 +233,156 @@
     "We are a company focused on delivering great products.": "We create innovative solutions for everyday problems.",
     "Where can I start?": "You can start by clicking on the Start Lesson button",
     "How do I change the password?": "To change your password, go to the settings page and follow the instructions.",
-    "default": "I'm not sure how to respond to that. 😔 Could you ask something else?"
-  }
+    "default": "I'm not sure how to respond to that. 😔 Could you ask something else?",
 
+    "What’s the difference between 'Sorry' and 'Excuse me'?": "'Sorry' is used to apologize for something you did wrong, while 'Excuse me' is used to get someone's attention or politely interrupt.",
+    "How do I use 'Please' in a different sentence?": "'Please' can be used like this: 'Please close the door when you leave.'",
+    "Why is 'Thank you' considered a noun sometimes?": "'Thank you' acts like a noun when used as a subject or object, such as in 'I gave her a thank you for the gift.'",
+    "Is 'Goodbye' formal or casual?": "'Goodbye' is generally more formal, while casual alternatives include 'bye' or 'see ya.'",
+
+    "Why is 'Bonjour' labeled as a noun?": "'Bonjour' is labeled as a noun because it is a specific type of greeting, and in French, greetings can be categorized as nouns based on their use in context.",
+    "What’s the difference between 'Bien' and 'Bon' in French?": "'Bien' means 'well' or 'good' and is typically used as an adverb to describe how something is done, while 'Bon' means 'good' and is used as an adjective to describe the quality of a noun.",
+    "Why is 'Excusez-moi' considered a verb?": "'Excusez-moi' is considered a verb because 'excuser' is the root verb, and 'excusez' is the conjugated form of the verb in the imperative mood, asking someone to excuse you.",
+    "Can I use 'S’il vous plaît' in casual settings, or is it too formal?": "'S’il vous plaît' is generally polite and can be used in both formal and casual settings, though it is slightly more formal than the more casual 's'il te plaît.'",
+  
+    "What is the difference between 'Bitte' meaning 'Please' and 'Bitte' meaning 'You're welcome'?": "'Bitte' can mean both 'Please' when making a request, and 'You’re welcome' when responding to a thank you. The context of the conversation determines the meaning.",
+    "When do I use 'Entschuldigung' vs. 'Tschüss'?": "'Entschuldigung' is used when apologizing or politely interrupting someone, while 'Tschüss' is an informal way of saying goodbye.",
+    "What are some examples of other phrases like 'Wie geht’s?' that are used to ask about someone's well-being in German?": "'Wie geht’s?' is commonly used, but other similar phrases include 'Wie geht es dir?' (informal) and 'Wie geht es Ihnen?' (formal), both of which mean 'How are you?'",
+    "What is the plural form of 'Freund' (Friend)?": "The plural form of 'Freund' is 'Freunde.'",
+  
+    "How can 'Ciao' be used for both greetings and farewells?": "'Ciao' is labeled as an interjection because it functions as a casual greeting or farewell, depending on the context, making it versatile for both purposes in Italian.",
+    "When do you use 'Per favore' vs. 'Grazie'?": "'Per favore' is used when making a polite request, while 'Grazie' is used to express gratitude after receiving something or an action being completed.",
+    "How does 'Mi dispiace' differ in emotional contexts?": "'Mi dispiace' is used as an expression of apology or regret, often in response to a mistake or when offering sympathy, thus conveying empathy in emotional contexts.",
+    "What’s the difference between 'Amico' and 'Famiglia' in Italian culture?": "'Amico' refers to a friend, which is a close personal relationship, while 'Famiglia' refers to family, a more foundational and permanent social group in Italian culture.",
+
+    "Why is 'こんにちは' labeled as a noun?": "'こんにちは' is labeled as a noun because it is a specific greeting in Japanese, which is used as a word to address someone, categorizing it as a noun in this context.",
+    "What makes 'ありがとう' different from 'すみません'?": "'ありがとう' is a noun that expresses gratitude, while 'すみません' is an expression or interjection used to apologize or express regret. Both are important expressions, but they serve different social functions.",
+    "Why is 'はい' an interjection?": "'はい' is an interjection because it is a short, affirmative response used to acknowledge or agree with something in conversation, without being a full sentence.",
+    "What does '悪い' describe in the sentence '天気が悪い'?": "'悪い' is an adjective that describes the weather ('天気') in the sentence '天気が悪い', meaning 'bad'. It is used to modify the noun 'weather', describing its condition.",
+
+    "What does '你好' mean in the sentence '你好，我叫李华'?": "'你好' is an interjection meaning 'hello', used as a greeting in Mandarin. In the sentence '你好，我叫李华', it is used to greet someone before introducing oneself.",
+    "What does '谢谢' express in the sentence '谢谢你的帮助'?": "'谢谢' is an interjection meaning 'thank you'. In the sentence '谢谢你的帮助', it expresses gratitude for someone's help.",
+    "Why is '再见' used in the sentence '再见，我们明天见'?": "'再见' is an interjection meaning 'goodbye'. It is used to bid farewell in the sentence '再见，我们明天见', implying the speaker is leaving and will see the person again tomorrow.",
+    "What does '对不起' convey in the sentence '对不起，我迟到了'?": "'对不起' is a phrase meaning 'sorry'. In the sentence '对不起，我迟到了', it conveys an apology for being late.",
+
+    "What nuance does 'Hola' carry in informal vs. formal settings?": "'Hola' is generally informal and friendly, often used among friends or peers. In formal settings, other greetings like 'Buenos días' may be preferred to show respect.",
+    "How does 'Adiós' differ from 'Hasta luego' in conversational closure?": "'Adiós' often signals a more permanent goodbye, while 'Hasta luego' implies an expectation of seeing the person again soon.",
+    "Why is 'Gracias' essential in expressing gratitude beyond literal meaning?": "'Gracias' is more than a thank-you; it reflects cultural values of politeness and social harmony in Spanish-speaking contexts.",
+    "How does 'Por favor' modify a request’s tone in Spanish pragmatics?": "'Por favor' softens the tone of a request, making it more polite and showing consideration for the listener’s willingness or effort.",
+
+    "How do 'assume' and 'determine' differ in decision-making?": "'Assume' is used when taking something for granted or supposing it to be true without evidence, while 'determine' refers to making a decision based on analysis or available information, often involving careful consideration.",
+    "How does 'estimate' change when used as a verb versus a noun?": "'Estimate' as a verb means to roughly calculate or judge the value of something, whereas as a noun, it refers to the approximation or judgment itself.",
+    "How can 'maintain' describe keeping a healthy work environment?": "'Maintain' in this context refers to the ongoing effort to preserve a positive, healthy work environment by ensuring good conditions and relationships are sustained over time.",
+    "What is the opposite of 'improve' in personal growth?": "'Deteriorate' is the opposite of 'improve' in personal growth, indicating a decline or decrease in one’s abilities or well-being.",
+
+    "How does 'rapide' convey speed in different contexts?": "'Rapide' is used to describe something that moves quickly or has a high speed, whether it's a vehicle, a person, or an action, making it versatile in various contexts related to speed.",
+    "In which situations does 'fatigué' imply physical or mental exhaustion?": "'Fatigué' is used to describe both physical and mental exhaustion, such as being tired after a long day of work or feeling mentally drained after a stressful task.",
+    "How does 'content' reflect emotional satisfaction or contentment?": "'Content' is used to express a state of happiness or satisfaction, often referring to a person who feels pleased with their situation or with something they have received.",
+    "In what ways does 'marcher' describe habitual or purposeful walking?": "'Marcher' describes walking as an action, whether habitual, like walking every day, or purposeful, such as walking to a specific destination.",
+
+    "How does 'verbringen' convey spending time in different contexts?": "'verbringen' refers to the act of spending time, often implying the duration and nature of an activity, whether it's leisurely or purposeful, emphasizing time allocation in various settings.",
+    "How does 'erlauben' reflect authority in permission dynamics?": "'erlauben' highlights the power of the person granting permission, typically suggesting a higher authority or a parent-child dynamic, indicating who holds control over the action.",
+    "How does 'unabhängig' emphasize autonomy in life?": "'unabhängig' describes a state of independence, where someone can make decisions and live without reliance on others, signifying self-sufficiency in personal or professional life.",
+    "How does 'Erfahrung' differentiate practical experience from theory?": "'Erfahrung' refers to hands-on knowledge gained through personal involvement in real situations, distinguishing it from theoretical understanding, which is learned without direct application.",
+
+    "How is '努力' used to describe the effort required to succeed in challenging tasks?": "'努力' is used to describe the consistent and intentional effort one puts into overcoming obstacles or achieving goals, particularly in challenging circumstances that require persistence and dedication.",
+    "In what context is '経験' used to refer to hands-on learning versus theoretical knowledge?": "'経験' is used to refer to learning gained through direct involvement and practical application, distinguishing it from theoretical knowledge which is acquired through study or instruction without direct experience.",
+    "How is '発見' used in both scientific and everyday language to describe new insights?": "'発見' is used to describe any new finding, whether it’s a significant scientific discovery or an everyday realization, signifying the acquisition of new knowledge or understanding in various contexts.",
+    "How does '環境' influence the way we talk about personal and societal well-being?": "'環境' refers to the surrounding conditions, both physical and social, that affect an individual's or society's well-being, emphasizing how external factors play a crucial role in health, development, and overall quality of life.",
+
+    "How is '需要' used in the sentence '我需要一杯咖啡' to express necessity?": "'需要' is used as a verb meaning 'to need' or 'to require.' In the sentence '我需要一杯咖啡,' it emphasizes the necessity of a cup of coffee, showing that the speaker requires or desires it.",
+    "How does '决定' function differently as a verb and noun in the context of '我还没有决定去哪儿'?": "'决定' is a verb meaning 'to decide' and a noun meaning 'a decision.' In the sentence '我还没有决定去哪儿,' it is used as a verb, referring to the act of making a decision about where to go.",
+    "In what way is '重要' used to highlight significance in the sentence '这个问题很重要'?": "'重要' is an adjective meaning 'important.' In the sentence '这个问题很重要,' it emphasizes the significance of the problem, indicating that it is of high importance.",
+    "How is '努力' used to convey the importance of hard work in the phrase '只要努力，就会有收获'?": "'努力' is a verb meaning 'to strive' or 'to work hard.' In the phrase '只要努力，就会有收获,' it stresses that through perseverance and effort, one will eventually achieve rewards or success.",
+
+    "How does 'Film' in 'Guardiamo un film stasera?' reflect a social invitation in Italian culture?": "'Film' is used in this context to suggest a casual social activity, reflecting the Italian tradition of enjoying films together as a common leisure activity, often in a relaxed, group setting.",
+    "How does 'Cibo' in 'Il cibo italiano è delizioso' convey Italian pride in food?": "'Cibo' highlights the importance of food in Italian culture, often seen as a source of national pride, with Italians viewing their cuisine as an integral part of their identity and cultural expression.",
+    "How does 'Casa' in 'La mia casa è vicino al parco' represent emotional ties to home in Italy?": "'Casa' in this context is not just a physical house, but a symbol of belonging and security. In Italian culture, home is often closely tied to family, comfort, and personal identity.",
+    "How does 'Lavoro' in 'Oggi ho molto lavoro da fare' reflect Italian work culture?": "'Lavoro' reflects the Italian work culture, where work is often seen as a source of personal identity and pride, but also as a space for balance with social and family life. The phrase suggests a busy day but might also emphasize work-life balance.",
+
+    "How can 'aunque' contrast actions or situations in Spanish?": "'Aunque' is a conjunction used to show contrast between two clauses, indicating that one action or situation occurs despite another, such as 'Although it was raining, he went out to run.'",
+    "How does 'lograr' differ from 'alcanzar' in expressing achievement?": "'Lograr' is used to emphasize personal effort and overcoming obstacles to achieve something, while 'alcanzar' generally refers to reaching a goal or destination without implying the same level of effort.",
+    "How does 'desarrollar' relate to growth and innovation?": "'Desarrollar' is often used in the context of growth, improvement, or the creation of new ideas or skills, reflecting the process of development and innovation.",
+    "What does 'acostumbrarse' imply in adapting to new routines?": "'Acostumbrarse' refers to the process of getting used to a new situation or routine, indicating gradual adaptation or becoming comfortable with changes over time.",
+
+    "What does 'convoluted' mean when describing a situation or explanation?": "'Convoluted' refers to something that is extremely complex and difficult to follow, often due to unnecessary complication or unclear structure.",
+    "How can 'alleviate' be used in the context of pain or stress?": "'Alleviate' means to make something less severe or painful, and is commonly used when referring to reducing pain, stress, or burdens.",
+    "In what context would you use the word 'discrepancy'?": "'Discrepancy' is used to describe a lack of agreement or consistency between two or more things, often appearing in data, reports, or accounts.",
+    "Why might something be described as 'prevalent' in society?": "'Prevalent' is used to describe something that is widespread or commonly found, especially in reference to trends, beliefs, or behaviors in society.",
+
+    "How does 'inéluctable' express the idea of inevitability in life's events?": "'Inéluctable' conveys the sense that something is bound to happen and cannot be avoided, often used to describe fate, time, or certain outcomes in life.",
+    "In what situations would you describe something as 'époustouflant'?": "'Époustouflant' is used to describe something that is extremely impressive or breathtaking, such as a stunning view or an incredible performance.",
+    "How is 'sérendipité' related to unexpected positive outcomes?": "'Sérendipité' refers to the occurrence of fortunate discoveries by chance, often highlighting how unexpected events can lead to beneficial or joyful results.",
+    "Why might someone be prone to 'procrastiner' despite knowing deadlines?": "'Procrastiner' refers to the act of delaying tasks, often due to avoidance, fear of failure, or lack of motivation, even when one is aware of approaching deadlines.",
+
+    "Why might something beautiful be described as 'efímero'?": "'Efímero' describes something that is fleeting or short-lived, often used to refer to the transient nature of beauty that fades quickly, emphasizing its delicate and temporary nature.",
+    "In what context would you describe feelings as 'inconmensurable'?": "'Inconmensurable' refers to something that is immeasurable or immense, often used to describe overwhelming emotions or experiences that cannot be quantified or fully expressed, such as boundless love or sorrow.",
+    "What does it mean if a government acts 'anticonstitucionalmente'?": "'Anticonstitucionalmente' refers to actions that go against or violate the constitution, indicating that a government is acting in a way that is illegal or unlawful according to the fundamental laws of the country.",
+    "When can a student be described as 'sobresaliente'?": "'Sobresaliente' is used to describe a student who performs exceptionally well, demonstrating outstanding achievements in their studies or other areas, often surpassing expectations or norms.",
+
+    "How does '曖昧' describe situations with unclear meaning?": "'曖昧' is used to describe situations where the meaning is vague or ambiguous, often leading to confusion or uncertainty.",
+    "What kind of ideas would you describe as '斬新'?": "'斬新' refers to ideas that are innovative, groundbreaking, or fresh, often challenging conventional thoughts or introducing new concepts.",
+    "When might a person experience '躊躇' in decision-making?": "'躊躇' refers to hesitation, typically experienced when someone is uncertain or hesitant before making an important decision.",
+    "How does the term '卓越' relate to someone's skills or achievements?": "'卓越' describes exceptional skills or achievements that surpass ordinary standards, emphasizing excellence and mastery in a particular area.",
+
+    "When might you use the term '辩证' in a discussion?": "'辩证' is typically used in discussions that require logical thinking or reasoning, particularly when analyzing complex problems or opposing viewpoints. It emphasizes the need to view issues from a balanced perspective, considering both sides of an argument.",
+    "How does the concept of '颠覆' relate to social or political change?": "'颠覆' refers to the act of overturning or radically changing an existing system, which is often associated with revolutions or movements aimed at challenging established social or political structures. It involves dismantling old systems to make way for new ideas or governance.",
+    "In what situations would someone '推敲' their thoughts before speaking?": "'推敲' refers to carefully considering or refining one's thoughts before speaking, especially in situations where clarity, precision, or diplomacy is important. This could be in formal debates, interviews, or when delivering a significant message where every word matters.",
+    "How does '前瞻性' influence decision-making in business or policy?": "'前瞻性', meaning foresight, plays a crucial role in decision-making by helping individuals and organizations anticipate future challenges, trends, and opportunities. In business or policy, having foresight can lead to more strategic planning and proactive actions, ensuring long-term success and stability.",
+
+    "What does the term 'incommensurabile' mean in the sentence 'La bellezza del tramonto è incommensurabile'?": "'Incommensurabile' in this sentence means that the beauty of the sunset is so great that it cannot be measured or quantified, emphasizing its vastness and immeasurable quality.",
+    "How does the verb 'sovrastare' function in the sentence 'Il castello sovrasta la valle'?": "'Sovrastare' is used to describe the action of the castle towering over or dominating the valley. It conveys the idea of the castle being much taller or larger than the surrounding landscape.",
+    "What does the adjective 'pernicioso' describe in the sentence 'L'inquinamento è pernicioso'?": "'Pernicioso' describes the harmful or destructive nature of pollution. It emphasizes that pollution has negative, detrimental effects on the environment or health.",
+    "What is the significance of 'epocale' in the context of the sentence 'La scoperta è stata epocale'?": "'Epocale' highlights the immense importance of the discovery. It suggests that the discovery was groundbreaking, changing everything in its field and having a significant impact on history or science.",
+
+    "How does the term 'Fernweh' encapsulate a feeling of longing and its connection to travel?": "'Fernweh' describes a deep, almost painful longing to travel, often used to express a desire to explore unfamiliar places, reflecting a sense of wanderlust that goes beyond mere curiosity about new destinations.",
+    "In what contexts does 'Weltschmerz' describe emotional exhaustion, and how does it differ from general sadness?": "'Weltschmerz' refers to a profound sadness or melancholy about the state of the world, often associated with feelings of helplessness or disappointment, unlike general sadness, which may not necessarily be related to global issues.",
+    "What cultural insights can be gained from the concept of 'Schadenfreude' and its relation to human nature?": "'Schadenfreude' reveals a complex aspect of human nature, where people experience pleasure from the misfortune of others. This concept offers insight into the darker side of human emotions, often linked to jealousy, envy, or the desire to feel superior.",
+    "How does 'Kopfkino' illustrate the impact of vivid imagination on personal experiences and memory?": "'Kopfkino' refers to the mental movies people create in their minds, vividly imagining scenarios, events, or emotions. It shows how imagination can shape one's memory and influence their perceptions of reality, often enhancing or distorting personal experiences.",
+
+    "How does the concept of 'baile' transcend mere physical movement, and what deeper cultural or emotional significance can it hold in various Spanish-speaking societies?": "'Baile' is more than just physical movement; it is an integral part of cultural expression and emotional connection. In many Spanish-speaking societies, dance serves as a medium for storytelling, preserving historical narratives, and forging communal bonds. It is used to express love, loss, and joy, reflecting the rich emotional landscape of a community. Dance in these cultures is a way to connect with the past and each other, creating a sense of identity and continuity.'",
+    "In what ways does 'celebración' extend beyond traditional festivities, and how can the word encapsulate both formal and informal expressions of joy in different social contexts?": "'Celebración' transcends the concept of formal events by also capturing spontaneous or personal moments of joy. Whether it is a large festival or a quiet family gathering, the term encompasses any occasion where joy is expressed and shared. It highlights the importance of recognizing and commemorating both major life events and everyday pleasures in Spanish-speaking cultures.'",
+    "What are the psychological and sociocultural dimensions of 'alegría' in relation to community rituals, and how does the concept interact with expressions of individual happiness?": "'Alegría' is both a personal feeling and a collective experience. Psychologically, it represents a state of well-being and satisfaction, but socioculturally, it plays a significant role in community rituals, where shared joy strengthens social bonds. It unites individuals through common experiences, and while individual happiness is important, the communal expression of joy is seen as essential for reinforcing group identity and cohesion.'",
+    "How can the term 'divertido' be dissected to distinguish between its surface-level connotations of enjoyment and its deeper implications for personal engagement in shared activities or group dynamics?": "'Divertido' often refers to enjoyment or fun, but its deeper meaning in the context of shared activities goes beyond mere pleasure. It implies active participation, social engagement, and emotional investment in group dynamics. The enjoyment derived from a collective activity, such as a party or team effort, is enhanced by collaboration and connection with others, making 'divertido' a reflection of both individual and social experience.'",
+ 
+    "How is '道に迷いました' used to express the speaker's need for help in a navigational context?": "'道に迷いました' directly translates to 'I'm lost.' In a navigational context, it is used to express the speaker's confusion or disorientation, indicating they cannot find their way. The phrase serves as a polite and urgent plea for assistance, signaling that the speaker requires help in navigating their environment.",
+    "In what context does '駅はどこですか？' function as a question, and how does it aid in obtaining location-based information?": "'駅はどこですか？' translates to 'Where is the station?' It is used when someone is seeking to find the location of a train station, typically when they are unfamiliar with the area. The phrase helps in obtaining crucial location-based information by directly asking for directions to a specific place, making it essential for navigating public transportation systems.",
+    "How does '助けてください' function as a plea for assistance in situations involving confusion or distress?": "'助けてください' means 'Please help me.' It is used in situations of distress or confusion when the speaker needs immediate assistance. The phrase conveys urgency and vulnerability, requesting help from others, often in scenarios such as being lost, injured, or needing guidance.",
+    "How is the word '右' used in a navigational context to provide clear direction, and why is it important for effective communication?": "'右' translates to 'right,' and it is commonly used in navigational contexts to indicate direction. When someone is giving directions, saying '右に曲がってください' ('Please turn right') ensures that the listener understands the exact turn to make. The clarity of direction is essential for avoiding confusion and ensuring smooth navigation.",
+
+    "How does the phrase 'Un café, s'il vous plaît' function in a French cafe context, and what does it imply about politeness in requesting a drink?": "'Un café, s'il vous plaît' translates to 'A coffee, please' and is commonly used in French cafes to politely request a coffee. The phrase not only shows the speaker's desire but also their respect for the service staff by including 's'il vous plaît' ('please'). This polite expression is an essential part of French etiquette in social interactions, especially in a formal setting like a cafe.",
+    "What is the cultural significance of ordering 'Un croissant' in France, and how does the word encapsulate a common French breakfast experience?": "'Un croissant' is a staple in French breakfast culture, often paired with a café au lait. Ordering a croissant in France signifies more than just a desire for food; it embodies the French appreciation for simple yet high-quality pastries. The croissant is symbolic of the leisurely pace and appreciation for food that characterizes the French morning routine.",
+    "In what situations would 'Je voudrais un café au lait' be used in a French-speaking country, and how does it reflect French coffee culture?": "'Je voudrais un café au lait' translates to 'I would like a coffee with milk,' a common phrase used in French cafes, particularly for those who enjoy a milder coffee experience. This phrase reflects French coffee culture, where espresso-based drinks like café au lait are frequently consumed during breakfast or as an afternoon pick-me-up. It shows the preference for coffee blends and the importance of milk in softening the intense flavor of espresso.",
+    "How does the phrase 'L'addition, s'il vous plaît' relate to the etiquette of paying for a meal in a French cafe, and why is this phrase important for the completion of the dining experience?": "'L'addition, s'il vous plaît' means 'The bill, please' and is used when one is ready to pay for their meal. This phrase reflects the polite and orderly process of concluding a dining experience in France. It is important because it signals the end of the meal and helps maintain the smooth flow of service in cafes and restaurants, aligning with French customs of formal politeness.",
+
+    "How does the term '谜团' illustrate the complex nature of certain events, and why is it essential for creating a sense of intrigue in a narrative context?": "'谜团' refers to a mystery, often used to describe situations or events that are perplexing and hard to understand. In a narrative, using '谜团' enhances the sense of suspense and keeps the audience engaged by highlighting the unknown elements that drive the plot forward.",
+    "What role does the adjective '古代' play in distinguishing historical periods, and how does it contribute to the understanding of cultural heritage?": "'古代' means 'ancient' and is used to refer to things from long past, particularly relating to history and archaeology. When describing Beijing’s '古代历史' (ancient history), it emphasizes the depth of the city's cultural roots, helping people appreciate its rich heritage and historical significance.",
+    "How does '禁忌' influence social norms and cultural behaviors, and why is it important to recognize taboos in historical and modern contexts?": "'禁忌' refers to a taboo, an action or behavior considered forbidden by cultural or religious norms. In historical contexts, recognizing taboos helps explain why certain practices or behaviors were avoided or suppressed. Understanding '禁忌' allows one to navigate societal expectations and respect cultural values.",
+    "How do '遗址' serve as physical remnants of the past, and what can they teach us about ancient civilizations and their way of life?": "'遗址' refers to ruins, often referring to ancient structures or sites that provide clues about past civilizations. By exploring '遗址,' archaeologists and historians can gain insights into daily life, societal structures, and the advancements of ancient cultures, preserving knowledge for future generations.",
+
+    "How is 'Storia' used in the sentence 'Roma ha una lunga storia' to convey a sense of Rome's historical richness?": "'Storia' means 'history' and is used as a noun. In the sentence 'Roma ha una lunga storia,' it emphasizes Rome’s long and rich past, suggesting that the city has been a significant center of civilization and culture for many centuries.",
+    "In what way does the word 'Colosseo' highlight the architectural grandeur of Rome in the sentence 'Il Colosseo è molto grande'?": "'Colosseo' refers to the Colosseum, a monumental Roman amphitheater. In 'Il Colosseo è molto grande,' it underscores the impressive size of this ancient structure, highlighting its role as a symbol of Roman architectural achievement and historical significance.",
+    "How does 'Pantheon' in the sentence 'Il Pantheon è un edificio antico' help introduce learners to Rome's religious and architectural history?":"'Pantheon' is a noun referring to a historic Roman temple. In the sentence 'Il Pantheon è un edificio antico,' it draws attention to the building's ancient origins and its role as a religious site, helping learners appreciate the cultural and architectural legacy of Rome.",
+    "What cultural and religious importance does 'Vaticano' carry in the sentence 'Il Vaticano è piccolo'?": "'Vaticano' refers to Vatican City, the residence of the Pope and the heart of the Catholic Church. In 'Il Vaticano è piccolo,' while noting its small size, the term still conveys its immense cultural and religious importance as a global spiritual center.",
+
+    "In what way does the use of the noun 'Autobahn' in the sentence 'Die Autobahn in Deutschland hat keine Geschwindigkeitsbegrenzung' reflect both a linguistic and cultural insight into Germany's transportation system?": "'Autobahn' refers to a highway, and its mention in the sentence highlights a unique feature of German infrastructure—no general speed limit—which reflects both a linguistic element and a cultural norm of efficiency and freedom in travel.",
+    "How does the inclusion of the word 'Tankstelle' in the sentence 'Wir müssen an der nächsten Tankstelle anhalten' reveal practical aspects of travel logistics and road trip planning in German-speaking regions?": "'Tankstelle' means gas station, and its use emphasizes the practical necessity of refueling during long road trips, highlighting an important part of planning and navigating travel in German-speaking countries.",
+    "How does the term 'Maut' in the sentence 'In Deutschland gibt es keine allgemeine Maut auf der Autobahn' serve to emphasize a distinctive financial policy within Germany’s highway infrastructure?": "'Maut' refers to a toll, and the sentence highlights Germany's distinctive approach to highway financing, emphasizing that unlike many countries, Germany does not charge a general toll for use of the autobahn, which is a notable aspect of the country's infrastructure policy.",
+    "What role does the noun 'Raststätte' play in the sentence 'Lass uns an der Raststätte eine Pause machen' in conveying the importance of structured rest areas during extended travel?": "'Raststätte' means rest area, and its inclusion in the sentence underlines the role of designated stops for relaxation and convenience during long-distance travel, reflecting both logistical and cultural aspects of traveling in German-speaking countries.",
+
+    "How does 'allégorie' in 'La Ferme des animaux' symbolize political events?": "'Allégorie' in 'La Ferme des animaux' symbolizes political events by using characters and events to represent real-life political figures and movements, such as the Russian Revolution. This form of allegory allows for a deeper critique of political systems and ideologies.",
+    "How does 'dystopie' in '1984' reflect societal fears?": "'Dystopie' in '1984' reflects societal fears by presenting a totalitarian regime where individual freedoms are oppressed, and truth is manipulated. The novel taps into anxieties about government control, surveillance, and the loss of personal autonomy.",
+    "How does 'philosophie morale' in Sartre’s works explore ethical choices?": "'Philosophie morale' in Sartre’s works explores ethical choices by emphasizing individual responsibility and the need for authenticity. Sartre’s philosophy suggests that people are free to make choices but must take full responsibility for the consequences of those decisions.",
+    "How does 'narratologie' analyze the role of narrators in storytelling?": "'Narratologie' analyzes the role of narrators by studying how different narrative structures and perspectives shape the storytelling process. It examines how the choice of narrator can influence the audience's understanding of the plot, characters, and themes.",
+
+    "How does 'debate' influence public opinion in political discussions?": "'Debate' influences public opinion by providing a platform for diverse viewpoints to be expressed, allowing the audience to critically engage with the arguments presented. It helps shape collective opinions by highlighting key issues, evidence, and perspectives that may sway public sentiment.",
+    "In what way does the 'moderador' maintain order during intense debates?": "'Moderador' maintains order by ensuring that all participants adhere to time limits, allowing each speaker a fair chance to express their viewpoint. The moderator also steps in to address disruptions, manage the flow of discussion, and prevent arguments from becoming chaotic or personal.",
+    "How can 'hechos' shape the effectiveness of an argument in a debate?": "'Hechos' shape the effectiveness of an argument by providing concrete, verifiable evidence that supports a speaker's position. Well-supported facts can strengthen arguments, making them more persuasive and credible, while lacking facts can weaken an argument and leave it open to refutation.",
+    "What role do 'jueces' play in ensuring fairness in a debating tournament?": "'Jueces' ensure fairness by objectively evaluating the quality of the arguments presented, the effectiveness of the delivery, and the overall performance of each team or individual. They base their decisions on established criteria, such as logical reasoning, presentation skills, and adherence to the debate topic.",
+
+    "How does '公司' impact the economic development of a city like Shanghai?": "'公司' plays a crucial role in Shanghai's economic development by driving innovation, creating jobs, and attracting foreign investment, thus contributing to the city's global economic standing.",
+    "What role does '市场' play in shaping international trade dynamics?": "'市场' functions as a critical space where goods and services are exchanged, influencing pricing, competition, and market trends, and shaping international trade relations.",
+    "How does '投资' contribute to the growth of foreign businesses in Shanghai?": "'投资' helps foreign businesses in Shanghai by providing financial resources for expansion, innovation, and infrastructure, thereby fostering a robust business environment.",
+    "In what ways does '合作' foster innovation in multinational corporations?": "'合作' encourages collaboration between multinational corporations, leading to the sharing of resources, expertise, and technologies, which drives innovation and efficiency in business operations."
+}
 }
