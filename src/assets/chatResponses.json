@@ -1,18 +1,9 @@
 {
-  "homepageResponses": [
-    { "text": "Where can I start?", "userInput": "Where can I start?" },
-    { "text": "How do I change the password?", "userInput": "How do I change the password?" }
-  ],
-
-  "aboutPageResponses": [
-    { "text": "This is the about page. How can I help you?", "userInput": "This is the about page. How can I help you?" },
-    { "text": "We are a company focused on delivering great products.", "userInput": "We are a company focused on delivering great products." }
-  ],
-
   "defaultResponses": [
-    { "text": "Hello! How can I assist you?", "userInput": "Hello! How can I assist you?" },
-    { "text": "I'm just a chatbot, but I'm doing great! How about you?", "userInput": "I'm just a chatbot, but I'm doing great! How about you?" },
-    { "text": "Goodbye! Have a great day!", "userInput": "Goodbye! Have a great day!" }
+  { "text": "How do I change the password?", "userInput": "How do I change the password?" },
+  { "text": "Where can I start?", "userInput": "Where can I start?" },
+  { "text": "What is the Test Yourself page?", "userInput": "What is the Test Yourself page?" },
+  { "text": "Where can I see my progress?", "userInput": "Where can I see my progress?" }
   ],
 
   "introEnglishResponses": [
@@ -227,12 +218,10 @@
 
   "manualResponses": {
     "Hello! How can I assist you?": "Hi! How can I assist you?",
-    "I'm just a chatbot, but I'm doing great! How about you?": "I'm just a chatbot, but I'm doing great! How about you?",
-    "Goodbye! Have a great day!": "Goodbye! Have a great day!",
-    "This is the about page. How can I help you?": "We are a company focused on delivering great products.",
-    "We are a company focused on delivering great products.": "We create innovative solutions for everyday problems.",
-    "Where can I start?": "You can start by clicking on the Start Lesson button",
     "How do I change the password?": "To change your password, go to the settings page and follow the instructions.",
+    "Where can I start?": "You can start by selecting a language and choosing a lesson from the available options on the homepage. Each lesson is divided into different levels: Intro, Intermediate, and Advanced.",
+    "What is the Test Yourself page?": "The 'Test Yourself' page allows you to put your knowledge of the topics covered in the Lesson page to the test using a scrambling word game.",
+    "Where can I see my progress?":"You can view your progress by visiting the 'View Progress' page, where you can see your achievements and how far you've come in your learning journey.",
     "default": "I'm not sure how to respond to that. 😔 Could you ask something else?",
 
     "What’s the difference between 'Sorry' and 'Excuse me'?": "'Sorry' is used to apologize for something you did wrong, while 'Excuse me' is used to get someone's attention or politely interrupt.",
