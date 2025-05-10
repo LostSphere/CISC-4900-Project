@@ -444,5 +444,69 @@ body.settings-dark-mode .test-yourself-container {
     background-color: #45a049; 
   }
 
+  /* Navbar */
+body.settings-dark-mode .navbar {
+  background-color: #333333; 
+  color: white; 
+}
+
+body.settings-dark-mode .navbar-links .navlink {
+  color: #b3b3b3; 
+}
+
+body.settings-dark-mode .navbar-links .navlink:hover {
+  color: #93c5fd; 
+}
+
+body.settings-dark-mode .navbar-links .navlink.active {
+  color: #93c5fd; 
+  border-bottom: 2px solid #93c5fd; 
+}
+
+body.settings-dark-mode .main-content {
+  background-color: #1f1f1f; 
+  color: white; 
+}
+
+/* View Porgress */
+body.settings-dark-mode .view-progress-container {
+  background-color: #333333; 
+  color: white; 
+}
+
+body.settings-dark-mode .course-container {
+  background-color: #444444; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+}
+
+body.settings-dark-mode h3 {
+  color: #f1f1f1; 
+}
+
+body.settings-dark-mode .progress-meter {
+  background-color: #555555; 
+}
+
+body.settings-dark-mode .progress-bar {
+  background-color: #007bff; 
+}
+
+body.settings-dark-mode button.story-button {
+  background-color: #007bff; 
+}
+
+body.settings-dark-mode button.story-button:hover {
+  background-color: #0056b3; 
+}
+
+body.settings-dark-mode .modal-content {
+  background: #444444; 
+  color: white; 
+}
+
+body.settings-dark-mode button {
+  background-color: #0056b3; 
+}
+
   
   
