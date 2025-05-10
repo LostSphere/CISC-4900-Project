@@ -6,7 +6,7 @@
       "partOfSpeech": "Phrase",
       "example": "Un café, s'il vous plaît, et un croissant aussi.",
       "exampleTranslation": "A coffee, please, and a croissant too.",
-      "image": "/images/ParisianCafe/cafe.jpg"
+      "image": "/images/AdventureLevel/ParisianCafe/cafe.jpg"
     },
     {
       "id": 2,
@@ -15,7 +15,7 @@
       "partOfSpeech": "Noun",
       "example": "Je voudrais un croissant.",
       "exampleTranslation": "I would like a croissant.",
-      "image": "/images/ParisianCafe/croissant.jpg"
+      "image": "/images/AdventureLevel/ParisianCafe/croissant.jpg"
     },
     {
       "id": 3,
@@ -24,7 +24,7 @@
       "partOfSpeech": "Phrase",
       "example": "Je voudrais un café au lait, s'il vous plaît.",
       "exampleTranslation": "I would like a coffee with milk, please.",
-      "image": "/images/ParisianCafe/cafe-au-lait.jpg"
+      "image": "/images/AdventureLevel/ParisianCafe/cafe-au-lait.jpg"
     },
     {
       "id": 4,
@@ -33,7 +33,7 @@
       "partOfSpeech": "Phrase",
       "example": "Excusez-moi, pouvez-vous apporter l'addition, s'il vous plaît ?",
       "exampleTranslation": "The bill, please.",
-      "image": "/images/ParisianCafe/bill.jpg"
+      "image": "/images/AdventureLevel/ParisianCafe/bill.jpg"
     },
     {
       "id": 5,
@@ -42,7 +42,7 @@
       "partOfSpeech": "Noun",
       "example": "Je voudrais un espresso.",
       "exampleTranslation": "I would like an espresso.",
-      "image": "/images/ParisianCafe/espresso.jpg"
+      "image": "/images/AdventureLevel/ParisianCafe/espresso.jpg"
     },
     {
       "id": 6,
@@ -51,7 +51,7 @@
       "partOfSpeech": "Phrase",
       "example": "Ça fait combien pour un café?",
       "exampleTranslation": "How much is it for a coffee?",
-      "image": "/images/ParisianCafe/price.jpg"
+      "image": "/images/AdventureLevel/ParisianCafe/price.jpg"
     },
     {
       "id": 7,
@@ -60,7 +60,7 @@
       "partOfSpeech": "Noun",
       "example": "Je voudrais un thé, s'il vous plaît.",
       "exampleTranslation": "I would like a tea, please.",
-      "image": "/images/ParisianCafe/tea.jpg"
+      "image": "/images/AdventureLevel/ParisianCafe/tea.jpg"
     },
     {
       "id": 8,
@@ -69,7 +69,7 @@
       "partOfSpeech": "Phrase",
       "example": "Ce croissant est délicieux!",
       "exampleTranslation": "This croissant is delicious!",
-      "image": "/images/ParisianCafe/delicious.jpg"
+      "image": "/images/AdventureLevel/ParisianCafe/delicious.jpg"
     },
     {
       "id": 9,
@@ -78,7 +78,7 @@
       "partOfSpeech": "Noun",
       "example": "Je voudrais un verre d'eau.",
       "exampleTranslation": "I would like a glass of water.",
-      "image": "/images/ParisianCafe/water.jpg"
+      "image": "/images/AdventureLevel/ParisianCafe/water.jpg"
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "partOfSpeech": "Noun",
         "example": "Je voudrais un café crème, s'il vous plaît.",
         "exampleTranslation": "I would like a cream coffee, please.",
-        "image": "/images/ParisianCafe/cafe-creme.jpg"
+        "image": "/images/AdventureLevel/ParisianCafe/cafe-creme.jpg"
       }      
   ]
   
