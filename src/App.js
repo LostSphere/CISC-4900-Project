@@ -51,6 +51,8 @@ import LiteratureStory from "./AdventureLessons/FrenchLiterature/FrenchStory";
 import DebatingStory from "./AdventureLessons/DebatingMadrid/SpanishStory";
 import BusinessStory from "./AdventureLessons/BusinessShanghai/MandarinStory";
 
+import Layout from "./components/Layout";
+
 function App() {
   const [isChatbotOpen, setIsChatbotOpen] = useState(false);
 
@@ -66,9 +68,8 @@ function App() {
   return (
     <div>
     <Routes>
+      <Route element={<Layout />}>
       {/* Main */}
-      <Route path="/" element={<LoginPage />} />
-      <Route path="/signup" element={<SignupPage />} />
       <Route path="/home" element={<HomePage />} />
       <Route path="/viewprogress" element={<ViewProgress />} />
       <Route path="/settings" element={<SettingsPage />} />
@@ -115,7 +116,10 @@ function App() {
       <Route path="/literature-story" element={<LiteratureStory />} />
       <Route path="/debating-story" element={<DebatingStory />} />
       <Route path="/business-story" element={<BusinessStory />} />
+    </Route>
 
+      <Route path="/" element={<LoginPage />} />
+      <Route path="/signup" element={<SignupPage />} />
 
     </Routes>
     <div className="chatbot-icon" onClick={toggleChatbot}>
